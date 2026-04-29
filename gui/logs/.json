@@ -1,0 +1,153 @@
+{
+  "start_time": "2026-04-29T12:31:46.649003",
+  "events": [
+    {
+      "timestamp": "2026-04-29 12:31:46.651",
+      "type": "SYSTEM",
+      "message": "Logger initialized",
+      "data": {
+        "session": "",
+        "log_file": "logs\\.log",
+        "json_file": "logs\\.json",
+        "csv_file": "logs\\.csv"
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:31:46.651",
+      "type": "VIDEO",
+      "message": "Video loaded",
+      "data": {
+        "path": "C:/Users/Yarik/Downloads/drone.mp4",
+        "resolution": "1920x1080",
+        "fps": 24,
+        "total_frames": 192
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:31:58.336",
+      "type": "FRAME",
+      "message": "Frame 1 processed",
+      "data": {
+        "frame": 1,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:31:59.729",
+      "type": "FRAME",
+      "message": "Frame 2 processed",
+      "data": {
+        "frame": 2,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:00.533",
+      "type": "FRAME",
+      "message": "Frame 3 processed",
+      "data": {
+        "frame": 3,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:01.274",
+      "type": "FRAME",
+      "message": "Frame 4 processed",
+      "data": {
+        "frame": 4,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:01.957",
+      "type": "FRAME",
+      "message": "Frame 5 processed",
+      "data": {
+        "frame": 5,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:02.704",
+      "type": "FRAME",
+      "message": "Frame 6 processed",
+      "data": {
+        "frame": 6,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:03.418",
+      "type": "FRAME",
+      "message": "Frame 7 processed",
+      "data": {
+        "frame": 7,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:04.235",
+      "type": "FRAME",
+      "message": "Frame 8 processed",
+      "data": {
+        "frame": 8,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:04.946",
+      "type": "FRAME",
+      "message": "Frame 9 processed",
+      "data": {
+        "frame": 9,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:05.656",
+      "type": "FRAME",
+      "message": "Frame 10 processed",
+      "data": {
+        "frame": 10,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:06.392",
+      "type": "FRAME",
+      "message": "Frame 11 processed",
+      "data": {
+        "frame": 11,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:07.104",
+      "type": "FRAME",
+      "message": "Frame 12 processed",
+      "data": {
+        "frame": 12,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-04-29 12:32:11.524",
+      "type": "DETECTION",
+      "message": "Drone detected",
+      "data": {
+        "frame": 13,
+        "bbox": [
+          

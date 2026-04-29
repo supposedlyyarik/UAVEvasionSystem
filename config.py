@@ -1,0 +1,26 @@
+# YOLO
+YOLO_MODEL = 'yolov8s.pt'
+DRONE_CLASSES = [4, 14, 33]
+CONFIDENCE = 0.15
+IOU_THRESHOLD = 0.3
+
+CLASS_NAMES = {
+    4: 'airplane',
+    14: 'bird',
+    33: 'kite'
+}
+
+# DEEPSORT
+MAX_AGE = 30
+N_INIT = 3
+MAX_IOU_DISTANCE = 0.7
+MAX_COSINE_DISTANCE = 0.2
+
+# UAV
+UAV_SPEED = 5
+COMMAND_THRESHOLD = 50
+
+# Visual
+SHOW_TRAILS = True
+TRAIL_LENGTH = 30
+SHOW_VELOCITY = True
