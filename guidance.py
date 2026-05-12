@@ -1,7 +1,6 @@
-
 import numpy as np
 from config import UAV_SPEED, COMMAND_THRESHOLD
-
+import time
 
 class UAVGuidance:
 
@@ -9,10 +8,10 @@ class UAVGuidance:
         # UAV в центрі екрану
         self.uav_x = frame_width // 2
         self.uav_y = frame_height // 2
-
+        self.last_command_time = 0
+        self.command_cooldown = 1.0
         self.frame_width = frame_width
         self.frame_height = frame_height
-
         # Історія для аналізу патернів
         self.target_history = {}
 
@@ -37,7 +36,11 @@ class UAVGuidance:
         track_id = target['id']
         tx, ty = target['center']
         vx, vy = target['velocity']
-
+        dx_bearing = tx - self.uav_x
+        dy_bearing = ty - self.uav_y
+        bearing = np.degrees(np.arctan2(dy_bearing, dx_bearing))
+        if bearing < 0:
+            bearing += 360
         self._update_history(track_id, tx, ty, vx, vy)
 
         pattern = self._analyze_pattern(track_id)
@@ -63,7 +66,8 @@ class UAVGuidance:
             'threat_level': threat,
             'commands': commands,
             'pattern': pattern,
-            'uncertainty_radius': uncertainty
+            'uncertainty_radius': uncertainty,
+            'bearing': bearing
         }
 
     def _update_history(self, track_id, x, y, vx, vy):
@@ -335,5 +339,9 @@ class UAVGuidance:
 
         if not commands:
             commands.append("SAFE DISTANCE")
-
+        current_time = time.time()
+        if current_time - self.last_command_time < self.command_cooldown:
+            return self.last_commands
+        self.last_command_time = current_time
+        self.last_commands = commands
         return commands

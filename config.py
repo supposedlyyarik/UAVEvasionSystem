@@ -1,13 +1,11 @@
 # YOLO
-YOLO_MODEL = 'yolov8s.pt'
-DRONE_CLASSES = [4, 14, 33]
-CONFIDENCE = 0.15
+YOLO_MODEL = r"B:\UAV Evasion\UAVEvasionSystem\yolov8s_trained.pt"
+DRONE_CLASSES = [0]
+CONFIDENCE = 0.4
 IOU_THRESHOLD = 0.3
 
 CLASS_NAMES = {
-    4: 'airplane',
-    14: 'bird',
-    33: 'kite'
+    0 : 'drone'
 }
 
 # DEEPSORT
@@ -24,3 +22,4 @@ COMMAND_THRESHOLD = 50
 SHOW_TRAILS = True
 TRAIL_LENGTH = 30
 SHOW_VELOCITY = True
+GUIDANCE_ENABLED = True

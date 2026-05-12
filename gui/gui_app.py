@@ -13,7 +13,7 @@ class UAVApp(ctk.CTk):
         self.geometry("1400x900")
         self.processor = VideoProcessor()
         self.setup_ui()
-
+        self.camera_active = False
         self.update_video()
 
     def setup_ui(self):
@@ -57,25 +57,57 @@ class UAVApp(ctk.CTk):
             command=self.load_video
         )
         self.load_btn.grid(row=2, column=0, padx=20, pady=5)
+        # === VIDEO ===
+        self.video_label = ctk.CTkLabel(
+            self.sidebar,
+            text="📹 Video Source",
+            font=("Arial", 16, "bold")
+        )
+        self.video_label.grid(row=1, column=0, padx=20, pady=(20, 10))
 
+        # Load Video
+        self.load_btn = ctk.CTkButton(
+            self.sidebar,
+            text="📁 Load Video",
+            command=self.load_video,
+            height=35
+        )
+        self.load_btn.grid(row=2, column=0, padx=20, pady=5)
+
+        self.camera_btn = ctk.CTkButton(
+            self.sidebar,
+            text="Start Camera",
+            command=self.start_camera,
+            height=35
+        )
+        self.camera_btn.grid(row=3, column=0, padx=20, pady=5)
+
+        self.stop_camera_btn = ctk.CTkButton(
+            self.sidebar,
+            text="Stop Camera",
+            command=self.stop_camera,
+            height=35,
+            fg_color="red",
+        )
+        self.stop_camera_btn.grid(row=4, column=0, padx=20, pady=5)
         # === DETECTION SECTION ===
         self.detection_label = ctk.CTkLabel(
             self.sidebar,
             text="Detection",
             font=ctk.CTkFont(size=16, weight="bold")
         )
-        self.detection_label.grid(row=3, column=0, padx=20, pady=(20, 5))
+        self.detection_label.grid(row=5, column=0, padx=20, pady=(20, 5))
 
         # Model
-        self.model_var = ctk.StringVar(value="yolov8s.pt")
+        self.model_var = ctk.StringVar(value="yolov8s_trained.pt")
 
         self.model_small = ctk.CTkRadioButton(
             self.sidebar,
             text="YOLOv8s",
             variable=self.model_var,
-            value="yolov8s.pt",
+            value="yolov8s_trained.pt",
         )
-        self.model_small.grid(row=5, column=0, padx=20, pady=2, sticky="w")
+        self.model_small.grid(row=6, column=0, padx=20, pady=2, sticky="w")
 
         # === DISPLAY SECTION ===
         self.display_label = ctk.CTkLabel(
@@ -200,6 +232,46 @@ class UAVApp(ctk.CTk):
     def pause_video(self):
         self.processor.pause()
 
+    def start_camera(self):
+        try:
+            camera_id = 0
+
+            info = self.processor.load_camera(camera_id)
+            self.camera_id = True
+            messagebox.showinfo(
+                "Camera Started",
+                f"Camera {camera_id} connected\n"
+                f"Resolution: {info['width']}x{info['height']}\n"
+                f"FPS: {info['fps']}"
+            )
+
+            # Автоматично запускаємо
+            self.processor.start()
+
+        except Exception as e:
+            messagebox.showerror("Camera Error", str(e))
+
+    def stop_camera(self):
+        if self.processor.is_running:
+            self.processor.is_running = False
+
+            if self.processor.thread:
+                self.processor.thread.join(timeout=1.0)
+
+            if self.processor.cap:
+                self.processor.cap.release()
+            self.camera_active = False
+            self.processor.current_frame = None
+            self.processor.processed_frame = None
+            if hasattr(self.video_canvas, 'image'):
+                delattr(self.video_canvas, 'image')
+
+            self.video_canvas.configure(
+                text="No video loaded\nClick 'Load Video' or 'Start Camera' to start",
+                image=""
+            )
+            messagebox.showinfo("Camera", "Camera stopped")
+
     def take_screenshot(self):
         frame = self.processor.get_frame()
         if frame is not None:
@@ -220,6 +292,10 @@ class UAVApp(ctk.CTk):
         })
 
     def update_video(self):
+
+        if not self.camera_active and not self.processor.is_running:
+            self.after(30, self.update_video)
+            return
         frame = self.processor.get_frame()
 
         if frame is not None:

@@ -3,21 +3,21 @@ import numpy as np
 from threading import Thread
 from queue import Queue
 import time
-import os
 import sys
+import os
 
-parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-if parent_dir not in sys.path:
-    sys.path.insert(0, parent_dir)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.insert(0, parent_dir)
+
 from detector import DroneDetector
 from tracker import DroneTracker
 from guidance import UAVGuidance
 from logger import UAVLogger
-
 class VideoProcessor:
 
     def __init__(self):
-        self.detector = None
+        self.detector = DroneDetector()
         self.tracker = None
         self.guidance = None
         self.logger = None
@@ -25,14 +25,14 @@ class VideoProcessor:
         self.is_paused = False
         self.current_frame = None
         self.processed_frame = None
-
+        self.is_camera = False
         self.frame_count = 0
         self.total_frames = 0
         self.fps = 0
 
         self.settings = {
-            'model': 'yolov8s.pt',
-            'confidence': 0.15,
+            'model': 'yolov8s_trained.pt',
+            'confidence': 0.4,
             'iou': 0.3,
             'show_trails': True,
             'show_velocity': True,
@@ -51,7 +51,7 @@ class VideoProcessor:
 
     def load_video(self, path):
         self.video_path = path
-
+        self.is_camera = False
         if self.cap:
             self.cap.release()
 
@@ -65,7 +65,6 @@ class VideoProcessor:
         height = int(self.cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
         fps = int(self.cap.get(cv2.CAP_PROP_FPS))
 
-        self.detector = DroneDetector()
         self.tracker = DroneTracker()
         self.guidance = UAVGuidance(width, height)
 
@@ -88,9 +87,6 @@ class VideoProcessor:
     def update_settings(self, settings_dict):
         self.settings.update(settings_dict)
 
-        if 'model' in settings_dict and self.detector:
-            self.detector = DroneDetector()
-
     def start(self):
         """Запустити обробку"""
         if not self.cap:
@@ -105,16 +101,66 @@ class VideoProcessor:
     def pause(self):
         self.is_paused = not self.is_paused
 
+    def load_camera(self, camera_id=0):
+        """
+        Args:
+            camera_id
+        Returns:
+            dict:
+        """
+        self.video_path = f"camera_{camera_id}"
+        self.is_camera = True
+
+        if self.cap:
+            self.cap.release()
+
+        self.cap = cv2.VideoCapture(camera_id)
+
+        import time
+        time.sleep(1)
+
+        if not self.cap.isOpened():
+            raise ValueError(f"Cannot open camera {camera_id}")
+
+        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+
+
+        width = int(self.cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+        height = int(self.cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        fps = int(self.cap.get(cv2.CAP_PROP_FPS))
+
+        if fps == 0:
+            fps = 30
+
+        self.tracker = DroneTracker()
+        self.guidance = UAVGuidance(width, height)
+
+        self.logger = UAVLogger(session_name=f"camera_{camera_id}")
+
+        self.logger.log_event("CAMERA", f"Camera {camera_id} started", {
+            'camera_id': camera_id,
+            'resolution': f"{width}x{height}",
+            'fps': fps
+        })
+
+        self.frame_count = 0
+        self.total_frames = 0
+
+        return {
+            'width': width,
+            'height': height,
+            'fps': fps,
+            'camera_id': camera_id
+        }
+
     def _process_loop(self):
         fps_start = time.time()
         fps_counter = 0
-
         while self.is_running:
             if self.is_paused:
                 time.sleep(0.1)
                 continue
-
-            # Читаємо кадр
             ret, frame = self.cap.read()
 
             if not ret:
@@ -135,7 +181,6 @@ class VideoProcessor:
                 )
             tracks = self.tracker.update(detections, frame)
 
-            # Фільтр
             confirmed_tracks = [t for t in tracks if t.get('hits', 0) > 3]
             for track in confirmed_tracks:
                 self.logger.log_track(
@@ -150,7 +195,6 @@ class VideoProcessor:
                 len(detections),
                 len(confirmed_tracks)
             )
-            # Найближча загроза
             closest = None
             if confirmed_tracks:
                 min_dist = float('inf')
@@ -164,7 +208,6 @@ class VideoProcessor:
                         min_dist = dist
                         closest = track
 
-            # Guidance
             guidance_data = self.guidance.get_commands(closest) if closest else None
             if guidance_data and closest:
                 vx, vy = closest['velocity']
@@ -200,7 +243,6 @@ class VideoProcessor:
                 self.logger.log_statistics(self.fps, loop_time)
                 fps_start = time.time()
                 fps_counter = 0
-
         if self.logger:
             self.logger.close()
 
@@ -208,7 +250,6 @@ class VideoProcessor:
             self.cap.release()
 
     def _draw_frame(self, frame, tracks, closest, guidance_data):
-        h, w = frame.shape[:2]
 
         for track in tracks:
             tid = track['id']
@@ -261,14 +302,6 @@ class VideoProcessor:
         h, w = frame.shape[:2]
         ux, uy = self.guidance.uav_x, self.guidance.uav_y
 
-        # UAV маркер
-        if self.settings['show_uav']:
-            cv2.drawMarker(frame, (ux, uy), (0, 255, 0),
-                           cv2.MARKER_CROSS, 25, 2)
-            cv2.circle(frame, (ux, uy), 40, (0, 255, 0), 2)
-            cv2.putText(frame, "UAV", (ux - 20, uy - 50),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
-
         # Якщо немає цілі
         if guidance_data is None or closest_track is None:
             if self.settings['show_commands']:
@@ -295,6 +328,7 @@ class VideoProcessor:
         # target found
         ex, ey = guidance_data['evasion_point']
         dist = guidance_data['distance']
+        bearing = guidance_data['bearing']
         threat_level = guidance_data['threat_level']
         commands = guidance_data['commands']
         pattern = guidance_data.get('pattern', 'unknown')
@@ -412,43 +446,41 @@ class VideoProcessor:
         cv2.putText(frame, f"THREAT: ID-{closest_track['id']}",
                     (info_x + 10, info_y + 30),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.7, threat_color, 2)
-
-        cv2.putText(frame, f"Level: {threat_level}",
+        cv2.putText(frame, f"Bearing: {bearing:.0f}°",
                     (info_x + 10, info_y + 60),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, threat_color, 2)
+        cv2.putText(frame, f"Level: {threat_level}",
+                    (info_x + 10, info_y + 85),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, threat_color, 2)
 
         pattern_text = pattern.upper().replace('_', ' ')
         cv2.putText(frame, f"Pattern: {pattern_text}",
-                    (info_x + 10, info_y + 85),
+                    (info_x + 10, info_y + 110),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 0), 2)
 
         cv2.putText(frame, f"Distance: {dist:.0f} px",
-                    (info_x + 10, info_y + 110),
+                    (info_x + 10, info_y + 135),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
 
         vx, vy = closest_track['velocity']
         speed = np.sqrt(vx ** 2 + vy ** 2)
         cv2.putText(frame, f"Speed: {speed:.1f} px/f",
-                    (info_x + 10, info_y + 135),
+                    (info_x + 10, info_y + 160),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
 
         cv2.putText(frame, f"Uncertainty: ±{uncertainty:.0f} px",
-                    (info_x + 10, info_y + 160),
+                    (info_x + 10, info_y + 180),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 100, 100), 1)
 
     def _draw_info_panel(self, frame, tracks, guidance_data):
         """Інфо панель зверху"""
-        h, w = frame.shape[:2]
 
         # Фон
         overlay = frame.copy()
-        cv2.rectangle(overlay, (0, 0), (w, 80), (0, 0, 0), -1)
         frame[:] = cv2.addWeighted(overlay, 0.5, frame, 0.5, 0)[:]
 
-        # Текст
-        progress = (self.frame_count / self.total_frames * 100) if self.total_frames > 0 else 0
 
-        cv2.putText(frame, f"Frame: {self.frame_count}/{self.total_frames} ({progress:.1f}%)",
+        cv2.putText(frame, f"Frame: {self.frame_count}",
                     (10, 25), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
 
         cv2.putText(frame, f"FPS: {self.fps:.1f}",

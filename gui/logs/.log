@@ -1,3183 +1,2959 @@
 ================================================================================
 UAV EVASION SYSTEM LOG
 Session: 
-Started: 2026-04-29 12:31:46
+Started: 2026-05-12 20:25:26
 ================================================================================
 
-[2026-04-29 12:31:46.651] [SYSTEM      ] Logger initialized
+[2026-05-12 20:25:26.135] [SYSTEM      ] Logger initialized
     session: 
     log_file: logs\.log
     json_file: logs\.json
     csv_file: logs\.csv
-[2026-04-29 12:31:46.651] [VIDEO       ] Video loaded
-    path: C:/Users/Yarik/Downloads/drone.mp4
-    resolution: 1920x1080
+[2026-05-12 20:25:26.135] [VIDEO       ] Video loaded
+    path: A:/Download/drone.mp4
+    resolution: 640x360
     fps: 24
-    total_frames: 192
-[2026-04-29 12:31:58.336] [FRAME       ] Frame 1 processed
+    total_frames: 121
+[2026-05-12 20:25:38.541] [FRAME       ] Frame 1 processed
     frame: 1
     detections: 0
     tracks: 0
-[2026-04-29 12:31:59.729] [FRAME       ] Frame 2 processed
+[2026-05-12 20:25:38.556] [FRAME       ] Frame 2 processed
     frame: 2
     detections: 0
     tracks: 0
-[2026-04-29 12:32:00.533] [FRAME       ] Frame 3 processed
+[2026-05-12 20:25:38.568] [FRAME       ] Frame 3 processed
     frame: 3
     detections: 0
     tracks: 0
-[2026-04-29 12:32:01.274] [FRAME       ] Frame 4 processed
+[2026-05-12 20:25:38.580] [FRAME       ] Frame 4 processed
     frame: 4
     detections: 0
     tracks: 0
-[2026-04-29 12:32:01.957] [FRAME       ] Frame 5 processed
+[2026-05-12 20:25:38.591] [FRAME       ] Frame 5 processed
     frame: 5
     detections: 0
     tracks: 0
-[2026-04-29 12:32:02.704] [FRAME       ] Frame 6 processed
+[2026-05-12 20:25:38.605] [DETECTION   ] Drone detected
     frame: 6
-    detections: 0
+    bbox: [np.int64(309), np.int64(155), np.int64(353), np.int64(170)]
+    confidence: 0.44
+    class: 0
+[2026-05-12 20:25:38.640] [FRAME       ] Frame 6 processed
+    frame: 6
+    detections: 1
     tracks: 0
-[2026-04-29 12:32:03.418] [FRAME       ] Frame 7 processed
+[2026-05-12 20:25:38.657] [DETECTION   ] Drone detected
     frame: 7
-    detections: 0
+    bbox: [np.int64(309), np.int64(155), np.int64(354), np.int64(170)]
+    confidence: 0.45
+    class: 0
+[2026-05-12 20:25:38.683] [FRAME       ] Frame 7 processed
+    frame: 7
+    detections: 1
     tracks: 0
-[2026-04-29 12:32:04.235] [FRAME       ] Frame 8 processed
+[2026-05-12 20:25:38.695] [DETECTION   ] Drone detected
     frame: 8
-    detections: 0
-    tracks: 0
-[2026-04-29 12:32:04.946] [FRAME       ] Frame 9 processed
-    frame: 9
-    detections: 0
-    tracks: 0
-[2026-04-29 12:32:05.656] [FRAME       ] Frame 10 processed
-    frame: 10
-    detections: 0
-    tracks: 0
-[2026-04-29 12:32:06.392] [FRAME       ] Frame 11 processed
-    frame: 11
-    detections: 0
-    tracks: 0
-[2026-04-29 12:32:07.104] [FRAME       ] Frame 12 processed
-    frame: 12
-    detections: 0
-    tracks: 0
-[2026-04-29 12:32:11.524] [DETECTION   ] Drone detected
-    frame: 13
-    bbox: [np.int64(716), np.int64(0), np.int64(1206), np.int64(68)]
-    confidence: 0.18
-    class: 4
-[2026-04-29 12:32:11.779] [FRAME       ] Frame 13 processed
-    frame: 13
-    detections: 1
-    tracks: 0
-[2026-04-29 12:32:12.899] [DETECTION   ] Drone detected
-    frame: 14
-    bbox: [np.int64(725), np.int64(1), np.int64(1204), np.int64(68)]
-    confidence: 0.29
-    class: 4
-[2026-04-29 12:32:13.103] [FRAME       ] Frame 14 processed
-    frame: 14
-    detections: 1
-    tracks: 0
-[2026-04-29 12:32:13.869] [DETECTION   ] Drone detected
-    frame: 15
-    bbox: [np.int64(725), np.int64(1), np.int64(1202), np.int64(64)]
-    confidence: 0.25
-    class: 4
-[2026-04-29 12:32:14.013] [FRAME       ] Frame 15 processed
-    frame: 15
-    detections: 1
-    tracks: 0
-[2026-04-29 12:32:15.114] [FRAME       ] Frame 16 processed
-    frame: 16
-    detections: 0
-    tracks: 0
-[2026-04-29 12:32:16.031] [FRAME       ] Frame 17 processed
-    frame: 17
-    detections: 0
-    tracks: 0
-[2026-04-29 12:32:16.698] [TRACK       ] Track ID:1
-    frame: 18
-    track_id: 1
-    position: (964, 30)
-    velocity: (0.3, -0.7)
-    speed: 0.7 px/f
-    hits: 4
-[2026-04-29 12:32:16.698] [FRAME       ] Frame 18 processed
-    frame: 18
-    detections: 0
-    tracks: 1
-[2026-04-29 12:32:16.700] [THREAT      ] Track ID:1 - LOW
-    frame: 18
-    track_id: 1
-    distance: 577.9 px
-    threat_level: LOW
-    pattern: unknown
-    speed: 0.7 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (943, 794)
-    commands: EVADE DOWN
-[2026-04-29 12:32:17.514] [TRACK       ] Track ID:1
-    frame: 19
-    track_id: 1
-    position: (964, 30)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 5
-[2026-04-29 12:32:17.514] [FRAME       ] Frame 19 processed
-    frame: 19
-    detections: 0
-    tracks: 1
-[2026-04-29 12:32:17.515] [THREAT      ] Track ID:1 - LOW
-    frame: 19
-    track_id: 1
-    distance: 560.8 px
-    threat_level: LOW
-    pattern: unknown
-    speed: 0.6 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (946, 794)
-    commands: EVADE DOWN
-[2026-04-29 12:32:18.352] [DETECTION   ] Drone detected
-    frame: 20
-    bbox: [np.int64(927), np.int64(453), np.int64(997), np.int64(480)]
-    confidence: 0.24
-    class: 14
-[2026-04-29 12:32:18.523] [TRACK       ] Track ID:1
-    frame: 20
-    track_id: 1
-    position: (964, 29)
-    velocity: (0.0, -0.8)
-    speed: 0.8 px/f
-    hits: 6
-[2026-04-29 12:32:18.523] [FRAME       ] Frame 20 processed
-    frame: 20
-    detections: 1
-    tracks: 1
-[2026-04-29 12:32:18.524] [THREAT      ] Track ID:1 - LOW
-    frame: 20
-    track_id: 1
-    distance: 586.0 px
-    threat_level: LOW
-    pattern: unknown
-    speed: 0.8 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (958, 794)
-    commands: EVADE DOWN
-[2026-04-29 12:32:19.445] [DETECTION   ] Drone detected
-    frame: 21
-    bbox: [np.int64(925), np.int64(450), np.int64(1027), np.int64(491)]
-    confidence: 0.33
-    class: 14
-[2026-04-29 12:32:19.625] [TRACK       ] Track ID:1
-    frame: 21
-    track_id: 1
-    position: (965, 29)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 7
-[2026-04-29 12:32:19.625] [FRAME       ] Frame 21 processed
-    frame: 21
-    detections: 1
-    tracks: 1
-[2026-04-29 12:32:19.626] [THREAT      ] Track ID:1 - LOW
-    frame: 21
-    track_id: 1
-    distance: 561.8 px
-    threat_level: LOW
-    pattern: unknown
-    speed: 0.6 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (946, 794)
-    commands: EVADE DOWN
-[2026-04-29 12:32:20.549] [DETECTION   ] Drone detected
-    frame: 22
-    bbox: [np.int64(923), np.int64(453), np.int64(1031), np.int64(492)]
-    confidence: 0.16
-    class: 14
-[2026-04-29 12:32:20.719] [TRACK       ] Track ID:1
-    frame: 22
-    track_id: 1
-    position: (965, 28)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 8
-[2026-04-29 12:32:20.720] [FRAME       ] Frame 22 processed
-    frame: 22
-    detections: 1
-    tracks: 1
-[2026-04-29 12:32:20.720] [THREAT      ] Track ID:1 - LOW
-    frame: 22
-    track_id: 1
-    distance: 562.8 px
-    threat_level: LOW
-    pattern: unknown
-    speed: 0.6 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (946, 794)
-    commands: EVADE DOWN
-[2026-04-29 12:32:21.568] [DETECTION   ] Drone detected
-    frame: 23
-    bbox: [np.int64(918), np.int64(455), np.int64(1029), np.int64(486)]
-    confidence: 0.31
-    class: 4
-[2026-04-29 12:32:21.775] [TRACK       ] Track ID:1
-    frame: 23
-    track_id: 1
-    position: (965, 28)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 9
-[2026-04-29 12:32:21.776] [FRAME       ] Frame 23 processed
-    frame: 23
-    detections: 1
-    tracks: 1
-[2026-04-29 12:32:21.777] [THREAT      ] Track ID:1 - LOW
-    frame: 23
-    track_id: 1
-    distance: 562.8 px
-    threat_level: LOW
-    pattern: unknown
-    speed: 0.6 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (946, 794)
-    commands: EVADE DOWN
-[2026-04-29 12:32:26.832] [TRACK       ] Track ID:1
-    frame: 24
-    track_id: 1
-    position: (966, 27)
-    velocity: (0.5, -0.5)
-    speed: 0.7 px/f
-    hits: 10
-[2026-04-29 12:32:26.832] [FRAME       ] Frame 24 processed
-    frame: 24
-    detections: 0
-    tracks: 1
-[2026-04-29 12:32:26.833] [THREAT      ] Track ID:1 - LOW
-    frame: 24
-    track_id: 1
-    distance: 565.8 px
-    threat_level: LOW
-    pattern: unknown
-    speed: 0.7 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (934, 793)
-    commands: EVADE DOWN
-[2026-04-29 12:32:28.243] [DETECTION   ] Drone detected
-    frame: 25
-    bbox: [np.int64(913), np.int64(457), np.int64(1024), np.int64(495)]
-    confidence: 0.84
-    class: 4
-[2026-04-29 12:32:28.500] [TRACK       ] Track ID:1
-    frame: 25
-    track_id: 1
-    position: (966, 26)
-    velocity: (0.2, -0.8)
-    speed: 0.8 px/f
-    hits: 11
-[2026-04-29 12:32:28.500] [TRACK       ] Track ID:2
-    frame: 25
-    track_id: 2
-    position: (978, 472)
-    velocity: (0.7, 0.3)
-    speed: 0.7 px/f
-    hits: 4
-[2026-04-29 12:32:28.501] [FRAME       ] Frame 25 processed
-    frame: 25
-    detections: 1
-    tracks: 2
-[2026-04-29 12:32:28.502] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 25
-    track_id: 2
-    distance: 88.8 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 0.7 px/f
-    uncertainty: ±104.4 px
-    evasion_point: (730, 643)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
-[2026-04-29 12:32:29.396] [TRACK       ] Track ID:1
-    frame: 26
-    track_id: 1
-    position: (966, 26)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 12
-[2026-04-29 12:32:29.397] [TRACK       ] Track ID:2
-    frame: 26
-    track_id: 2
-    position: (980, 472)
-    velocity: (1.0, 0.2)
-    speed: 1.0 px/f
-    hits: 5
-[2026-04-29 12:32:29.397] [FRAME       ] Frame 26 processed
-    frame: 26
-    detections: 0
-    tracks: 2
-[2026-04-29 12:32:29.398] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 26
-    track_id: 2
-    distance: 102.3 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 1.0 px/f
-    uncertainty: ±78.8 px
-    evasion_point: (752, 658)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
-[2026-04-29 12:32:30.143] [DETECTION   ] Drone detected
-    frame: 27
-    bbox: [np.int64(906), np.int64(464), np.int64(1027), np.int64(508)]
-    confidence: 0.30
-    class: 4
-[2026-04-29 12:32:30.304] [TRACK       ] Track ID:1
-    frame: 27
-    track_id: 1
-    position: (967, 26)
-    velocity: (0.5, -0.5)
-    speed: 0.7 px/f
-    hits: 13
-[2026-04-29 12:32:30.305] [TRACK       ] Track ID:2
-    frame: 27
-    track_id: 2
-    position: (981, 473)
-    velocity: (1.5, 0.5)
-    speed: 1.6 px/f
-    hits: 6
-[2026-04-29 12:32:30.305] [FRAME       ] Frame 27 processed
-    frame: 27
-    detections: 1
-    tracks: 2
-[2026-04-29 12:32:30.306] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 27
-    track_id: 2
-    distance: 98.4 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 1.6 px/f
-    uncertainty: ±54.4 px
-    evasion_point: (757, 643)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
-[2026-04-29 12:32:31.114] [DETECTION   ] Drone detected
-    frame: 28
-    bbox: [np.int64(908), np.int64(464), np.int64(1029), np.int64(511)]
+    bbox: [np.int64(308), np.int64(154), np.int64(353), np.int64(170)]
     confidence: 0.57
-    class: 4
-[2026-04-29 12:32:31.252] [TRACK       ] Track ID:1
-    frame: 28
-    track_id: 1
-    position: (967, 25)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 14
-[2026-04-29 12:32:31.253] [TRACK       ] Track ID:2
-    frame: 28
-    track_id: 2
-    position: (969, 486)
-    velocity: (-1.8, 3.8)
-    speed: 4.1 px/f
-    hits: 7
-[2026-04-29 12:32:31.254] [FRAME       ] Frame 28 processed
-    frame: 28
+    class: 0
+[2026-05-12 20:25:38.719] [FRAME       ] Frame 8 processed
+    frame: 8
     detections: 1
-    tracks: 2
-[2026-04-29 12:32:31.255] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 28
-    track_id: 2
-    distance: 14.8 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 4.1 px/f
-    uncertainty: ±23.2 px
-    evasion_point: (1162, 602)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, FULL THROTTLE
-[2026-04-29 12:32:32.195] [DETECTION   ] Drone detected
-    frame: 29
-    bbox: [np.int64(910), np.int64(466), np.int64(1031), np.int64(509)]
-    confidence: 0.64
-    class: 4
-[2026-04-29 12:32:32.195] [DETECTION   ] Drone detected
-    frame: 29
-    bbox: [np.int64(1745), np.int64(302), np.int64(1872), np.int64(341)]
-    confidence: 0.40
-    class: 14
-[2026-04-29 12:32:32.658] [TRACK       ] Track ID:1
-    frame: 29
-    track_id: 1
-    position: (967, 24)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 15
-[2026-04-29 12:32:32.658] [TRACK       ] Track ID:2
-    frame: 29
-    track_id: 2
-    position: (969, 487)
-    velocity: (-2.2, 3.8)
-    speed: 4.4 px/f
-    hits: 8
-[2026-04-29 12:32:32.658] [FRAME       ] Frame 29 processed
-    frame: 29
-    detections: 2
-    tracks: 2
-[2026-04-29 12:32:32.659] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 29
-    track_id: 2
-    distance: 19.9 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 4.4 px/f
-    uncertainty: ±22.3 px
-    evasion_point: (1158, 613)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, FULL THROTTLE
-[2026-04-29 12:32:34.171] [DETECTION   ] Drone detected
-    frame: 30
-    bbox: [np.int64(916), np.int64(477), np.int64(1021), np.int64(525)]
-    confidence: 0.56
-    class: 4
-[2026-04-29 12:32:34.172] [DETECTION   ] Drone detected
-    frame: 30
-    bbox: [np.int64(1715), np.int64(301), np.int64(1872), np.int64(340)]
-    confidence: 0.24
-    class: 14
-[2026-04-29 12:32:34.493] [TRACK       ] Track ID:1
-    frame: 30
-    track_id: 1
-    position: (968, 24)
-    velocity: (0.5, -0.5)
-    speed: 0.7 px/f
-    hits: 16
-[2026-04-29 12:32:34.494] [TRACK       ] Track ID:2
-    frame: 30
-    track_id: 2
-    position: (968, 496)
-    velocity: (-3.0, 6.0)
-    speed: 6.7 px/f
-    hits: 9
-[2026-04-29 12:32:34.494] [FRAME       ] Frame 30 processed
-    frame: 30
-    detections: 2
-    tracks: 2
-[2026-04-29 12:32:34.495] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 30
-    track_id: 2
-    distance: 12.6 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 6.7 px/f
-    uncertainty: ±16.7 px
-    evasion_point: (1157, 605)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, FULL THROTTLE
-[2026-04-29 12:32:34.558] [STATS       ] Performance stats
-    fps: 0.8
-    processing_time: 37863.7 ms
-[2026-04-29 12:32:35.242] [DETECTION   ] Drone detected
-    frame: 31
-    bbox: [np.int64(913), np.int64(482), np.int64(1032), np.int64(535)]
-    confidence: 0.78
-    class: 4
-[2026-04-29 12:32:35.243] [DETECTION   ] Drone detected
-    frame: 31
-    bbox: [np.int64(1782), np.int64(301), np.int64(1866), np.int64(338)]
-    confidence: 0.24
-    class: 14
-[2026-04-29 12:32:35.445] [TRACK       ] Track ID:1
-    frame: 31
-    track_id: 1
-    position: (968, 23)
-    velocity: (0.2, -0.8)
-    speed: 0.8 px/f
-    hits: 17
-[2026-04-29 12:32:35.446] [TRACK       ] Track ID:2
-    frame: 31
-    track_id: 2
-    position: (970, 505)
-    velocity: (-2.8, 8.0)
-    speed: 8.5 px/f
-    hits: 10
-[2026-04-29 12:32:35.446] [FRAME       ] Frame 31 processed
-    frame: 31
-    detections: 2
-    tracks: 2
-[2026-04-29 12:32:35.447] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 31
-    track_id: 2
-    distance: 1.9 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 8.5 px/f
-    uncertainty: ±14.3 px
-    evasion_point: (1157, 602)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, FULL THROTTLE
-[2026-04-29 12:32:36.133] [DETECTION   ] Drone detected
-    frame: 32
-    bbox: [np.int64(1736), np.int64(294), np.int64(1873), np.int64(336)]
-    confidence: 0.36
-    class: 14
-[2026-04-29 12:32:36.134] [DETECTION   ] Drone detected
-    frame: 32
-    bbox: [np.int64(910), np.int64(485), np.int64(1037), np.int64(541)]
-    confidence: 0.24
-    class: 4
-[2026-04-29 12:32:36.370] [TRACK       ] Track ID:1
-    frame: 32
-    track_id: 1
-    position: (968, 23)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 18
-[2026-04-29 12:32:36.370] [TRACK       ] Track ID:2
-    frame: 32
-    track_id: 2
-    position: (972, 510)
-    velocity: (0.8, 6.0)
-    speed: 6.0 px/f
-    hits: 11
-[2026-04-29 12:32:36.371] [FRAME       ] Frame 32 processed
-    frame: 32
-    detections: 2
-    tracks: 2
-[2026-04-29 12:32:36.371] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 32
-    track_id: 2
-    distance: 16.1 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 6.0 px/f
-    uncertainty: ±15.3 px
-    evasion_point: (754, 513)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, FULL THROTTLE
-[2026-04-29 12:32:37.024] [DETECTION   ] Drone detected
-    frame: 33
-    bbox: [np.int64(902), np.int64(491), np.int64(1034), np.int64(533)]
-    confidence: 0.60
-    class: 4
-[2026-04-29 12:32:37.153] [TRACK       ] Track ID:1
-    frame: 33
-    track_id: 1
-    position: (969, 22)
-    velocity: (0.5, -0.5)
-    speed: 0.7 px/f
-    hits: 19
-[2026-04-29 12:32:37.153] [TRACK       ] Track ID:2
-    frame: 33
-    track_id: 2
-    position: (969, 512)
-    velocity: (0.0, 6.2)
-    speed: 6.2 px/f
-    hits: 12
-[2026-04-29 12:32:37.154] [FRAME       ] Frame 33 processed
-    frame: 33
+    tracks: 0
+[2026-05-12 20:25:38.731] [DETECTION   ] Drone detected
+    frame: 9
+    bbox: [np.int64(307), np.int64(154), np.int64(354), np.int64(171)]
+    confidence: 0.65
+    class: 0
+[2026-05-12 20:25:38.756] [FRAME       ] Frame 9 processed
+    frame: 9
     detections: 1
-    tracks: 2
-[2026-04-29 12:32:37.154] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 33
-    track_id: 2
-    distance: 9.1 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 6.2 px/f
-    uncertainty: ±14.7 px
-    evasion_point: (755, 507)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, FULL THROTTLE
-[2026-04-29 12:32:41.034] [DETECTION   ] Drone detected
-    frame: 34
-    bbox: [np.int64(906), np.int64(494), np.int64(1034), np.int64(549)]
-    confidence: 0.68
-    class: 4
-[2026-04-29 12:32:41.310] [TRACK       ] Track ID:1
-    frame: 34
+    tracks: 0
+[2026-05-12 20:25:38.768] [DETECTION   ] Drone detected
+    frame: 10
+    bbox: [np.int64(306), np.int64(152), np.int64(354), np.int64(170)]
+    confidence: 0.73
+    class: 0
+[2026-05-12 20:25:38.792] [FRAME       ] Frame 10 processed
+    frame: 10
+    detections: 1
+    tracks: 0
+[2026-05-12 20:25:38.805] [DETECTION   ] Drone detected
+    frame: 11
+    bbox: [np.int64(305), np.int64(152), np.int64(354), np.int64(169)]
+    confidence: 0.70
+    class: 0
+[2026-05-12 20:25:38.828] [TRACK       ] Track ID:1
+    frame: 11
     track_id: 1
-    position: (969, 22)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 20
-[2026-04-29 12:32:41.311] [TRACK       ] Track ID:2
-    frame: 34
-    track_id: 2
-    position: (969, 519)
-    velocity: (0.2, 5.8)
-    speed: 5.8 px/f
-    hits: 13
-[2026-04-29 12:32:41.312] [TRACK       ] Track ID:5
-    frame: 34
-    track_id: 5
-    position: (1811, 312)
-    velocity: (-1.7, -2.3)
-    speed: 2.9 px/f
+    position: (329, 160)
+    velocity: (-0.3, -0.7)
+    speed: 0.7 px/f
     hits: 4
-[2026-04-29 12:32:41.313] [FRAME       ] Frame 34 processed
-    frame: 34
+[2026-05-12 20:25:38.828] [FRAME       ] Frame 11 processed
+    frame: 11
     detections: 1
-    tracks: 3
-[2026-04-29 12:32:41.317] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 34
-    track_id: 2
-    distance: 10.2 px
-    threat_level: CRITICAL
-    pattern: turning
-    speed: 5.8 px/f
-    uncertainty: ±12.0 px
-    evasion_point: (757, 502)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, PERPENDICULAR, FULL THROTTLE
-[2026-04-29 12:32:42.332] [DETECTION   ] Drone detected
-    frame: 35
-    bbox: [np.int64(915), np.int64(496), np.int64(1024), np.int64(539)]
-    confidence: 0.47
-    class: 4
-[2026-04-29 12:32:42.512] [TRACK       ] Track ID:1
-    frame: 35
+    tracks: 1
+[2026-05-12 20:25:38.828] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 11
     track_id: 1
-    position: (970, 21)
-    velocity: (0.5, -0.5)
+    distance: 39.6 px
+    threat_level: CRITICAL
+    pattern: unknown
     speed: 0.7 px/f
-    hits: 21
-[2026-04-29 12:32:42.513] [TRACK       ] Track ID:2
-    frame: 35
-    track_id: 2
-    position: (969, 519)
-    velocity: (-0.2, 3.5)
-    speed: 3.5 px/f
-    hits: 14
-[2026-04-29 12:32:42.513] [TRACK       ] Track ID:5
-    frame: 35
-    track_id: 5
-    position: (1813, 310)
-    velocity: (-0.8, -2.2)
-    speed: 2.4 px/f
-    hits: 5
-[2026-04-29 12:32:42.515] [FRAME       ] Frame 35 processed
-    frame: 35
-    detections: 1
-    tracks: 3
-[2026-04-29 12:32:42.517] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 35
-    track_id: 2
-    distance: 8.1 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.5 px/f
-    uncertainty: ±15.2 px
-    evasion_point: (757, 493)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVASIVE ZIGZAG
-[2026-04-29 12:32:43.299] [TRACK       ] Track ID:1
-    frame: 36
+    uncertainty: ±39.4 px
+    evasion_point: (324, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:38.844] [DETECTION   ] Drone detected
+    frame: 12
+    bbox: [np.int64(305), np.int64(151), np.int64(356), np.int64(169)]
+    confidence: 0.71
+    class: 0
+[2026-05-12 20:25:38.868] [TRACK       ] Track ID:1
+    frame: 12
     track_id: 1
-    position: (969, 20)
-    velocity: (0.2, -0.8)
-    speed: 0.8 px/f
-    hits: 22
-[2026-04-29 12:32:43.300] [TRACK       ] Track ID:2
-    frame: 36
-    track_id: 2
-    position: (969, 523)
-    velocity: (-0.8, 3.2)
-    speed: 3.3 px/f
-    hits: 15
-[2026-04-29 12:32:43.301] [TRACK       ] Track ID:5
-    frame: 36
-    track_id: 5
-    position: (1814, 309)
-    velocity: (1.5, -1.5)
-    speed: 2.1 px/f
-    hits: 6
-[2026-04-29 12:32:43.303] [FRAME       ] Frame 36 processed
-    frame: 36
-    detections: 0
-    tracks: 3
-[2026-04-29 12:32:43.304] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 36
-    track_id: 2
-    distance: 6.2 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.3 px/f
-    uncertainty: ±14.6 px
-    evasion_point: (760, 481)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:44.135] [TRACK       ] Track ID:1
-    frame: 37
-    track_id: 1
-    position: (970, 20)
-    velocity: (0.2, -0.5)
+    position: (329, 160)
+    velocity: (-0.2, -0.5)
     speed: 0.6 px/f
-    hits: 23
-[2026-04-29 12:32:44.135] [TRACK       ] Track ID:2
-    frame: 37
-    track_id: 2
-    position: (969, 526)
-    velocity: (0.0, 3.5)
-    speed: 3.5 px/f
-    hits: 16
-[2026-04-29 12:32:44.136] [TRACK       ] Track ID:5
-    frame: 37
-    track_id: 5
-    position: (1816, 307)
-    velocity: (1.5, -1.8)
-    speed: 2.3 px/f
-    hits: 7
-[2026-04-29 12:32:44.136] [FRAME       ] Frame 37 processed
-    frame: 37
-    detections: 0
-    tracks: 3
-[2026-04-29 12:32:44.137] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 37
-    track_id: 2
-    distance: 9.4 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.5 px/f
-    uncertainty: ±13.8 px
-    evasion_point: (761, 481)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:44.864] [DETECTION   ] Drone detected
-    frame: 38
-    bbox: [np.int64(927), np.int64(474), np.int64(1042), np.int64(530)]
-    confidence: 0.17
-    class: 4
-[2026-04-29 12:32:45.016] [TRACK       ] Track ID:1
-    frame: 38
-    track_id: 1
-    position: (970, 19)
-    velocity: (0.2, -0.8)
-    speed: 0.8 px/f
-    hits: 24
-[2026-04-29 12:32:45.017] [TRACK       ] Track ID:2
-    frame: 38
-    track_id: 2
-    position: (969, 529)
-    velocity: (0.0, 2.5)
-    speed: 2.5 px/f
-    hits: 17
-[2026-04-29 12:32:45.018] [TRACK       ] Track ID:5
-    frame: 38
-    track_id: 5
-    position: (1818, 305)
-    velocity: (1.8, -1.8)
-    speed: 2.5 px/f
-    hits: 8
-[2026-04-29 12:32:45.018] [FRAME       ] Frame 38 processed
-    frame: 38
+    hits: 5
+[2026-05-12 20:25:38.868] [FRAME       ] Frame 12 processed
+    frame: 12
     detections: 1
-    tracks: 3
-[2026-04-29 12:32:45.020] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 38
-    track_id: 2
-    distance: 9.6 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 2.5 px/f
-    uncertainty: ±14.5 px
-    evasion_point: (764, 470)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:45.827] [TRACK       ] Track ID:1
-    frame: 39
+    tracks: 1
+[2026-05-12 20:25:38.868] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 12
     track_id: 1
-    position: (970, 19)
+    distance: 39.6 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 0.6 px/f
+    uncertainty: ±49.2 px
+    evasion_point: (324, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:38.883] [DETECTION   ] Drone detected
+    frame: 13
+    bbox: [np.int64(304), np.int64(151), np.int64(354), np.int64(169)]
+    confidence: 0.71
+    class: 0
+[2026-05-12 20:25:38.908] [TRACK       ] Track ID:1
+    frame: 13
+    track_id: 1
+    position: (329, 159)
+    velocity: (-0.2, -0.5)
+    speed: 0.6 px/f
+    hits: 6
+[2026-05-12 20:25:38.908] [FRAME       ] Frame 13 processed
+    frame: 13
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:38.908] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 13
+    track_id: 1
+    distance: 41.5 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 0.6 px/f
+    uncertainty: ±50.9 px
+    evasion_point: (326, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:38.921] [DETECTION   ] Drone detected
+    frame: 14
+    bbox: [np.int64(304), np.int64(150), np.int64(357), np.int64(169)]
+    confidence: 0.73
+    class: 0
+[2026-05-12 20:25:38.946] [TRACK       ] Track ID:1
+    frame: 14
+    track_id: 1
+    position: (329, 159)
+    velocity: (-0.2, -0.5)
+    speed: 0.6 px/f
+    hits: 7
+[2026-05-12 20:25:38.947] [FRAME       ] Frame 14 processed
+    frame: 14
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:38.947] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 14
+    track_id: 1
+    distance: 41.5 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 0.6 px/f
+    uncertainty: ±50.9 px
+    evasion_point: (326, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:38.962] [DETECTION   ] Drone detected
+    frame: 15
+    bbox: [np.int64(304), np.int64(150), np.int64(357), np.int64(169)]
+    confidence: 0.75
+    class: 0
+[2026-05-12 20:25:38.989] [TRACK       ] Track ID:1
+    frame: 15
+    track_id: 1
+    position: (329, 158)
     velocity: (0.0, -0.5)
     speed: 0.5 px/f
-    hits: 25
-[2026-04-29 12:32:45.828] [TRACK       ] Track ID:2
-    frame: 39
-    track_id: 2
-    position: (969, 533)
-    velocity: (0.0, 3.5)
-    speed: 3.5 px/f
-    hits: 18
-[2026-04-29 12:32:45.828] [TRACK       ] Track ID:5
-    frame: 39
-    track_id: 5
-    position: (1819, 303)
-    velocity: (1.5, -1.8)
-    speed: 2.3 px/f
-    hits: 9
-[2026-04-29 12:32:45.829] [FRAME       ] Frame 39 processed
-    frame: 39
-    detections: 0
-    tracks: 3
-[2026-04-29 12:32:45.829] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 39
-    track_id: 2
-    distance: 10.0 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.5 px/f
-    uncertainty: ±12.6 px
-    evasion_point: (774, 449)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:46.558] [TRACK       ] Track ID:1
-    frame: 40
-    track_id: 1
-    position: (971, 18)
-    velocity: (0.5, -0.5)
-    speed: 0.7 px/f
-    hits: 26
-[2026-04-29 12:32:46.558] [TRACK       ] Track ID:2
-    frame: 40
-    track_id: 2
-    position: (968, 536)
-    velocity: (-0.2, 3.2)
-    speed: 3.3 px/f
-    hits: 19
-[2026-04-29 12:32:46.559] [TRACK       ] Track ID:5
-    frame: 40
-    track_id: 5
-    position: (1821, 302)
-    velocity: (1.8, -1.8)
-    speed: 2.5 px/f
-    hits: 10
-[2026-04-29 12:32:46.559] [FRAME       ] Frame 40 processed
-    frame: 40
-    detections: 0
-    tracks: 3
-[2026-04-29 12:32:46.560] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 40
-    track_id: 2
-    distance: 9.0 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.3 px/f
-    uncertainty: ±12.2 px
-    evasion_point: (787, 427)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:47.288] [TRACK       ] Track ID:1
-    frame: 41
-    track_id: 1
-    position: (971, 17)
-    velocity: (0.2, -0.8)
-    speed: 0.8 px/f
-    hits: 27
-[2026-04-29 12:32:47.289] [TRACK       ] Track ID:2
-    frame: 41
-    track_id: 2
-    position: (968, 540)
-    velocity: (-0.2, 3.5)
-    speed: 3.5 px/f
-    hits: 20
-[2026-04-29 12:32:47.291] [TRACK       ] Track ID:5
-    frame: 41
-    track_id: 5
-    position: (1823, 300)
-    velocity: (1.8, -1.8)
-    speed: 2.5 px/f
-    hits: 11
-[2026-04-29 12:32:47.292] [FRAME       ] Frame 41 processed
-    frame: 41
-    detections: 0
-    tracks: 3
-[2026-04-29 12:32:47.293] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 41
-    track_id: 2
-    distance: 11.0 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.5 px/f
-    uncertainty: ±11.8 px
-    evasion_point: (817, 390)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:48.033] [DETECTION   ] Drone detected
-    frame: 42
-    bbox: [np.int64(1609), np.int64(289), np.int64(1866), np.int64(338)]
-    confidence: 0.28
-    class: 14
-[2026-04-29 12:32:48.187] [TRACK       ] Track ID:1
-    frame: 42
-    track_id: 1
-    position: (971, 17)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 28
-[2026-04-29 12:32:48.188] [TRACK       ] Track ID:2
-    frame: 42
-    track_id: 2
-    position: (968, 543)
-    velocity: (-0.2, 3.5)
-    speed: 3.5 px/f
-    hits: 21
-[2026-04-29 12:32:48.189] [TRACK       ] Track ID:5
-    frame: 42
-    track_id: 5
-    position: (1824, 298)
-    velocity: (1.5, -1.8)
-    speed: 2.3 px/f
-    hits: 12
-[2026-04-29 12:32:48.189] [FRAME       ] Frame 42 processed
-    frame: 42
-    detections: 1
-    tracks: 3
-[2026-04-29 12:32:48.190] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 42
-    track_id: 2
-    distance: 13.8 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.5 px/f
-    uncertainty: ±11.9 px
-    evasion_point: (846, 367)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:48.870] [DETECTION   ] Drone detected
-    frame: 43
-    bbox: [np.int64(1611), np.int64(291), np.int64(1873), np.int64(337)]
-    confidence: 0.17
-    class: 14
-[2026-04-29 12:32:49.044] [TRACK       ] Track ID:1
-    frame: 43
-    track_id: 1
-    position: (972, 17)
-    velocity: (0.5, -0.5)
-    speed: 0.7 px/f
-    hits: 29
-[2026-04-29 12:32:49.045] [TRACK       ] Track ID:2
-    frame: 43
-    track_id: 2
-    position: (968, 546)
-    velocity: (-0.2, 3.2)
-    speed: 3.3 px/f
-    hits: 22
-[2026-04-29 12:32:49.046] [TRACK       ] Track ID:5
-    frame: 43
-    track_id: 5
-    position: (1826, 297)
-    velocity: (1.8, -1.5)
-    speed: 2.3 px/f
-    hits: 13
-[2026-04-29 12:32:49.046] [FRAME       ] Frame 43 processed
-    frame: 43
-    detections: 1
-    tracks: 3
-[2026-04-29 12:32:49.047] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 43
-    track_id: 2
-    distance: 17.6 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.3 px/f
-    uncertainty: ±12.5 px
-    evasion_point: (872, 353)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:49.758] [DETECTION   ] Drone detected
-    frame: 44
-    bbox: [np.int64(1774), np.int64(291), np.int64(1867), np.int64(331)]
-    confidence: 0.16
-    class: 14
-[2026-04-29 12:32:49.917] [TRACK       ] Track ID:1
-    frame: 44
-    track_id: 1
-    position: (972, 16)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 30
-[2026-04-29 12:32:49.917] [TRACK       ] Track ID:2
-    frame: 44
-    track_id: 2
-    position: (968, 549)
-    velocity: (0.0, 3.2)
-    speed: 3.2 px/f
-    hits: 23
-[2026-04-29 12:32:49.918] [TRACK       ] Track ID:5
-    frame: 44
-    track_id: 5
-    position: (1828, 295)
-    velocity: (1.8, -1.8)
-    speed: 2.5 px/f
-    hits: 14
-[2026-04-29 12:32:49.918] [FRAME       ] Frame 44 processed
-    frame: 44
-    detections: 1
-    tracks: 3
-[2026-04-29 12:32:49.919] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 44
-    track_id: 2
-    distance: 22.5 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.2 px/f
-    uncertainty: ±13.0 px
-    evasion_point: (886, 346)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:50.597] [TRACK       ] Track ID:1
-    frame: 45
-    track_id: 1
-    position: (972, 15)
-    velocity: (0.2, -0.5)
-    speed: 0.6 px/f
-    hits: 31
-[2026-04-29 12:32:50.597] [TRACK       ] Track ID:2
-    frame: 45
-    track_id: 2
-    position: (968, 553)
-    velocity: (0.0, 3.2)
-    speed: 3.2 px/f
-    hits: 24
-[2026-04-29 12:32:50.598] [TRACK       ] Track ID:5
-    frame: 45
-    track_id: 5
-    position: (1829, 293)
-    velocity: (1.5, -1.8)
-    speed: 2.3 px/f
-    hits: 15
-[2026-04-29 12:32:50.598] [FRAME       ] Frame 45 processed
-    frame: 45
-    detections: 0
-    tracks: 3
-[2026-04-29 12:32:50.600] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 45
-    track_id: 2
-    distance: 29.4 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.2 px/f
-    uncertainty: ±13.8 px
-    evasion_point: (903, 340)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:51.329] [TRACK       ] Track ID:2
-    frame: 46
-    track_id: 2
-    position: (968, 556)
-    velocity: (0.0, 3.2)
-    speed: 3.2 px/f
-    hits: 25
-[2026-04-29 12:32:51.331] [TRACK       ] Track ID:5
-    frame: 46
-    track_id: 5
-    position: (1831, 292)
-    velocity: (1.8, -1.5)
-    speed: 2.3 px/f
-    hits: 16
-[2026-04-29 12:32:51.331] [FRAME       ] Frame 46 processed
-    frame: 46
-    detections: 0
-    tracks: 2
-[2026-04-29 12:32:51.332] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 46
-    track_id: 2
-    distance: 34.8 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.2 px/f
-    uncertainty: ±14.4 px
-    evasion_point: (912, 338)
-    commands: ⚠️ EVADE NOW!, EVADE UP, EVASIVE ZIGZAG
-[2026-04-29 12:32:52.029] [TRACK       ] Track ID:2
-    frame: 47
-    track_id: 2
-    position: (968, 560)
-    velocity: (0.0, 3.5)
-    speed: 3.5 px/f
-    hits: 26
-[2026-04-29 12:32:52.029] [TRACK       ] Track ID:5
-    frame: 47
-    track_id: 5
-    position: (1833, 290)
-    velocity: (1.8, -1.8)
-    speed: 2.5 px/f
-    hits: 17
-[2026-04-29 12:32:52.030] [TRACK       ] Track ID:7
-    frame: 47
-    track_id: 7
-    position: (1886, 308)
-    velocity: (27.3, -1.0)
-    speed: 27.4 px/f
-    hits: 4
-[2026-04-29 12:32:52.030] [FRAME       ] Frame 47 processed
-    frame: 47
-    detections: 0
-    tracks: 3
-[2026-04-29 12:32:52.031] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 47
-    track_id: 2
-    distance: 42.3 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 3.5 px/f
-    uncertainty: ±16.2 px
-    evasion_point: (920, 335)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:32:53.056] [DETECTION   ] Drone detected
-    frame: 48
-    bbox: [np.int64(1772), np.int64(290), np.int64(1867), np.int64(332)]
-    confidence: 0.26
-    class: 14
-[2026-04-29 12:32:55.569] [TRACK       ] Track ID:2
-    frame: 48
-    track_id: 2
-    position: (968, 563)
-    velocity: (0.0, 3.5)
-    speed: 3.5 px/f
-    hits: 27
-[2026-04-29 12:32:55.569] [TRACK       ] Track ID:5
-    frame: 48
-    track_id: 5
-    position: (1834, 289)
-    velocity: (1.5, -1.5)
-    speed: 2.1 px/f
-    hits: 18
-[2026-04-29 12:32:55.570] [TRACK       ] Track ID:7
-    frame: 48
-    track_id: 7
-    position: (1914, 307)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 5
-[2026-04-29 12:32:55.570] [FRAME       ] Frame 48 processed
-    frame: 48
-    detections: 1
-    tracks: 3
-[2026-04-29 12:32:55.571] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 48
-    track_id: 2
-    distance: 48.0 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 3.5 px/f
-    uncertainty: ±17.0 px
-    evasion_point: (925, 334)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:32:56.452] [TRACK       ] Track ID:2
-    frame: 49
-    track_id: 2
-    position: (968, 566)
-    velocity: (0.0, 3.2)
-    speed: 3.2 px/f
-    hits: 28
-[2026-04-29 12:32:56.452] [TRACK       ] Track ID:5
-    frame: 49
-    track_id: 5
-    position: (1836, 287)
-    velocity: (1.8, -1.5)
-    speed: 2.3 px/f
-    hits: 19
-[2026-04-29 12:32:56.453] [TRACK       ] Track ID:7
-    frame: 49
-    track_id: 7
-    position: (1941, 306)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 6
-[2026-04-29 12:32:56.453] [FRAME       ] Frame 49 processed
-    frame: 49
-    detections: 0
-    tracks: 3
-[2026-04-29 12:32:56.455] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 49
-    track_id: 2
-    distance: 53.8 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 3.2 px/f
-    uncertainty: ±18.4 px
-    evasion_point: (928, 333)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:32:57.273] [DETECTION   ] Drone detected
-    frame: 50
-    bbox: [np.int64(918), np.int64(429), np.int64(1007), np.int64(465)]
-    confidence: 0.34
-    class: 4
-[2026-04-29 12:32:57.273] [DETECTION   ] Drone detected
-    frame: 50
-    bbox: [np.int64(1596), np.int64(283), np.int64(1876), np.int64(336)]
-    confidence: 0.23
-    class: 14
-[2026-04-29 12:32:57.529] [TRACK       ] Track ID:2
-    frame: 50
-    track_id: 2
-    position: (968, 570)
-    velocity: (0.0, 3.5)
-    speed: 3.5 px/f
-    hits: 29
-[2026-04-29 12:32:57.529] [TRACK       ] Track ID:5
-    frame: 50
-    track_id: 5
-    position: (1837, 285)
-    velocity: (1.5, -1.8)
-    speed: 2.3 px/f
-    hits: 20
-[2026-04-29 12:32:57.531] [TRACK       ] Track ID:7
-    frame: 50
-    track_id: 7
-    position: (1969, 305)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 7
-[2026-04-29 12:32:57.531] [FRAME       ] Frame 50 processed
-    frame: 50
-    detections: 2
-    tracks: 3
-[2026-04-29 12:32:57.533] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 50
-    track_id: 2
-    distance: 61.6 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 3.5 px/f
-    uncertainty: ±18.9 px
-    evasion_point: (932, 332)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:32:58.332] [DETECTION   ] Drone detected
-    frame: 51
-    bbox: [np.int64(913), np.int64(425), np.int64(1012), np.int64(463)]
-    confidence: 0.53
-    class: 4
-[2026-04-29 12:32:58.497] [TRACK       ] Track ID:2
-    frame: 51
-    track_id: 2
-    position: (968, 573)
-    velocity: (0.0, 3.2)
-    speed: 3.2 px/f
-    hits: 30
-[2026-04-29 12:32:58.498] [TRACK       ] Track ID:5
-    frame: 51
-    track_id: 5
-    position: (1839, 284)
-    velocity: (1.5, -1.5)
-    speed: 2.1 px/f
-    hits: 21
-[2026-04-29 12:32:58.499] [TRACK       ] Track ID:7
-    frame: 51
-    track_id: 7
-    position: (1996, 304)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
     hits: 8
-[2026-04-29 12:32:58.500] [FRAME       ] Frame 51 processed
-    frame: 51
+[2026-05-12 20:25:38.989] [FRAME       ] Frame 15 processed
+    frame: 15
     detections: 1
-    tracks: 3
-[2026-04-29 12:32:58.501] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 51
-    track_id: 2
-    distance: 67.4 px
+    tracks: 1
+[2026-05-12 20:25:38.989] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 15
+    track_id: 1
+    distance: 46.6 px
     threat_level: CRITICAL
     pattern: unknown
-    speed: 3.2 px/f
-    uncertainty: ±20.4 px
-    evasion_point: (935, 331)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:32:59.250] [DETECTION   ] Drone detected
-    frame: 52
-    bbox: [np.int64(917), np.int64(421), np.int64(1008), np.int64(448)]
-    confidence: 0.24
-    class: 4
-[2026-04-29 12:32:59.426] [TRACK       ] Track ID:2
-    frame: 52
-    track_id: 2
-    position: (967, 577)
-    velocity: (-0.2, 3.5)
-    speed: 3.5 px/f
-    hits: 31
-[2026-04-29 12:32:59.427] [TRACK       ] Track ID:5
-    frame: 52
-    track_id: 5
-    position: (1841, 282)
-    velocity: (1.8, -1.8)
-    speed: 2.5 px/f
-    hits: 22
-[2026-04-29 12:32:59.427] [TRACK       ] Track ID:7
-    frame: 52
-    track_id: 7
-    position: (2024, 303)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 9
-[2026-04-29 12:32:59.429] [FRAME       ] Frame 52 processed
-    frame: 52
-    detections: 1
-    tracks: 3
-[2026-04-29 12:32:59.430] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 52
-    track_id: 2
-    distance: 74.7 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 3.5 px/f
-    uncertainty: ±20.7 px
-    evasion_point: (947, 329)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:00.211] [DETECTION   ] Drone detected
-    frame: 53
-    bbox: [np.int64(915), np.int64(417), np.int64(1009), np.int64(443)]
-    confidence: 0.33
-    class: 4
-[2026-04-29 12:33:00.381] [TRACK       ] Track ID:2
-    frame: 53
-    track_id: 2
-    position: (967, 580)
-    velocity: (-0.2, 3.5)
-    speed: 3.5 px/f
-    hits: 32
-[2026-04-29 12:33:00.381] [TRACK       ] Track ID:5
-    frame: 53
-    track_id: 5
-    position: (1842, 280)
-    velocity: (1.5, -1.8)
-    speed: 2.3 px/f
-    hits: 23
-[2026-04-29 12:33:00.382] [TRACK       ] Track ID:7
-    frame: 53
-    track_id: 7
-    position: (2051, 303)
-    velocity: (27.5, -0.8)
-    speed: 27.5 px/f
-    hits: 10
-[2026-04-29 12:33:00.382] [FRAME       ] Frame 53 processed
-    frame: 53
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:00.383] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 53
-    track_id: 2
-    distance: 80.6 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 3.5 px/f
-    uncertainty: ±21.6 px
-    evasion_point: (949, 329)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:01.130] [DETECTION   ] Drone detected
-    frame: 54
-    bbox: [np.int64(916), np.int64(413), np.int64(1007), np.int64(450)]
-    confidence: 0.39
-    class: 4
-[2026-04-29 12:33:01.131] [DETECTION   ] Drone detected
-    frame: 54
-    bbox: [np.int64(915), np.int64(412), np.int64(1008), np.int64(456)]
-    confidence: 0.17
-    class: 14
-[2026-04-29 12:33:01.335] [TRACK       ] Track ID:2
-    frame: 54
-    track_id: 2
-    position: (967, 583)
-    velocity: (-0.2, 3.2)
-    speed: 3.3 px/f
-    hits: 33
-[2026-04-29 12:33:01.336] [TRACK       ] Track ID:5
-    frame: 54
-    track_id: 5
-    position: (1844, 278)
-    velocity: (1.8, -1.8)
-    speed: 2.5 px/f
-    hits: 24
-[2026-04-29 12:33:01.336] [TRACK       ] Track ID:7
-    frame: 54
-    track_id: 7
-    position: (2079, 302)
-    velocity: (27.5, -0.8)
-    speed: 27.5 px/f
-    hits: 11
-[2026-04-29 12:33:01.337] [FRAME       ] Frame 54 processed
-    frame: 54
-    detections: 2
-    tracks: 3
-[2026-04-29 12:33:01.338] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 54
-    track_id: 2
-    distance: 86.5 px
-    threat_level: CRITICAL
-    pattern: straight
-    speed: 3.3 px/f
-    uncertainty: ±14.0 px
-    evasion_point: (951, 333)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:02.099] [DETECTION   ] Drone detected
-    frame: 55
-    bbox: [np.int64(901), np.int64(410), np.int64(1022), np.int64(454)]
-    confidence: 0.74
-    class: 4
-[2026-04-29 12:33:02.264] [TRACK       ] Track ID:2
-    frame: 55
-    track_id: 2
-    position: (967, 587)
-    velocity: (-0.2, 3.5)
-    speed: 3.5 px/f
-    hits: 34
-[2026-04-29 12:33:02.265] [TRACK       ] Track ID:5
-    frame: 55
-    track_id: 5
-    position: (1846, 277)
-    velocity: (1.8, -1.8)
-    speed: 2.5 px/f
-    hits: 25
-[2026-04-29 12:33:02.266] [TRACK       ] Track ID:7
-    frame: 55
-    track_id: 7
-    position: (2106, 301)
-    velocity: (27.5, -0.8)
-    speed: 27.5 px/f
-    hits: 12
-[2026-04-29 12:33:02.266] [TRACK       ] Track ID:10
-    frame: 55
-    track_id: 10
-    position: (961, 427)
-    velocity: (-0.3, -3.0)
-    speed: 3.0 px/f
-    hits: 4
-[2026-04-29 12:33:02.267] [FRAME       ] Frame 55 processed
-    frame: 55
-    detections: 1
-    tracks: 4
-[2026-04-29 12:33:02.268] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 55
-    track_id: 2
-    distance: 94.5 px
-    threat_level: CRITICAL
-    pattern: straight
-    speed: 3.5 px/f
-    uncertainty: ±14.1 px
-    evasion_point: (952, 333)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:03.067] [DETECTION   ] Drone detected
-    frame: 56
-    bbox: [np.int64(908), np.int64(409), np.int64(1017), np.int64(449)]
-    confidence: 0.74
-    class: 4
-[2026-04-29 12:33:03.223] [TRACK       ] Track ID:2
-    frame: 56
-    track_id: 2
-    position: (967, 590)
-    velocity: (0.0, 3.2)
-    speed: 3.2 px/f
-    hits: 35
-[2026-04-29 12:33:03.224] [TRACK       ] Track ID:5
-    frame: 56
-    track_id: 5
-    position: (1847, 275)
-    velocity: (1.5, -1.8)
-    speed: 2.3 px/f
-    hits: 26
-[2026-04-29 12:33:03.224] [TRACK       ] Track ID:7
-    frame: 56
-    track_id: 7
-    position: (2133, 300)
-    velocity: (27.2, -0.8)
-    speed: 27.3 px/f
-    hits: 13
-[2026-04-29 12:33:03.225] [TRACK       ] Track ID:10
-    frame: 56
-    track_id: 10
-    position: (962, 427)
-    velocity: (0.0, -2.2)
-    speed: 2.2 px/f
-    hits: 5
-[2026-04-29 12:33:03.225] [FRAME       ] Frame 56 processed
-    frame: 56
-    detections: 1
-    tracks: 4
-[2026-04-29 12:33:03.226] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 56
-    track_id: 2
-    distance: 100.7 px
-    threat_level: CRITICAL
-    pattern: straight
-    speed: 3.2 px/f
-    uncertainty: ±14.7 px
-    evasion_point: (945, 333)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:04.102] [DETECTION   ] Drone detected
-    frame: 57
-    bbox: [np.int64(909), np.int64(405), np.int64(1013), np.int64(449)]
-    confidence: 0.72
-    class: 4
-[2026-04-29 12:33:04.234] [TRACK       ] Track ID:2
-    frame: 57
-    track_id: 2
-    position: (967, 594)
-    velocity: (0.0, 3.5)
-    speed: 3.5 px/f
-    hits: 36
-[2026-04-29 12:33:04.235] [TRACK       ] Track ID:5
-    frame: 57
-    track_id: 5
-    position: (1849, 273)
-    velocity: (1.8, -1.8)
-    speed: 2.5 px/f
-    hits: 27
-[2026-04-29 12:33:04.235] [TRACK       ] Track ID:7
-    frame: 57
-    track_id: 7
-    position: (2161, 299)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 14
-[2026-04-29 12:33:04.236] [TRACK       ] Track ID:10
-    frame: 57
-    track_id: 10
-    position: (961, 426)
-    velocity: (0.0, -1.0)
-    speed: 1.0 px/f
-    hits: 6
-[2026-04-29 12:33:04.236] [FRAME       ] Frame 57 processed
-    frame: 57
-    detections: 1
-    tracks: 4
-[2026-04-29 12:33:04.237] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 57
-    track_id: 2
-    distance: 108.7 px
-    threat_level: CRITICAL
-    pattern: straight
-    speed: 3.5 px/f
-    uncertainty: ±14.7 px
-    evasion_point: (946, 333)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:05.072] [DETECTION   ] Drone detected
-    frame: 58
-    bbox: [np.int64(912), np.int64(400), np.int64(1007), np.int64(448)]
-    confidence: 0.76
-    class: 4
-[2026-04-29 12:33:05.234] [TRACK       ] Track ID:2
-    frame: 58
-    track_id: 2
-    position: (966, 597)
-    velocity: (-0.2, 3.5)
-    speed: 3.5 px/f
-    hits: 37
-[2026-04-29 12:33:05.235] [TRACK       ] Track ID:5
-    frame: 58
-    track_id: 5
-    position: (1851, 272)
-    velocity: (1.8, -1.5)
-    speed: 2.3 px/f
-    hits: 28
-[2026-04-29 12:33:05.235] [TRACK       ] Track ID:7
-    frame: 58
-    track_id: 7
-    position: (2189, 298)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 15
-[2026-04-29 12:33:05.235] [TRACK       ] Track ID:10
-    frame: 58
-    track_id: 10
-    position: (959, 423)
-    velocity: (-0.5, -1.8)
-    speed: 1.8 px/f
-    hits: 7
-[2026-04-29 12:33:05.236] [FRAME       ] Frame 58 processed
-    frame: 58
-    detections: 1
-    tracks: 4
-[2026-04-29 12:33:05.236] [THREAT      ] Track ID:2 - CRITICAL
-    frame: 58
-    track_id: 2
-    distance: 114.2 px
-    threat_level: CRITICAL
-    pattern: straight
-    speed: 3.5 px/f
-    uncertainty: ±14.9 px
-    evasion_point: (956, 332)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:05.980] [DETECTION   ] Drone detected
-    frame: 59
-    bbox: [np.int64(899), np.int64(396), np.int64(1020), np.int64(444)]
-    confidence: 0.82
-    class: 4
-[2026-04-29 12:33:06.163] [TRACK       ] Track ID:2
-    frame: 59
-    track_id: 2
-    position: (966, 600)
-    velocity: (-0.2, 3.2)
-    speed: 3.3 px/f
-    hits: 38
-[2026-04-29 12:33:06.163] [TRACK       ] Track ID:5
-    frame: 59
-    track_id: 5
-    position: (1852, 270)
-    velocity: (1.5, -1.8)
-    speed: 2.3 px/f
-    hits: 29
-[2026-04-29 12:33:06.164] [TRACK       ] Track ID:7
-    frame: 59
-    track_id: 7
-    position: (2216, 297)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 16
-[2026-04-29 12:33:06.164] [TRACK       ] Track ID:10
-    frame: 59
-    track_id: 10
-    position: (959, 420)
-    velocity: (-0.5, -1.8)
-    speed: 1.8 px/f
-    hits: 8
-[2026-04-29 12:33:06.165] [FRAME       ] Frame 59 processed
-    frame: 59
-    detections: 1
-    tracks: 4
-[2026-04-29 12:33:06.165] [THREAT      ] Track ID:2 - HIGH
-    frame: 59
-    track_id: 2
-    distance: 120.1 px
-    threat_level: HIGH
-    pattern: straight
-    speed: 3.3 px/f
-    uncertainty: ±15.5 px
-    evasion_point: (957, 332)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:06.910] [DETECTION   ] Drone detected
-    frame: 60
-    bbox: [np.int64(905), np.int64(395), np.int64(1014), np.int64(442)]
-    confidence: 0.68
-    class: 4
-[2026-04-29 12:33:06.911] [DETECTION   ] Drone detected
-    frame: 60
-    bbox: [np.int64(1751), np.int64(289), np.int64(1871), np.int64(329)]
-    confidence: 0.22
-    class: 14
-[2026-04-29 12:33:07.130] [TRACK       ] Track ID:2
-    frame: 60
-    track_id: 2
-    position: (966, 604)
-    velocity: (-0.2, 3.5)
-    speed: 3.5 px/f
-    hits: 39
-[2026-04-29 12:33:07.131] [TRACK       ] Track ID:5
-    frame: 60
-    track_id: 5
-    position: (1811, 308)
-    velocity: (-9.0, 8.2)
-    speed: 12.2 px/f
-    hits: 30
-[2026-04-29 12:33:07.131] [TRACK       ] Track ID:7
-    frame: 60
-    track_id: 7
-    position: (2243, 296)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 17
-[2026-04-29 12:33:07.132] [TRACK       ] Track ID:10
-    frame: 60
-    track_id: 10
-    position: (959, 418)
-    velocity: (-0.8, -2.2)
-    speed: 2.4 px/f
-    hits: 9
-[2026-04-29 12:33:07.132] [FRAME       ] Frame 60 processed
-    frame: 60
-    detections: 2
-    tracks: 4
-[2026-04-29 12:33:07.133] [THREAT      ] Track ID:2 - HIGH
-    frame: 60
-    track_id: 2
-    distance: 128.1 px
-    threat_level: HIGH
-    pattern: straight
-    speed: 3.5 px/f
-    uncertainty: ±15.5 px
-    evasion_point: (957, 332)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:07.190] [STATS       ] Performance stats
-    fps: 0.9
-    processing_time: 32631.3 ms
-[2026-04-29 12:33:08.318] [DETECTION   ] Drone detected
-    frame: 61
-    bbox: [np.int64(903), np.int64(389), np.int64(1013), np.int64(439)]
-    confidence: 0.73
-    class: 4
-[2026-04-29 12:33:11.952] [TRACK       ] Track ID:2
-    frame: 61
-    track_id: 2
-    position: (966, 607)
-    velocity: (-0.2, 3.2)
-    speed: 3.3 px/f
-    hits: 40
-[2026-04-29 12:33:11.953] [TRACK       ] Track ID:5
-    frame: 61
-    track_id: 5
-    position: (1810, 308)
-    velocity: (-9.8, 8.8)
-    speed: 13.1 px/f
-    hits: 31
-[2026-04-29 12:33:11.954] [TRACK       ] Track ID:7
-    frame: 61
-    track_id: 7
-    position: (2271, 295)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 18
-[2026-04-29 12:33:11.954] [TRACK       ] Track ID:10
-    frame: 61
-    track_id: 10
-    position: (957, 414)
-    velocity: (-1.0, -3.0)
-    speed: 3.2 px/f
-    hits: 10
-[2026-04-29 12:33:11.955] [FRAME       ] Frame 61 processed
-    frame: 61
-    detections: 1
-    tracks: 4
-[2026-04-29 12:33:11.956] [THREAT      ] Track ID:2 - HIGH
-    frame: 61
-    track_id: 2
-    distance: 134.1 px
-    threat_level: HIGH
-    pattern: straight
-    speed: 3.3 px/f
-    uncertainty: ±16.2 px
-    evasion_point: (958, 331)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:13.589] [DETECTION   ] Drone detected
-    frame: 62
-    bbox: [np.int64(890), np.int64(388), np.int64(1025), np.int64(436)]
-    confidence: 0.55
-    class: 4
-[2026-04-29 12:33:13.968] [TRACK       ] Track ID:2
-    frame: 62
-    track_id: 2
-    position: (966, 611)
-    velocity: (0.0, 3.5)
-    speed: 3.5 px/f
-    hits: 41
-[2026-04-29 12:33:13.969] [TRACK       ] Track ID:5
-    frame: 62
-    track_id: 5
-    position: (1810, 308)
-    velocity: (-10.2, 9.0)
-    speed: 13.6 px/f
-    hits: 32
-[2026-04-29 12:33:13.970] [TRACK       ] Track ID:7
-    frame: 62
-    track_id: 7
-    position: (2298, 294)
-    velocity: (27.2, -1.0)
-    speed: 27.3 px/f
-    hits: 19
-[2026-04-29 12:33:13.970] [TRACK       ] Track ID:10
-    frame: 62
-    track_id: 10
-    position: (957, 411)
-    velocity: (-0.5, -3.0)
-    speed: 3.0 px/f
-    hits: 11
-[2026-04-29 12:33:13.971] [FRAME       ] Frame 62 processed
-    frame: 62
-    detections: 1
-    tracks: 4
-[2026-04-29 12:33:13.972] [THREAT      ] Track ID:2 - HIGH
-    frame: 62
-    track_id: 2
-    distance: 142.4 px
-    threat_level: HIGH
-    pattern: straight
-    speed: 3.5 px/f
-    uncertainty: ±16.1 px
-    evasion_point: (951, 332)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:14.876] [DETECTION   ] Drone detected
-    frame: 63
-    bbox: [np.int64(892), np.int64(385), np.int64(1025), np.int64(436)]
-    confidence: 0.61
-    class: 4
-[2026-04-29 12:33:15.010] [TRACK       ] Track ID:2
-    frame: 63
-    track_id: 2
-    position: (966, 614)
-    velocity: (0.0, 3.5)
-    speed: 3.5 px/f
-    hits: 42
-[2026-04-29 12:33:15.010] [TRACK       ] Track ID:5
-    frame: 63
-    track_id: 5
-    position: (1810, 308)
-    velocity: (-10.5, 9.5)
-    speed: 14.2 px/f
-    hits: 33
-[2026-04-29 12:33:15.011] [TRACK       ] Track ID:7
-    frame: 63
-    track_id: 7
-    position: (2326, 293)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 20
-[2026-04-29 12:33:15.011] [TRACK       ] Track ID:10
-    frame: 63
-    track_id: 10
-    position: (957, 409)
-    velocity: (-0.5, -2.8)
-    speed: 2.8 px/f
-    hits: 12
-[2026-04-29 12:33:15.011] [FRAME       ] Frame 63 processed
-    frame: 63
-    detections: 1
-    tracks: 4
-[2026-04-29 12:33:15.012] [THREAT      ] Track ID:2 - HIGH
-    frame: 63
-    track_id: 2
-    distance: 148.4 px
-    threat_level: HIGH
-    pattern: straight
-    speed: 3.5 px/f
-    uncertainty: ±16.4 px
-    evasion_point: (951, 331)
-    commands: ⚠️ EVADE NOW!, EVADE UP
-[2026-04-29 12:33:15.791] [DETECTION   ] Drone detected
-    frame: 64
-    bbox: [np.int64(895), np.int64(384), np.int64(1020), np.int64(433)]
-    confidence: 0.70
-    class: 4
-[2026-04-29 12:33:15.929] [TRACK       ] Track ID:2
-    frame: 64
-    track_id: 2
-    position: (966, 618)
-    velocity: (0.0, 3.5)
-    speed: 3.5 px/f
-    hits: 43
-[2026-04-29 12:33:15.929] [TRACK       ] Track ID:5
-    frame: 64
-    track_id: 5
-    position: (1810, 308)
-    velocity: (-0.2, 0.0)
-    speed: 0.2 px/f
-    hits: 34
-[2026-04-29 12:33:15.930] [TRACK       ] Track ID:7
-    frame: 64
-    track_id: 7
-    position: (2354, 292)
-    velocity: (27.8, -1.0)
-    speed: 27.8 px/f
-    hits: 21
-[2026-04-29 12:33:15.930] [TRACK       ] Track ID:10
-    frame: 64
-    track_id: 10
-    position: (957, 408)
-    velocity: (-0.5, -2.5)
-    speed: 2.5 px/f
-    hits: 13
-[2026-04-29 12:33:15.931] [FRAME       ] Frame 64 processed
-    frame: 64
-    detections: 1
-    tracks: 4
-[2026-04-29 12:33:15.931] [THREAT      ] Track ID:2 - HIGH
-    frame: 64
-    track_id: 2
-    distance: 156.3 px
-    threat_level: HIGH
-    pattern: straight
-    speed: 3.5 px/f
-    uncertainty: ±16.7 px
-    evasion_point: (952, 331)
-    commands: EVADE UP
-[2026-04-29 12:33:16.976] [DETECTION   ] Drone detected
-    frame: 65
-    bbox: [np.int64(903), np.int64(383), np.int64(1017), np.int64(433)]
-    confidence: 0.71
-    class: 4
-[2026-04-29 12:33:17.175] [TRACK       ] Track ID:2
-    frame: 65
-    track_id: 2
-    position: (966, 621)
-    velocity: (0.0, 3.5)
-    speed: 3.5 px/f
-    hits: 44
-[2026-04-29 12:33:17.176] [TRACK       ] Track ID:5
-    frame: 65
-    track_id: 5
-    position: (1810, 307)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 35
-[2026-04-29 12:33:17.176] [TRACK       ] Track ID:7
-    frame: 65
-    track_id: 7
-    position: (2381, 291)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 22
-[2026-04-29 12:33:17.177] [TRACK       ] Track ID:10
-    frame: 65
-    track_id: 10
-    position: (958, 406)
-    velocity: (0.2, -2.0)
-    speed: 2.0 px/f
-    hits: 14
-[2026-04-29 12:33:17.177] [FRAME       ] Frame 65 processed
-    frame: 65
-    detections: 1
-    tracks: 4
-[2026-04-29 12:33:17.178] [THREAT      ] Track ID:2 - HIGH
-    frame: 65
-    track_id: 2
-    distance: 162.3 px
-    threat_level: HIGH
-    pattern: straight
-    speed: 3.5 px/f
-    uncertainty: ±17.0 px
-    evasion_point: (952, 331)
-    commands: EVADE UP
-[2026-04-29 12:33:18.121] [DETECTION   ] Drone detected
-    frame: 66
-    bbox: [np.int64(904), np.int64(377), np.int64(1038), np.int64(431)]
-    confidence: 0.77
-    class: 4
-[2026-04-29 12:33:18.259] [TRACK       ] Track ID:5
-    frame: 66
-    track_id: 5
-    position: (1810, 307)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 36
-[2026-04-29 12:33:18.259] [TRACK       ] Track ID:7
-    frame: 66
-    track_id: 7
-    position: (2408, 291)
-    velocity: (27.5, -0.8)
-    speed: 27.5 px/f
-    hits: 23
-[2026-04-29 12:33:18.260] [TRACK       ] Track ID:10
-    frame: 66
-    track_id: 10
-    position: (966, 403)
-    velocity: (2.2, -2.0)
-    speed: 3.0 px/f
-    hits: 15
-[2026-04-29 12:33:18.261] [FRAME       ] Frame 66 processed
-    frame: 66
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:18.262] [THREAT      ] Track ID:10 - HIGH
-    frame: 66
-    track_id: 10
-    distance: 252.6 px
-    threat_level: HIGH
-    pattern: unknown
-    speed: 3.0 px/f
-    uncertainty: ±55.6 px
-    evasion_point: (862, 745)
-    commands: EVADE LEFT, EVADE DOWN
-[2026-04-29 12:33:19.063] [DETECTION   ] Drone detected
-    frame: 67
-    bbox: [np.int64(885), np.int64(376), np.int64(1017), np.int64(430)]
-    confidence: 0.79
-    class: 4
-[2026-04-29 12:33:19.236] [TRACK       ] Track ID:5
-    frame: 67
-    track_id: 5
-    position: (1810, 307)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 37
-[2026-04-29 12:33:19.237] [TRACK       ] Track ID:7
-    frame: 67
-    track_id: 7
-    position: (2436, 290)
-    velocity: (27.5, -0.8)
-    speed: 27.5 px/f
-    hits: 24
-[2026-04-29 12:33:19.237] [TRACK       ] Track ID:10
-    frame: 67
-    track_id: 10
-    position: (956, 402)
-    velocity: (-0.2, -1.8)
-    speed: 1.8 px/f
-    hits: 16
-[2026-04-29 12:33:19.239] [FRAME       ] Frame 67 processed
-    frame: 67
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:19.240] [THREAT      ] Track ID:10 - HIGH
-    frame: 67
-    track_id: 10
-    distance: 275.7 px
-    threat_level: HIGH
-    pattern: unknown
-    speed: 1.8 px/f
-    uncertainty: ±88.1 px
-    evasion_point: (980, 783)
-    commands: EVADE DOWN
-[2026-04-29 12:33:19.990] [DETECTION   ] Drone detected
-    frame: 68
-    bbox: [np.int64(877), np.int64(373), np.int64(1035), np.int64(427)]
-    confidence: 0.78
-    class: 4
-[2026-04-29 12:33:20.163] [TRACK       ] Track ID:5
-    frame: 68
-    track_id: 5
-    position: (1810, 307)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 38
-[2026-04-29 12:33:20.164] [TRACK       ] Track ID:7
-    frame: 68
-    track_id: 7
-    position: (2463, 288)
-    velocity: (27.2, -1.0)
-    speed: 27.3 px/f
-    hits: 25
-[2026-04-29 12:33:20.164] [TRACK       ] Track ID:10
-    frame: 68
-    track_id: 10
-    position: (955, 399)
-    velocity: (-0.5, -2.2)
-    speed: 2.3 px/f
-    hits: 17
-[2026-04-29 12:33:20.165] [FRAME       ] Frame 68 processed
-    frame: 68
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:20.168] [THREAT      ] Track ID:10 - MEDIUM
-    frame: 68
-    track_id: 10
-    distance: 281.0 px
-    threat_level: MEDIUM
-    pattern: unknown
-    speed: 2.3 px/f
-    uncertainty: ±71.2 px
-    evasion_point: (989, 773)
-    commands: EVADE DOWN
-[2026-04-29 12:33:20.873] [DETECTION   ] Drone detected
-    frame: 69
-    bbox: [np.int64(884), np.int64(372), np.int64(1040), np.int64(429)]
-    confidence: 0.66
-    class: 4
-[2026-04-29 12:33:21.011] [TRACK       ] Track ID:5
-    frame: 69
-    track_id: 5
-    position: (1810, 307)
-    velocity: (0.0, 0.0)
-    speed: 0.0 px/f
-    hits: 39
-[2026-04-29 12:33:21.012] [TRACK       ] Track ID:7
-    frame: 69
-    track_id: 7
-    position: (2491, 288)
-    velocity: (27.5, -0.8)
-    speed: 27.5 px/f
-    hits: 26
-[2026-04-29 12:33:21.012] [TRACK       ] Track ID:10
-    frame: 69
-    track_id: 10
-    position: (959, 399)
-    velocity: (0.2, -1.8)
-    speed: 1.8 px/f
-    hits: 18
-[2026-04-29 12:33:21.012] [FRAME       ] Frame 69 processed
-    frame: 69
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:21.013] [THREAT      ] Track ID:10 - HIGH
-    frame: 69
-    track_id: 10
-    distance: 281.2 px
-    threat_level: HIGH
-    pattern: unknown
-    speed: 1.8 px/f
-    uncertainty: ±89.8 px
-    evasion_point: (943, 784)
-    commands: EVADE DOWN
-[2026-04-29 12:33:21.777] [DETECTION   ] Drone detected
-    frame: 70
-    bbox: [np.int64(880), np.int64(373), np.int64(1036), np.int64(425)]
-    confidence: 0.70
-    class: 4
-[2026-04-29 12:33:21.939] [TRACK       ] Track ID:5
-    frame: 70
-    track_id: 5
-    position: (1810, 306)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 40
-[2026-04-29 12:33:21.939] [TRACK       ] Track ID:7
-    frame: 70
-    track_id: 7
-    position: (2518, 287)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 27
-[2026-04-29 12:33:21.940] [TRACK       ] Track ID:10
-    frame: 70
-    track_id: 10
-    position: (958, 398)
-    velocity: (-2.0, -1.2)
-    speed: 2.4 px/f
-    hits: 19
-[2026-04-29 12:33:21.940] [FRAME       ] Frame 70 processed
-    frame: 70
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:21.941] [THREAT      ] Track ID:10 - HIGH
-    frame: 70
-    track_id: 10
-    distance: 249.4 px
-    threat_level: HIGH
-    pattern: unknown
-    speed: 2.4 px/f
-    uncertainty: ±70.2 px
-    evasion_point: (1075, 744)
-    commands: EVADE RIGHT, EVADE DOWN
-[2026-04-29 12:33:22.679] [DETECTION   ] Drone detected
-    frame: 71
-    bbox: [np.int64(865), np.int64(373), np.int64(1038), np.int64(412)]
-    confidence: 0.67
-    class: 4
-[2026-04-29 12:33:22.866] [TRACK       ] Track ID:5
-    frame: 71
-    track_id: 5
-    position: (1810, 306)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 41
-[2026-04-29 12:33:22.866] [TRACK       ] Track ID:7
-    frame: 71
-    track_id: 7
-    position: (2546, 286)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 28
-[2026-04-29 12:33:22.867] [TRACK       ] Track ID:10
-    frame: 71
-    track_id: 10
-    position: (953, 393)
-    velocity: (-0.8, -2.2)
-    speed: 2.4 px/f
-    hits: 20
-[2026-04-29 12:33:22.868] [FRAME       ] Frame 71 processed
-    frame: 71
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:22.868] [THREAT      ] Track ID:10 - MEDIUM
-    frame: 71
-    track_id: 10
-    distance: 291.6 px
-    threat_level: MEDIUM
-    pattern: unknown
-    speed: 2.4 px/f
-    uncertainty: ±72.1 px
-    evasion_point: (1003, 772)
-    commands: EVADE DOWN
-[2026-04-29 12:33:26.615] [DETECTION   ] Drone detected
-    frame: 72
-    bbox: [np.int64(864), np.int64(373), np.int64(1039), np.int64(412)]
-    confidence: 0.53
-    class: 4
-[2026-04-29 12:33:26.800] [TRACK       ] Track ID:5
-    frame: 72
-    track_id: 5
-    position: (1810, 306)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 42
-[2026-04-29 12:33:26.800] [TRACK       ] Track ID:7
-    frame: 72
-    track_id: 7
-    position: (2573, 285)
-    velocity: (27.5, -0.8)
-    speed: 27.5 px/f
-    hits: 29
-[2026-04-29 12:33:26.801] [TRACK       ] Track ID:10
-    frame: 72
-    track_id: 10
-    position: (951, 391)
-    velocity: (-1.0, -2.0)
-    speed: 2.2 px/f
-    hits: 21
-[2026-04-29 12:33:26.801] [FRAME       ] Frame 72 processed
-    frame: 72
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:26.802] [THREAT      ] Track ID:10 - MEDIUM
-    frame: 72
-    track_id: 10
-    distance: 292.5 px
-    threat_level: MEDIUM
-    pattern: unknown
-    speed: 2.2 px/f
-    uncertainty: ±76.8 px
-    evasion_point: (1021, 770)
-    commands: EVADE RIGHT, EVADE DOWN
-[2026-04-29 12:33:27.887] [DETECTION   ] Drone detected
-    frame: 73
-    bbox: [np.int64(885), np.int64(374), np.int64(1041), np.int64(408)]
-    confidence: 0.50
-    class: 4
-[2026-04-29 12:33:28.055] [TRACK       ] Track ID:5
-    frame: 73
-    track_id: 5
-    position: (1810, 306)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 43
-[2026-04-29 12:33:28.055] [TRACK       ] Track ID:7
-    frame: 73
-    track_id: 7
-    position: (2601, 284)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 30
-[2026-04-29 12:33:28.056] [TRACK       ] Track ID:10
-    frame: 73
-    track_id: 10
-    position: (959, 390)
-    velocity: (0.0, -2.2)
-    speed: 2.2 px/f
-    hits: 22
-[2026-04-29 12:33:28.056] [FRAME       ] Frame 73 processed
-    frame: 73
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:28.057] [THREAT      ] Track ID:10 - MEDIUM
-    frame: 73
-    track_id: 10
-    distance: 300.0 px
-    threat_level: MEDIUM
-    pattern: unknown
-    speed: 2.2 px/f
-    uncertainty: ±76.7 px
-    evasion_point: (960, 778)
-    commands: EVADE DOWN
-[2026-04-29 12:33:28.951] [DETECTION   ] Drone detected
-    frame: 74
-    bbox: [np.int64(871), np.int64(373), np.int64(1049), np.int64(413)]
-    confidence: 0.60
-    class: 4
-[2026-04-29 12:33:29.172] [TRACK       ] Track ID:5
-    frame: 74
-    track_id: 5
-    position: (1810, 306)
-    velocity: (0.0, 0.0)
-    speed: 0.0 px/f
-    hits: 44
-[2026-04-29 12:33:29.173] [TRACK       ] Track ID:7
-    frame: 74
-    track_id: 7
-    position: (2628, 283)
-    velocity: (27.5, -1.0)
-    speed: 27.5 px/f
-    hits: 31
-[2026-04-29 12:33:29.173] [TRACK       ] Track ID:10
-    frame: 74
-    track_id: 10
-    position: (959, 391)
-    velocity: (0.2, -1.8)
-    speed: 1.8 px/f
-    hits: 23
-[2026-04-29 12:33:29.173] [FRAME       ] Frame 74 processed
-    frame: 74
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:29.174] [THREAT      ] Track ID:10 - MEDIUM
-    frame: 74
-    track_id: 10
-    distance: 297.2 px
-    threat_level: MEDIUM
-    pattern: unknown
-    speed: 1.8 px/f
-    uncertainty: ±94.3 px
-    evasion_point: (943, 786)
-    commands: EVADE DOWN
-[2026-04-29 12:33:30.084] [DETECTION   ] Drone detected
-    frame: 75
-    bbox: [np.int64(863), np.int64(372), np.int64(1032), np.int64(412)]
-    confidence: 0.57
-    class: 4
-[2026-04-29 12:33:30.284] [TRACK       ] Track ID:5
-    frame: 75
-    track_id: 5
-    position: (1810, 306)
-    velocity: (0.0, 0.0)
-    speed: 0.0 px/f
-    hits: 45
-[2026-04-29 12:33:30.285] [TRACK       ] Track ID:10
-    frame: 75
-    track_id: 10
-    position: (951, 391)
-    velocity: (-0.5, -0.5)
-    speed: 0.7 px/f
-    hits: 24
-[2026-04-29 12:33:30.285] [FRAME       ] Frame 75 processed
-    frame: 75
-    detections: 1
-    tracks: 2
-[2026-04-29 12:33:30.287] [THREAT      ] Track ID:10 - HIGH
-    frame: 75
-    track_id: 10
-    distance: 203.8 px
-    threat_level: HIGH
-    pattern: zigzag
-    speed: 0.7 px/f
-    uncertainty: ±90.0 px
-    evasion_point: (1012, 779)
-    commands: EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:31.204] [DETECTION   ] Drone detected
-    frame: 76
-    bbox: [np.int64(864), np.int64(370), np.int64(1053), np.int64(440)]
-    confidence: 0.60
-    class: 4
-[2026-04-29 12:33:31.359] [TRACK       ] Track ID:5
-    frame: 76
-    track_id: 5
-    position: (1810, 305)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 46
-[2026-04-29 12:33:31.359] [TRACK       ] Track ID:10
-    frame: 76
-    track_id: 10
-    position: (955, 399)
-    velocity: (1.0, 2.0)
-    speed: 2.2 px/f
-    hits: 25
-[2026-04-29 12:33:31.360] [FRAME       ] Frame 76 processed
-    frame: 76
-    detections: 1
-    tracks: 2
-[2026-04-29 12:33:31.361] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 76
-    track_id: 10
-    distance: 41.9 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 2.2 px/f
-    uncertainty: ±60.5 px
-    evasion_point: (744, 621)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:32.214] [DETECTION   ] Drone detected
-    frame: 77
-    bbox: [np.int64(872), np.int64(367), np.int64(1034), np.int64(435)]
-    confidence: 0.54
-    class: 4
-[2026-04-29 12:33:32.359] [TRACK       ] Track ID:5
-    frame: 77
-    track_id: 5
-    position: (1810, 305)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 47
-[2026-04-29 12:33:32.360] [TRACK       ] Track ID:10
-    frame: 77
-    track_id: 10
-    position: (953, 400)
-    velocity: (-1.5, 2.5)
-    speed: 2.9 px/f
-    hits: 26
-[2026-04-29 12:33:32.360] [FRAME       ] Frame 77 processed
-    frame: 77
-    detections: 1
-    tracks: 2
-[2026-04-29 12:33:32.362] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 77
-    track_id: 10
-    distance: 60.8 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 2.9 px/f
-    uncertainty: ±48.5 px
-    evasion_point: (1172, 613)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:33.527] [DETECTION   ] Drone detected
-    frame: 78
-    bbox: [np.int64(873), np.int64(365), np.int64(1029), np.int64(436)]
-    confidence: 0.59
-    class: 4
-[2026-04-29 12:33:33.529] [DETECTION   ] Drone detected
-    frame: 78
-    bbox: [np.int64(876), np.int64(366), np.int64(1029), np.int64(426)]
-    confidence: 0.32
-    class: 14
-[2026-04-29 12:33:33.810] [TRACK       ] Track ID:5
-    frame: 78
-    track_id: 5
-    position: (1810, 305)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 48
-[2026-04-29 12:33:33.811] [TRACK       ] Track ID:10
-    frame: 78
-    track_id: 10
-    position: (951, 400)
-    velocity: (-2.0, 2.2)
-    speed: 3.0 px/f
-    hits: 27
-[2026-04-29 12:33:33.811] [FRAME       ] Frame 78 processed
-    frame: 78
-    detections: 2
-    tracks: 2
-[2026-04-29 12:33:33.812] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 78
-    track_id: 10
-    distance: 82.1 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 3.0 px/f
-    uncertainty: ±47.3 px
-    evasion_point: (1162, 635)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:34.565] [DETECTION   ] Drone detected
-    frame: 79
-    bbox: [np.int64(867), np.int64(363), np.int64(1031), np.int64(436)]
-    confidence: 0.61
-    class: 14
-[2026-04-29 12:33:34.724] [TRACK       ] Track ID:5
-    frame: 79
-    track_id: 5
-    position: (1810, 305)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 49
-[2026-04-29 12:33:34.725] [TRACK       ] Track ID:10
-    frame: 79
-    track_id: 10
-    position: (951, 400)
-    velocity: (0.0, 2.2)
-    speed: 2.2 px/f
-    hits: 28
-[2026-04-29 12:33:34.725] [FRAME       ] Frame 79 processed
-    frame: 79
-    detections: 1
-    tracks: 2
-[2026-04-29 12:33:34.726] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 79
-    track_id: 10
-    distance: 9.0 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 2.2 px/f
-    uncertainty: ±59.9 px
-    evasion_point: (1189, 532)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVASIVE ZIGZAG
-[2026-04-29 12:33:35.499] [DETECTION   ] Drone detected
-    frame: 80
-    bbox: [np.int64(862), np.int64(358), np.int64(1035), np.int64(436)]
-    confidence: 0.67
-    class: 14
-[2026-04-29 12:33:35.692] [TRACK       ] Track ID:5
-    frame: 80
-    track_id: 5
-    position: (1810, 305)
-    velocity: (0.0, 0.0)
-    speed: 0.0 px/f
-    hits: 50
-[2026-04-29 12:33:35.692] [TRACK       ] Track ID:10
-    frame: 80
-    track_id: 10
-    position: (951, 400)
-    velocity: (-1.0, 0.2)
-    speed: 1.0 px/f
-    hits: 29
-[2026-04-29 12:33:35.693] [FRAME       ] Frame 80 processed
-    frame: 80
-    detections: 1
-    tracks: 2
-[2026-04-29 12:33:35.694] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 80
-    track_id: 10
-    distance: 139.5 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 1.0 px/f
-    uncertainty: ±90.0 px
-    evasion_point: (1098, 741)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:36.449] [DETECTION   ] Drone detected
-    frame: 81
-    bbox: [np.int64(859), np.int64(357), np.int64(1050), np.int64(437)]
-    confidence: 0.71
-    class: 4
-[2026-04-29 12:33:36.450] [DETECTION   ] Drone detected
-    frame: 81
-    bbox: [np.int64(870), np.int64(358), np.int64(1039), np.int64(437)]
-    confidence: 0.23
-    class: 14
-[2026-04-29 12:33:36.682] [TRACK       ] Track ID:5
-    frame: 81
-    track_id: 5
-    position: (1810, 305)
-    velocity: (0.0, 0.0)
-    speed: 0.0 px/f
-    hits: 51
-[2026-04-29 12:33:36.683] [TRACK       ] Track ID:10
-    frame: 81
-    track_id: 10
-    position: (950, 400)
-    velocity: (-0.8, 0.0)
-    speed: 0.8 px/f
-    hits: 30
-[2026-04-29 12:33:36.683] [FRAME       ] Frame 81 processed
-    frame: 81
-    detections: 2
-    tracks: 2
-[2026-04-29 12:33:36.684] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 81
-    track_id: 10
-    distance: 153.3 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 0.8 px/f
-    uncertainty: ±90.0 px
-    evasion_point: (1059, 763)
-    commands: EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:37.479] [DETECTION   ] Drone detected
-    frame: 82
-    bbox: [np.int64(859), np.int64(355), np.int64(1056), np.int64(438)]
-    confidence: 0.58
-    class: 14
-[2026-04-29 12:33:37.479] [DETECTION   ] Drone detected
-    frame: 82
-    bbox: [np.int64(857), np.int64(354), np.int64(1052), np.int64(436)]
-    confidence: 0.40
-    class: 4
-[2026-04-29 12:33:37.728] [TRACK       ] Track ID:5
-    frame: 82
-    track_id: 5
-    position: (1810, 305)
-    velocity: (0.0, 0.0)
-    speed: 0.0 px/f
-    hits: 52
-[2026-04-29 12:33:37.728] [TRACK       ] Track ID:10
-    frame: 82
-    track_id: 10
-    position: (950, 400)
-    velocity: (-0.2, 0.0)
-    speed: 0.2 px/f
-    hits: 31
-[2026-04-29 12:33:37.729] [FRAME       ] Frame 82 processed
-    frame: 82
-    detections: 2
-    tracks: 2
-[2026-04-29 12:33:37.730] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 82
-    track_id: 10
-    distance: 142.7 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 0.2 px/f
-    uncertainty: ±90.0 px
-    evasion_point: (1007, 780)
-    commands: ⚠️ EVADE NOW!, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:41.830] [DETECTION   ] Drone detected
-    frame: 83
-    bbox: [np.int64(851), np.int64(352), np.int64(1060), np.int64(437)]
-    confidence: 0.77
-    class: 4
-[2026-04-29 12:33:42.312] [TRACK       ] Track ID:5
-    frame: 83
-    track_id: 5
-    position: (1810, 305)
-    velocity: (0.0, 0.0)
-    speed: 0.0 px/f
-    hits: 53
-[2026-04-29 12:33:42.312] [TRACK       ] Track ID:10
-    frame: 83
-    track_id: 10
-    position: (949, 400)
-    velocity: (-0.5, 0.0)
     speed: 0.5 px/f
-    hits: 32
-[2026-04-29 12:33:42.313] [TRACK       ] Track ID:12
-    frame: 83
-    track_id: 12
-    position: (954, 394)
-    velocity: (2.0, -1.0)
-    speed: 2.2 px/f
-    hits: 4
-[2026-04-29 12:33:42.313] [FRAME       ] Frame 83 processed
-    frame: 83
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:42.315] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 83
-    track_id: 10
-    distance: 147.4 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 0.5 px/f
-    uncertainty: ±90.0 px
-    evasion_point: (1036, 772)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:43.221] [DETECTION   ] Drone detected
-    frame: 84
-    bbox: [np.int64(853), np.int64(349), np.int64(1067), np.int64(437)]
-    confidence: 0.82
-    class: 4
-[2026-04-29 12:33:43.351] [TRACK       ] Track ID:5
-    frame: 84
-    track_id: 5
-    position: (1810, 305)
-    velocity: (0.0, 0.0)
-    speed: 0.0 px/f
-    hits: 54
-[2026-04-29 12:33:43.352] [TRACK       ] Track ID:10
-    frame: 84
-    track_id: 10
-    position: (949, 400)
-    velocity: (-0.5, 0.0)
-    speed: 0.5 px/f
-    hits: 33
-[2026-04-29 12:33:43.353] [TRACK       ] Track ID:12
-    frame: 84
-    track_id: 12
-    position: (958, 393)
-    velocity: (2.5, -1.0)
-    speed: 2.7 px/f
-    hits: 5
-[2026-04-29 12:33:43.353] [FRAME       ] Frame 84 processed
-    frame: 84
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:43.354] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 84
-    track_id: 10
-    distance: 147.4 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 0.5 px/f
-    uncertainty: ±90.0 px
-    evasion_point: (1036, 772)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:44.175] [DETECTION   ] Drone detected
-    frame: 85
-    bbox: [np.int64(856), np.int64(349), np.int64(1065), np.int64(438)]
-    confidence: 0.63
-    class: 4
-[2026-04-29 12:33:44.176] [DETECTION   ] Drone detected
-    frame: 85
-    bbox: [np.int64(865), np.int64(351), np.int64(1052), np.int64(437)]
-    confidence: 0.42
-    class: 14
-[2026-04-29 12:33:44.414] [TRACK       ] Track ID:5
-    frame: 85
-    track_id: 5
-    position: (1810, 304)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 55
-[2026-04-29 12:33:44.415] [TRACK       ] Track ID:10
-    frame: 85
-    track_id: 10
-    position: (948, 400)
-    velocity: (-0.5, 0.0)
-    speed: 0.5 px/f
-    hits: 34
-[2026-04-29 12:33:44.416] [TRACK       ] Track ID:12
-    frame: 85
-    track_id: 12
-    position: (959, 393)
-    velocity: (1.8, -1.0)
-    speed: 2.0 px/f
-    hits: 6
-[2026-04-29 12:33:44.416] [FRAME       ] Frame 85 processed
-    frame: 85
-    detections: 2
-    tracks: 3
-[2026-04-29 12:33:44.417] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 85
-    track_id: 10
-    distance: 147.7 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 0.5 px/f
-    uncertainty: ±90.0 px
-    evasion_point: (1037, 772)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:45.172] [DETECTION   ] Drone detected
-    frame: 86
-    bbox: [np.int64(843), np.int64(348), np.int64(1071), np.int64(440)]
-    confidence: 0.76
-    class: 4
-[2026-04-29 12:33:45.172] [DETECTION   ] Drone detected
-    frame: 86
-    bbox: [np.int64(862), np.int64(351), np.int64(1069), np.int64(440)]
-    confidence: 0.19
-    class: 14
-[2026-04-29 12:33:45.446] [TRACK       ] Track ID:5
-    frame: 86
-    track_id: 5
-    position: (1810, 304)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 56
-[2026-04-29 12:33:45.447] [TRACK       ] Track ID:10
-    frame: 86
-    track_id: 10
-    position: (948, 400)
-    velocity: (-0.5, 0.0)
-    speed: 0.5 px/f
-    hits: 35
-[2026-04-29 12:33:45.453] [TRACK       ] Track ID:12
-    frame: 86
-    track_id: 12
-    position: (958, 393)
-    velocity: (1.2, -0.5)
-    speed: 1.3 px/f
-    hits: 7
-[2026-04-29 12:33:45.453] [FRAME       ] Frame 86 processed
-    frame: 86
-    detections: 2
-    tracks: 3
-[2026-04-29 12:33:45.454] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 86
-    track_id: 10
-    distance: 147.7 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 0.5 px/f
-    uncertainty: ±90.0 px
-    evasion_point: (1037, 772)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:46.263] [DETECTION   ] Drone detected
-    frame: 87
-    bbox: [np.int64(841), np.int64(349), np.int64(1071), np.int64(444)]
-    confidence: 0.78
-    class: 4
-[2026-04-29 12:33:46.402] [TRACK       ] Track ID:5
-    frame: 87
-    track_id: 5
-    position: (1810, 304)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 57
-[2026-04-29 12:33:46.402] [TRACK       ] Track ID:10
-    frame: 87
-    track_id: 10
-    position: (947, 400)
-    velocity: (-0.5, 0.0)
-    speed: 0.5 px/f
-    hits: 36
-[2026-04-29 12:33:46.402] [TRACK       ] Track ID:12
-    frame: 87
-    track_id: 12
-    position: (956, 394)
-    velocity: (0.5, 0.0)
-    speed: 0.5 px/f
-    hits: 8
-[2026-04-29 12:33:46.403] [FRAME       ] Frame 87 processed
-    frame: 87
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:46.404] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 87
-    track_id: 10
-    distance: 148.0 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 0.5 px/f
-    uncertainty: ±90.0 px
-    evasion_point: (1039, 771)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:47.176] [DETECTION   ] Drone detected
-    frame: 88
-    bbox: [np.int64(839), np.int64(349), np.int64(1087), np.int64(446)]
-    confidence: 0.73
-    class: 4
-[2026-04-29 12:33:47.355] [TRACK       ] Track ID:5
-    frame: 88
-    track_id: 5
-    position: (1810, 304)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 58
-[2026-04-29 12:33:47.356] [TRACK       ] Track ID:10
-    frame: 88
-    track_id: 10
-    position: (947, 400)
-    velocity: (-0.5, 0.0)
-    speed: 0.5 px/f
-    hits: 37
-[2026-04-29 12:33:47.357] [TRACK       ] Track ID:12
-    frame: 88
-    track_id: 12
-    position: (960, 396)
-    velocity: (0.5, 0.8)
-    speed: 0.9 px/f
-    hits: 9
-[2026-04-29 12:33:47.358] [FRAME       ] Frame 88 processed
-    frame: 88
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:47.360] [THREAT      ] Track ID:10 - CRITICAL
-    frame: 88
-    track_id: 10
-    distance: 148.0 px
-    threat_level: CRITICAL
-    pattern: zigzag
-    speed: 0.5 px/f
-    uncertainty: ±90.0 px
-    evasion_point: (1039, 771)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, EVASIVE ZIGZAG
-[2026-04-29 12:33:48.245] [DETECTION   ] Drone detected
-    frame: 89
-    bbox: [np.int64(834), np.int64(352), np.int64(1086), np.int64(452)]
-    confidence: 0.65
-    class: 4
-[2026-04-29 12:33:48.245] [DETECTION   ] Drone detected
-    frame: 89
-    bbox: [np.int64(852), np.int64(354), np.int64(1065), np.int64(453)]
-    confidence: 0.22
-    class: 14
-[2026-04-29 12:33:48.501] [TRACK       ] Track ID:5
-    frame: 89
-    track_id: 5
-    position: (1810, 304)
-    velocity: (0.0, 0.0)
-    speed: 0.0 px/f
-    hits: 59
-[2026-04-29 12:33:48.502] [TRACK       ] Track ID:10
-    frame: 89
-    track_id: 10
-    position: (947, 400)
-    velocity: (-0.2, 0.0)
-    speed: 0.2 px/f
-    hits: 38
-[2026-04-29 12:33:48.502] [TRACK       ] Track ID:12
-    frame: 89
-    track_id: 12
-    position: (960, 400)
-    velocity: (0.2, 1.8)
-    speed: 1.8 px/f
-    hits: 10
-[2026-04-29 12:33:48.503] [FRAME       ] Frame 89 processed
-    frame: 89
-    detections: 2
-    tracks: 3
-[2026-04-29 12:33:48.503] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 89
-    track_id: 12
-    distance: 19.8 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 1.8 px/f
-    uncertainty: ±89.2 px
-    evasion_point: (716, 557)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT
-[2026-04-29 12:33:49.280] [DETECTION   ] Drone detected
-    frame: 90
-    bbox: [np.int64(838), np.int64(356), np.int64(1076), np.int64(456)]
-    confidence: 0.63
-    class: 14
-[2026-04-29 12:33:49.445] [TRACK       ] Track ID:5
-    frame: 90
-    track_id: 5
-    position: (1810, 303)
-    velocity: (0.0, -0.2)
-    speed: 0.2 px/f
-    hits: 60
-[2026-04-29 12:33:49.446] [TRACK       ] Track ID:10
-    frame: 90
-    track_id: 10
-    position: (947, 400)
-    velocity: (-0.2, 0.0)
-    speed: 0.2 px/f
-    hits: 39
-[2026-04-29 12:33:49.446] [TRACK       ] Track ID:12
-    frame: 90
-    track_id: 12
-    position: (958, 403)
-    velocity: (0.0, 2.5)
-    speed: 2.5 px/f
-    hits: 11
-[2026-04-29 12:33:49.447] [FRAME       ] Frame 90 processed
-    frame: 90
-    detections: 1
-    tracks: 3
-[2026-04-29 12:33:49.448] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 90
-    track_id: 12
-    distance: 2.0 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 2.5 px/f
-    uncertainty: ±64.8 px
-    evasion_point: (1192, 538)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT
-[2026-04-29 12:33:49.554] [STATS       ] Performance stats
-    fps: 0.7
-    processing_time: 42363.2 ms
-[2026-04-29 12:33:50.237] [DETECTION   ] Drone detected
-    frame: 91
-    bbox: [np.int64(827), np.int64(355), np.int64(1091), np.int64(458)]
-    confidence: 0.59
-    class: 4
-[2026-04-29 12:33:50.238] [DETECTION   ] Drone detected
-    frame: 91
-    bbox: [np.int64(828), np.int64(356), np.int64(1093), np.int64(458)]
-    confidence: 0.40
-    class: 14
-[2026-04-29 12:33:50.492] [TRACK       ] Track ID:10
-    frame: 91
-    track_id: 10
-    position: (946, 400)
-    velocity: (-0.2, 0.0)
-    speed: 0.2 px/f
-    hits: 40
-[2026-04-29 12:33:50.493] [TRACK       ] Track ID:12
-    frame: 91
-    track_id: 12
-    position: (959, 405)
-    velocity: (0.8, 2.8)
-    speed: 2.9 px/f
-    hits: 12
-[2026-04-29 12:33:50.493] [FRAME       ] Frame 91 processed
-    frame: 91
-    detections: 2
-    tracks: 2
-[2026-04-29 12:33:50.494] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 91
-    track_id: 12
-    distance: 34.8 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 2.9 px/f
-    uncertainty: ±57.4 px
-    evasion_point: (733, 571)
-    commands: ⚠️ EVADE NOW!, EVADE LEFT
-[2026-04-29 12:33:51.378] [DETECTION   ] Drone detected
-    frame: 92
-    bbox: [np.int64(818), np.int64(358), np.int64(1097), np.int64(462)]
-    confidence: 0.68
-    class: 14
-[2026-04-29 12:33:51.608] [TRACK       ] Track ID:10
-    frame: 92
-    track_id: 10
-    position: (946, 400)
-    velocity: (-0.2, 0.0)
-    speed: 0.2 px/f
-    hits: 41
-[2026-04-29 12:33:51.611] [TRACK       ] Track ID:12
-    frame: 92
-    track_id: 12
-    position: (958, 408)
-    velocity: (-0.5, 3.0)
-    speed: 3.0 px/f
-    hits: 13
-[2026-04-29 12:33:51.611] [FRAME       ] Frame 92 processed
-    frame: 92
-    detections: 1
-    tracks: 2
-[2026-04-29 12:33:51.612] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 92
-    track_id: 12
-    distance: 23.8 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 3.0 px/f
-    uncertainty: ±53.4 px
-    evasion_point: (1186, 556)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT
-[2026-04-29 12:33:52.425] [DETECTION   ] Drone detected
-    frame: 93
-    bbox: [np.int64(815), np.int64(356), np.int64(1102), np.int64(464)]
-    confidence: 0.79
-    class: 4
-[2026-04-29 12:33:52.619] [TRACK       ] Track ID:10
-    frame: 93
-    track_id: 10
-    position: (945, 400)
-    velocity: (-0.5, 0.0)
-    speed: 0.5 px/f
-    hits: 42
-[2026-04-29 12:33:52.619] [TRACK       ] Track ID:12
-    frame: 93
-    track_id: 12
-    position: (958, 409)
-    velocity: (-0.5, 2.2)
-    speed: 2.3 px/f
-    hits: 14
-[2026-04-29 12:33:52.620] [FRAME       ] Frame 93 processed
-    frame: 93
-    detections: 1
-    tracks: 2
-[2026-04-29 12:33:52.620] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 93
-    track_id: 12
-    distance: 30.6 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 2.3 px/f
-    uncertainty: ±66.8 px
-    evasion_point: (1192, 563)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT
-[2026-04-29 12:33:53.772] [DETECTION   ] Drone detected
-    frame: 94
-    bbox: [np.int64(807), np.int64(357), np.int64(1107), np.int64(468)]
-    confidence: 0.65
-    class: 4
-[2026-04-29 12:33:55.902] [TRACK       ] Track ID:10
-    frame: 94
-    track_id: 10
-    position: (945, 400)
-    velocity: (-0.5, 0.0)
-    speed: 0.5 px/f
-    hits: 43
-[2026-04-29 12:33:55.903] [TRACK       ] Track ID:12
-    frame: 94
-    track_id: 12
-    position: (957, 411)
-    velocity: (-0.2, 2.0)
-    speed: 2.0 px/f
-    hits: 15
-[2026-04-29 12:33:55.904] [FRAME       ] Frame 94 processed
-    frame: 94
-    detections: 1
-    tracks: 2
-[2026-04-29 12:33:55.905] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 94
-    track_id: 12
-    distance: 19.0 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 2.0 px/f
-    uncertainty: ±74.0 px
-    evasion_point: (1196, 551)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT
-[2026-04-29 12:33:57.371] [DETECTION   ] Drone detected
-    frame: 95
-    bbox: [np.int64(804), np.int64(356), np.int64(1109), np.int64(468)]
-    confidence: 0.74
-    class: 4
-[2026-04-29 12:33:57.713] [TRACK       ] Track ID:10
-    frame: 95
-    track_id: 10
-    position: (945, 400)
-    velocity: (-0.2, 0.0)
-    speed: 0.2 px/f
-    hits: 44
-[2026-04-29 12:33:57.713] [TRACK       ] Track ID:12
-    frame: 95
-    track_id: 12
-    position: (957, 412)
-    velocity: (-0.5, 1.8)
-    speed: 1.8 px/f
-    hits: 16
-[2026-04-29 12:33:57.714] [FRAME       ] Frame 95 processed
-    frame: 95
-    detections: 1
-    tracks: 2
-[2026-04-29 12:33:57.715] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 95
-    track_id: 12
-    distance: 38.5 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 1.8 px/f
-    uncertainty: ±80.3 px
-    evasion_point: (1198, 570)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT
-[2026-04-29 12:33:58.811] [DETECTION   ] Drone detected
-    frame: 96
-    bbox: [np.int64(796), np.int64(355), np.int64(1114), np.int64(469)]
-    confidence: 0.84
-    class: 4
-[2026-04-29 12:33:59.002] [TRACK       ] Track ID:10
-    frame: 96
-    track_id: 10
-    position: (944, 401)
-    velocity: (-0.5, 0.2)
-    speed: 0.6 px/f
-    hits: 45
-[2026-04-29 12:33:59.003] [TRACK       ] Track ID:12
-    frame: 96
-    track_id: 12
-    position: (955, 412)
-    velocity: (-0.8, 1.0)
-    speed: 1.2 px/f
-    hits: 17
-[2026-04-29 12:33:59.004] [FRAME       ] Frame 96 processed
-    frame: 96
-    detections: 1
-    tracks: 2
-[2026-04-29 12:33:59.004] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 96
-    track_id: 12
-    distance: 84.8 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 1.2 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (1200, 624)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
-[2026-04-29 12:33:59.912] [DETECTION   ] Drone detected
-    frame: 97
-    bbox: [np.int64(795), np.int64(354), np.int64(1120), np.int64(473)]
-    confidence: 0.84
-    class: 4
-[2026-04-29 12:34:00.108] [TRACK       ] Track ID:10
-    frame: 97
-    track_id: 10
-    position: (944, 400)
-    velocity: (-0.2, 0.0)
-    speed: 0.2 px/f
-    hits: 46
-[2026-04-29 12:34:00.108] [TRACK       ] Track ID:12
-    frame: 97
-    track_id: 12
-    position: (956, 413)
-    velocity: (-0.5, 1.0)
-    speed: 1.1 px/f
-    hits: 18
-[2026-04-29 12:34:00.109] [FRAME       ] Frame 97 processed
-    frame: 97
-    detections: 1
-    tracks: 2
-[2026-04-29 12:34:00.109] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 97
-    track_id: 12
-    distance: 60.4 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 1.1 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (1188, 654)
-    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
-[2026-04-29 12:34:00.949] [DETECTION   ] Drone detected
-    frame: 98
-    bbox: [np.int64(790), np.int64(353), np.int64(1126), np.int64(477)]
-    confidence: 0.83
-    class: 4
-[2026-04-29 12:34:01.089] [TRACK       ] Track ID:10
-    frame: 98
-    track_id: 10
-    position: (943, 401)
-    velocity: (-0.5, 0.2)
-    speed: 0.6 px/f
-    hits: 47
-[2026-04-29 12:34:01.090] [TRACK       ] Track ID:12
-    frame: 98
-    track_id: 12
-    position: (957, 414)
-    velocity: (0.0, 0.8)
-    speed: 0.8 px/f
-    hits: 19
-[2026-04-29 12:34:01.090] [FRAME       ] Frame 98 processed
-    frame: 98
-    detections: 1
-    tracks: 2
-[2026-04-29 12:34:01.091] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 98
-    track_id: 12
-    distance: 51.1 px
-    threat_level: CRITICAL
-    pattern: unknown
-    speed: 0.8 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (974, 794)
+    uncertainty: ±57.5 px
+    evasion_point: (275, 310)
     commands: ⚠️ EVADE NOW!, EVADE DOWN
-[2026-04-29 12:34:01.903] [DETECTION   ] Drone detected
-    frame: 99
-    bbox: [np.int64(785), np.int64(353), np.int64(1130), np.int64(482)]
-    confidence: 0.79
-    class: 4
-[2026-04-29 12:34:02.076] [TRACK       ] Track ID:10
-    frame: 99
-    track_id: 10
-    position: (943, 400)
-    velocity: (-0.5, 0.0)
-    speed: 0.5 px/f
-    hits: 48
-[2026-04-29 12:34:02.077] [TRACK       ] Track ID:12
-    frame: 99
-    track_id: 12
-    position: (957, 416)
-    velocity: (0.0, 1.0)
-    speed: 1.0 px/f
-    hits: 20
-[2026-04-29 12:34:02.077] [FRAME       ] Frame 99 processed
-    frame: 99
+[2026-05-12 20:25:39.004] [DETECTION   ] Drone detected
+    frame: 16
+    bbox: [np.int64(303), np.int64(148), np.int64(358), np.int64(170)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:39.032] [TRACK       ] Track ID:1
+    frame: 16
+    track_id: 1
+    position: (330, 158)
+    velocity: (0.2, -0.5)
+    speed: 0.6 px/f
+    hits: 9
+[2026-05-12 20:25:39.033] [FRAME       ] Frame 16 processed
+    frame: 16
     detections: 1
-    tracks: 2
-[2026-04-29 12:34:02.079] [THREAT      ] Track ID:12 - CRITICAL
-    frame: 99
-    track_id: 12
+    tracks: 1
+[2026-05-12 20:25:39.033] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 16
+    track_id: 1
+    distance: 48.3 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 0.6 px/f
+    uncertainty: ±53.2 px
+    evasion_point: (222, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.048] [DETECTION   ] Drone detected
+    frame: 17
+    bbox: [np.int64(302), np.int64(147), np.int64(358), np.int64(170)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:39.072] [TRACK       ] Track ID:1
+    frame: 17
+    track_id: 1
+    position: (329, 158)
+    velocity: (0.0, -0.2)
+    speed: 0.2 px/f
+    hits: 10
+[2026-05-12 20:25:39.072] [FRAME       ] Frame 17 processed
+    frame: 17
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.072] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 17
+    track_id: 1
+    distance: 46.6 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 0.2 px/f
+    uncertainty: ±105.1 px
+    evasion_point: (271, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.089] [DETECTION   ] Drone detected
+    frame: 18
+    bbox: [np.int64(302), np.int64(148), np.int64(359), np.int64(169)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:39.111] [TRACK       ] Track ID:1
+    frame: 18
+    track_id: 1
+    position: (330, 158)
+    velocity: (0.2, -0.2)
+    speed: 0.4 px/f
+    hits: 11
+[2026-05-12 20:25:39.112] [FRAME       ] Frame 18 processed
+    frame: 18
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.112] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 18
+    track_id: 1
+    distance: 47.6 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 0.4 px/f
+    uncertainty: ±78.4 px
+    evasion_point: (183, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.126] [DETECTION   ] Drone detected
+    frame: 19
+    bbox: [np.int64(302), np.int64(148), np.int64(360), np.int64(169)]
+    confidence: 0.81
+    class: 0
+[2026-05-12 20:25:39.149] [TRACK       ] Track ID:1
+    frame: 19
+    track_id: 1
+    position: (330, 158)
+    velocity: (0.2, 0.0)
+    speed: 0.2 px/f
+    hits: 12
+[2026-05-12 20:25:39.149] [FRAME       ] Frame 19 processed
+    frame: 19
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.149] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 19
+    track_id: 1
+    distance: 40.6 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 0.2 px/f
+    uncertainty: ±106.7 px
+    evasion_point: (107, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.162] [DETECTION   ] Drone detected
+    frame: 20
+    bbox: [np.int64(302), np.int64(148), np.int64(360), np.int64(169)]
+    confidence: 0.81
+    class: 0
+[2026-05-12 20:25:39.187] [TRACK       ] Track ID:1
+    frame: 20
+    track_id: 1
+    position: (330, 158)
+    velocity: (0.0, 0.0)
+    speed: 0.0 px/f
+    hits: 13
+[2026-05-12 20:25:39.187] [FRAME       ] Frame 20 processed
+    frame: 20
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.187] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 20
+    track_id: 1
     distance: 24.2 px
     threat_level: CRITICAL
-    pattern: unknown
-    speed: 1.0 px/f
-    uncertainty: ±110.0 px
-    evasion_point: (991, 793)
+    pattern: straight
+    speed: 0.0 px/f
+    uncertainty: ±25.0 px
+    evasion_point: (232, 310)
     commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.200] [DETECTION   ] Drone detected
+    frame: 21
+    bbox: [np.int64(301), np.int64(147), np.int64(360), np.int64(170)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:39.225] [TRACK       ] Track ID:1
+    frame: 21
+    track_id: 1
+    position: (330, 158)
+    velocity: (0.2, 0.0)
+    speed: 0.2 px/f
+    hits: 14
+[2026-05-12 20:25:39.226] [FRAME       ] Frame 21 processed
+    frame: 21
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.226] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 21
+    track_id: 1
+    distance: 40.6 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.2 px/f
+    uncertainty: ±39.0 px
+    evasion_point: (135, 298)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.239] [DETECTION   ] Drone detected
+    frame: 22
+    bbox: [np.int64(300), np.int64(145), np.int64(360), np.int64(170)]
+    confidence: 0.84
+    class: 0
+[2026-05-12 20:25:39.261] [TRACK       ] Track ID:1
+    frame: 22
+    track_id: 1
+    position: (329, 157)
+    velocity: (-0.2, -0.2)
+    speed: 0.4 px/f
+    hits: 15
+[2026-05-12 20:25:39.261] [FRAME       ] Frame 22 processed
+    frame: 22
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.261] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 22
+    track_id: 1
+    distance: 41.3 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.4 px/f
+    uncertainty: ±31.0 px
+    evasion_point: (364, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.277] [DETECTION   ] Drone detected
+    frame: 23
+    bbox: [np.int64(300), np.int64(144), np.int64(361), np.int64(169)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:39.300] [TRACK       ] Track ID:1
+    frame: 23
+    track_id: 1
+    position: (330, 156)
+    velocity: (0.0, -0.5)
+    speed: 0.5 px/f
+    hits: 16
+[2026-05-12 20:25:39.300] [FRAME       ] Frame 23 processed
+    frame: 23
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.300] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 23
+    track_id: 1
+    distance: 51.0 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.5 px/f
+    uncertainty: ±25.6 px
+    evasion_point: (278, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.315] [DETECTION   ] Drone detected
+    frame: 24
+    bbox: [np.int64(300), np.int64(143), np.int64(362), np.int64(168)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:39.339] [TRACK       ] Track ID:1
+    frame: 24
+    track_id: 1
+    position: (330, 155)
+    velocity: (0.0, -0.8)
+    speed: 0.8 px/f
+    hits: 17
+[2026-05-12 20:25:39.339] [FRAME       ] Frame 24 processed
+    frame: 24
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.339] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 24
+    track_id: 1
+    distance: 52.9 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±20.8 px
+    evasion_point: (280, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.353] [DETECTION   ] Drone detected
+    frame: 25
+    bbox: [np.int64(299), np.int64(143), np.int64(362), np.int64(167)]
+    confidence: 0.84
+    class: 0
+[2026-05-12 20:25:39.379] [TRACK       ] Track ID:1
+    frame: 25
+    track_id: 1
+    position: (330, 154)
+    velocity: (0.0, -1.0)
+    speed: 1.0 px/f
+    hits: 18
+[2026-05-12 20:25:39.379] [FRAME       ] Frame 25 processed
+    frame: 25
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.379] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 25
+    track_id: 1
+    distance: 54.8 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 1.0 px/f
+    uncertainty: ±18.4 px
+    evasion_point: (281, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.392] [DETECTION   ] Drone detected
+    frame: 26
+    bbox: [np.int64(298), np.int64(142), np.int64(363), np.int64(168)]
+    confidence: 0.85
+    class: 0
+[2026-05-12 20:25:39.416] [TRACK       ] Track ID:1
+    frame: 26
+    track_id: 1
+    position: (330, 154)
+    velocity: (0.2, -0.8)
+    speed: 0.8 px/f
+    hits: 19
+[2026-05-12 20:25:39.416] [FRAME       ] Frame 26 processed
+    frame: 26
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.417] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 26
+    track_id: 1
+    distance: 55.7 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±20.6 px
+    evasion_point: (248, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.440] [DETECTION   ] Drone detected
+    frame: 27
+    bbox: [np.int64(298), np.int64(140), np.int64(364), np.int64(167)]
+    confidence: 0.84
+    class: 0
+[2026-05-12 20:25:39.464] [TRACK       ] Track ID:1
+    frame: 27
+    track_id: 1
+    position: (330, 153)
+    velocity: (0.0, -0.8)
+    speed: 0.8 px/f
+    hits: 20
+[2026-05-12 20:25:39.464] [FRAME       ] Frame 27 processed
+    frame: 27
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.464] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 27
+    track_id: 1
+    distance: 56.7 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±21.5 px
+    evasion_point: (282, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.488] [DETECTION   ] Drone detected
+    frame: 28
+    bbox: [np.int64(297), np.int64(139), np.int64(362), np.int64(167)]
+    confidence: 0.85
+    class: 0
+[2026-05-12 20:25:39.514] [TRACK       ] Track ID:1
+    frame: 28
+    track_id: 1
+    position: (329, 153)
+    velocity: (-0.2, -0.5)
+    speed: 0.6 px/f
+    hits: 21
+[2026-05-12 20:25:39.514] [FRAME       ] Frame 28 processed
+    frame: 28
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.514] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 28
+    track_id: 1
+    distance: 52.6 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.6 px/f
+    uncertainty: ±25.3 px
+    evasion_point: (335, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.527] [DETECTION   ] Drone detected
+    frame: 29
+    bbox: [np.int64(297), np.int64(139), np.int64(363), np.int64(167)]
+    confidence: 0.86
+    class: 0
+[2026-05-12 20:25:39.550] [TRACK       ] Track ID:1
+    frame: 29
+    track_id: 1
+    position: (329, 152)
+    velocity: (-0.2, -0.5)
+    speed: 0.6 px/f
+    hits: 22
+[2026-05-12 20:25:39.550] [FRAME       ] Frame 29 processed
+    frame: 29
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.550] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 29
+    track_id: 1
+    distance: 54.5 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.6 px/f
+    uncertainty: ±25.8 px
+    evasion_point: (336, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.564] [DETECTION   ] Drone detected
+    frame: 30
+    bbox: [np.int64(297), np.int64(138), np.int64(363), np.int64(166)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:39.586] [TRACK       ] Track ID:1
+    frame: 30
+    track_id: 1
+    position: (329, 152)
+    velocity: (-0.2, -0.5)
+    speed: 0.6 px/f
+    hits: 23
+[2026-05-12 20:25:39.586] [FRAME       ] Frame 30 processed
+    frame: 30
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.586] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 30
+    track_id: 1
+    distance: 54.5 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.6 px/f
+    uncertainty: ±25.8 px
+    evasion_point: (336, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.588] [STATS       ] Performance stats
+    fps: 6.7
+    processing_time: 4487.9 ms
+[2026-05-12 20:25:39.602] [DETECTION   ] Drone detected
+    frame: 31
+    bbox: [np.int64(296), np.int64(138), np.int64(364), np.int64(166)]
+    confidence: 0.82
+    class: 0
+[2026-05-12 20:25:39.625] [TRACK       ] Track ID:1
+    frame: 31
+    track_id: 1
+    position: (329, 151)
+    velocity: (-0.2, -0.5)
+    speed: 0.6 px/f
+    hits: 24
+[2026-05-12 20:25:39.625] [FRAME       ] Frame 31 processed
+    frame: 31
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.625] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 31
+    track_id: 1
+    distance: 56.3 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.6 px/f
+    uncertainty: ±26.3 px
+    evasion_point: (337, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.638] [DETECTION   ] Drone detected
+    frame: 32
+    bbox: [np.int64(297), np.int64(137), np.int64(363), np.int64(165)]
+    confidence: 0.84
+    class: 0
+[2026-05-12 20:25:39.662] [TRACK       ] Track ID:1
+    frame: 32
+    track_id: 1
+    position: (329, 150)
+    velocity: (0.0, -0.8)
+    speed: 0.8 px/f
+    hits: 25
+[2026-05-12 20:25:39.662] [FRAME       ] Frame 32 processed
+    frame: 32
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.663] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 32
+    track_id: 1
+    distance: 62.0 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±22.5 px
+    evasion_point: (289, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.676] [DETECTION   ] Drone detected
+    frame: 33
+    bbox: [np.int64(296), np.int64(137), np.int64(363), np.int64(165)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:39.700] [TRACK       ] Track ID:1
+    frame: 33
+    track_id: 1
+    position: (329, 150)
+    velocity: (0.0, -0.5)
+    speed: 0.5 px/f
+    hits: 26
+[2026-05-12 20:25:39.700] [FRAME       ] Frame 33 processed
+    frame: 33
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.700] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 33
+    track_id: 1
+    distance: 62.0 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.5 px/f
+    uncertainty: ±28.8 px
+    evasion_point: (288, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.714] [DETECTION   ] Drone detected
+    frame: 34
+    bbox: [np.int64(294), np.int64(137), np.int64(364), np.int64(165)]
+    confidence: 0.81
+    class: 0
+[2026-05-12 20:25:39.736] [TRACK       ] Track ID:1
+    frame: 34
+    track_id: 1
+    position: (328, 150)
+    velocity: (-0.2, -0.5)
+    speed: 0.6 px/f
+    hits: 27
+[2026-05-12 20:25:39.737] [FRAME       ] Frame 34 processed
+    frame: 34
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.737] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 34
+    track_id: 1
+    distance: 58.1 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.6 px/f
+    uncertainty: ±26.7 px
+    evasion_point: (341, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.751] [DETECTION   ] Drone detected
+    frame: 35
+    bbox: [np.int64(292), np.int64(137), np.int64(364), np.int64(165)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:39.773] [TRACK       ] Track ID:1
+    frame: 35
+    track_id: 1
+    position: (328, 150)
+    velocity: (-0.2, -0.2)
+    speed: 0.4 px/f
+    hits: 28
+[2026-05-12 20:25:39.773] [FRAME       ] Frame 35 processed
+    frame: 35
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.774] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 35
+    track_id: 1
+    distance: 53.8 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.4 px/f
+    uncertainty: ±36.3 px
+    evasion_point: (376, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.787] [DETECTION   ] Drone detected
+    frame: 36
+    bbox: [np.int64(292), np.int64(137), np.int64(364), np.int64(166)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:39.811] [TRACK       ] Track ID:1
+    frame: 36
+    track_id: 1
+    position: (327, 150)
+    velocity: (-0.5, 0.0)
+    speed: 0.5 px/f
+    hits: 29
+[2026-05-12 20:25:39.811] [FRAME       ] Frame 36 processed
+    frame: 36
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.812] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 36
+    track_id: 1
+    distance: 38.3 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.5 px/f
+    uncertainty: ±28.5 px
+    evasion_point: (453, 310)
+    commands: ⚠️ EVADE NOW!, EVADE DOWN
+[2026-05-12 20:25:39.825] [DETECTION   ] Drone detected
+    frame: 37
+    bbox: [np.int64(292), np.int64(137), np.int64(365), np.int64(166)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:39.850] [TRACK       ] Track ID:1
+    frame: 37
+    track_id: 1
+    position: (327, 150)
+    velocity: (-0.5, 0.0)
+    speed: 0.5 px/f
+    hits: 30
+[2026-05-12 20:25:39.850] [FRAME       ] Frame 37 processed
+    frame: 37
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.850] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 37
+    track_id: 1
+    distance: 38.3 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.5 px/f
+    uncertainty: ±28.5 px
+    evasion_point: (453, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:39.864] [DETECTION   ] Drone detected
+    frame: 38
+    bbox: [np.int64(291), np.int64(137), np.int64(366), np.int64(166)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:39.889] [TRACK       ] Track ID:1
+    frame: 38
+    track_id: 1
+    position: (328, 150)
+    velocity: (0.0, 0.0)
+    speed: 0.0 px/f
+    hits: 31
+[2026-05-12 20:25:39.889] [FRAME       ] Frame 38 processed
+    frame: 38
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.889] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 38
+    track_id: 1
+    distance: 31.0 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.0 px/f
+    uncertainty: ±25.0 px
+    evasion_point: (265, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:39.902] [DETECTION   ] Drone detected
+    frame: 39
+    bbox: [np.int64(291), np.int64(137), np.int64(367), np.int64(166)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:39.927] [TRACK       ] Track ID:1
+    frame: 39
+    track_id: 1
+    position: (328, 150)
+    velocity: (0.0, 0.0)
+    speed: 0.0 px/f
+    hits: 32
+[2026-05-12 20:25:39.927] [FRAME       ] Frame 39 processed
+    frame: 39
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.928] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 39
+    track_id: 1
+    distance: 31.0 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.0 px/f
+    uncertainty: ±25.0 px
+    evasion_point: (265, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:39.942] [DETECTION   ] Drone detected
+    frame: 40
+    bbox: [np.int64(290), np.int64(136), np.int64(368), np.int64(167)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:39.965] [TRACK       ] Track ID:1
+    frame: 40
+    track_id: 1
+    position: (328, 151)
+    velocity: (0.2, 0.2)
+    speed: 0.4 px/f
+    hits: 33
+[2026-05-12 20:25:39.965] [FRAME       ] Frame 40 processed
+    frame: 40
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:39.966] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 40
+    track_id: 1
+    distance: 30.3 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.4 px/f
+    uncertainty: ±35.5 px
+    evasion_point: (109, 235)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:39.984] [DETECTION   ] Drone detected
+    frame: 41
+    bbox: [np.int64(290), np.int64(136), np.int64(368), np.int64(168)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:40.007] [TRACK       ] Track ID:1
+    frame: 41
+    track_id: 1
+    position: (328, 151)
+    velocity: (0.2, 0.2)
+    speed: 0.4 px/f
+    hits: 34
+[2026-05-12 20:25:40.007] [FRAME       ] Frame 41 processed
+    frame: 41
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.007] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 41
+    track_id: 1
+    distance: 30.3 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.4 px/f
+    uncertainty: ±35.5 px
+    evasion_point: (109, 235)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.021] [DETECTION   ] Drone detected
+    frame: 42
+    bbox: [np.int64(289), np.int64(136), np.int64(369), np.int64(167)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:40.046] [TRACK       ] Track ID:1
+    frame: 42
+    track_id: 1
+    position: (328, 151)
+    velocity: (0.0, 0.2)
+    speed: 0.2 px/f
+    hits: 35
+[2026-05-12 20:25:40.046] [FRAME       ] Frame 42 processed
+    frame: 42
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.046] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 42
+    track_id: 1
+    distance: 8.9 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.2 px/f
+    uncertainty: ±40.0 px
+    evasion_point: (123, 278)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.068] [DETECTION   ] Drone detected
+    frame: 43
+    bbox: [np.int64(290), np.int64(136), np.int64(369), np.int64(167)]
+    confidence: 0.77
+    class: 0
+[2026-05-12 20:25:40.092] [TRACK       ] Track ID:1
+    frame: 43
+    track_id: 1
+    position: (328, 151)
+    velocity: (0.0, 0.2)
+    speed: 0.2 px/f
+    hits: 36
+[2026-05-12 20:25:40.092] [FRAME       ] Frame 43 processed
+    frame: 43
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.092] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 43
+    track_id: 1
+    distance: 8.9 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.2 px/f
+    uncertainty: ±40.0 px
+    evasion_point: (123, 278)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.105] [DETECTION   ] Drone detected
+    frame: 44
+    bbox: [np.int64(288), np.int64(136), np.int64(371), np.int64(167)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:40.131] [TRACK       ] Track ID:1
+    frame: 44
+    track_id: 1
+    position: (329, 151)
+    velocity: (0.2, 0.0)
+    speed: 0.2 px/f
+    hits: 37
+[2026-05-12 20:25:40.131] [FRAME       ] Frame 44 processed
+    frame: 44
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.131] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 44
+    track_id: 1
+    distance: 44.7 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.2 px/f
+    uncertainty: ±40.0 px
+    evasion_point: (152, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.144] [DETECTION   ] Drone detected
+    frame: 45
+    bbox: [np.int64(287), np.int64(136), np.int64(372), np.int64(167)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:40.167] [TRACK       ] Track ID:1
+    frame: 45
+    track_id: 1
+    position: (329, 151)
+    velocity: (0.2, 0.0)
+    speed: 0.2 px/f
+    hits: 38
+[2026-05-12 20:25:40.167] [FRAME       ] Frame 45 processed
+    frame: 45
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.168] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 45
+    track_id: 1
+    distance: 44.7 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.2 px/f
+    uncertainty: ±40.0 px
+    evasion_point: (152, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.191] [DETECTION   ] Drone detected
+    frame: 46
+    bbox: [np.int64(286), np.int64(134), np.int64(373), np.int64(167)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:40.216] [TRACK       ] Track ID:1
+    frame: 46
+    track_id: 1
+    position: (329, 150)
+    velocity: (0.2, -0.2)
+    speed: 0.4 px/f
+    hits: 39
+[2026-05-12 20:25:40.216] [FRAME       ] Frame 46 processed
+    frame: 46
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.216] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 46
+    track_id: 1
+    distance: 60.7 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.4 px/f
+    uncertainty: ±36.6 px
+    evasion_point: (208, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.229] [DETECTION   ] Drone detected
+    frame: 47
+    bbox: [np.int64(286), np.int64(134), np.int64(373), np.int64(166)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:40.251] [TRACK       ] Track ID:1
+    frame: 47
+    track_id: 1
+    position: (329, 150)
+    velocity: (0.2, -0.2)
+    speed: 0.4 px/f
+    hits: 40
+[2026-05-12 20:25:40.251] [FRAME       ] Frame 47 processed
+    frame: 47
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.251] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 47
+    track_id: 1
+    distance: 60.7 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.4 px/f
+    uncertainty: ±36.6 px
+    evasion_point: (208, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.267] [DETECTION   ] Drone detected
+    frame: 48
+    bbox: [np.int64(285), np.int64(134), np.int64(379), np.int64(165)]
+    confidence: 0.82
+    class: 0
+[2026-05-12 20:25:40.291] [TRACK       ] Track ID:1
+    frame: 48
+    track_id: 1
+    position: (330, 149)
+    velocity: (0.2, -0.5)
+    speed: 0.6 px/f
+    hits: 41
+[2026-05-12 20:25:40.291] [FRAME       ] Frame 48 processed
+    frame: 48
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.291] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 48
+    track_id: 1
+    distance: 65.0 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.6 px/f
+    uncertainty: ±27.5 px
+    evasion_point: (239, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.305] [DETECTION   ] Drone detected
+    frame: 49
+    bbox: [np.int64(285), np.int64(133), np.int64(380), np.int64(165)]
+    confidence: 0.82
+    class: 0
+[2026-05-12 20:25:40.329] [TRACK       ] Track ID:1
+    frame: 49
+    track_id: 1
+    position: (331, 149)
+    velocity: (0.5, -0.5)
+    speed: 0.7 px/f
+    hits: 42
+[2026-05-12 20:25:40.329] [FRAME       ] Frame 49 processed
+    frame: 49
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.329] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 49
+    track_id: 1
+    distance: 64.2 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.7 px/f
+    uncertainty: ±24.0 px
+    evasion_point: (206, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.342] [DETECTION   ] Drone detected
+    frame: 50
+    bbox: [np.int64(283), np.int64(132), np.int64(381), np.int64(165)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:40.367] [TRACK       ] Track ID:1
+    frame: 50
+    track_id: 1
+    position: (332, 148)
+    velocity: (0.8, -0.5)
+    speed: 0.9 px/f
+    hits: 43
+[2026-05-12 20:25:40.367] [FRAME       ] Frame 50 processed
+    frame: 50
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.367] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 50
+    track_id: 1
+    distance: 65.1 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.9 px/f
+    uncertainty: ±21.4 px
+    evasion_point: (189, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.380] [DETECTION   ] Drone detected
+    frame: 51
+    bbox: [np.int64(283), np.int64(130), np.int64(383), np.int64(164)]
+    confidence: 0.82
+    class: 0
+[2026-05-12 20:25:40.402] [TRACK       ] Track ID:1
+    frame: 51
+    track_id: 1
+    position: (332, 147)
+    velocity: (0.8, -0.8)
+    speed: 1.1 px/f
+    hits: 44
+[2026-05-12 20:25:40.403] [FRAME       ] Frame 51 processed
+    frame: 51
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.403] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 51
+    track_id: 1
+    distance: 68.6 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 1.1 px/f
+    uncertainty: ±19.9 px
+    evasion_point: (207, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.416] [DETECTION   ] Drone detected
+    frame: 52
+    bbox: [np.int64(282), np.int64(129), np.int64(384), np.int64(164)]
+    confidence: 0.81
+    class: 0
+[2026-05-12 20:25:40.438] [TRACK       ] Track ID:1
+    frame: 52
+    track_id: 1
+    position: (332, 146)
+    velocity: (0.5, -0.8)
+    speed: 0.9 px/f
+    hits: 45
+[2026-05-12 20:25:40.438] [FRAME       ] Frame 52 processed
+    frame: 52
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.439] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 52
+    track_id: 1
+    distance: 71.6 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.9 px/f
+    uncertainty: ±22.0 px
+    evasion_point: (225, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.454] [DETECTION   ] Drone detected
+    frame: 53
+    bbox: [np.int64(280), np.int64(128), np.int64(384), np.int64(163)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:40.477] [TRACK       ] Track ID:1
+    frame: 53
+    track_id: 1
+    position: (332, 145)
+    velocity: (0.2, -1.0)
+    speed: 1.0 px/f
+    hits: 46
+[2026-05-12 20:25:40.477] [FRAME       ] Frame 53 processed
+    frame: 53
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.477] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 53
+    track_id: 1
+    distance: 73.9 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 1.0 px/f
+    uncertainty: ±20.8 px
+    evasion_point: (260, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.490] [DETECTION   ] Drone detected
+    frame: 54
+    bbox: [np.int64(279), np.int64(128), np.int64(385), np.int64(163)]
+    confidence: 0.81
+    class: 0
+[2026-05-12 20:25:40.515] [TRACK       ] Track ID:1
+    frame: 54
+    track_id: 1
+    position: (332, 145)
+    velocity: (0.0, -0.8)
+    speed: 0.8 px/f
+    hits: 47
+[2026-05-12 20:25:40.515] [FRAME       ] Frame 54 processed
+    frame: 54
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.515] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 54
+    track_id: 1
+    distance: 73.0 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±24.8 px
+    evasion_point: (285, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.530] [DETECTION   ] Drone detected
+    frame: 55
+    bbox: [np.int64(279), np.int64(127), np.int64(387), np.int64(162)]
+    confidence: 0.81
+    class: 0
+[2026-05-12 20:25:40.555] [TRACK       ] Track ID:1
+    frame: 55
+    track_id: 1
+    position: (332, 144)
+    velocity: (0.0, -0.8)
+    speed: 0.8 px/f
+    hits: 48
+[2026-05-12 20:25:40.555] [FRAME       ] Frame 55 processed
+    frame: 55
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.555] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 55
+    track_id: 1
+    distance: 74.9 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±25.2 px
+    evasion_point: (285, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.568] [DETECTION   ] Drone detected
+    frame: 56
+    bbox: [np.int64(277), np.int64(126), np.int64(388), np.int64(161)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:40.590] [TRACK       ] Track ID:1
+    frame: 56
+    track_id: 1
+    position: (332, 143)
+    velocity: (0.0, -0.8)
+    speed: 0.8 px/f
+    hits: 49
+[2026-05-12 20:25:40.591] [FRAME       ] Frame 56 processed
+    frame: 56
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.591] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 56
+    track_id: 1
+    distance: 76.8 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±25.6 px
+    evasion_point: (286, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.605] [DETECTION   ] Drone detected
+    frame: 57
+    bbox: [np.int64(275), np.int64(125), np.int64(389), np.int64(161)]
+    confidence: 0.81
+    class: 0
+[2026-05-12 20:25:40.627] [TRACK       ] Track ID:1
+    frame: 57
+    track_id: 1
+    position: (331, 142)
+    velocity: (-0.2, -0.8)
+    speed: 0.8 px/f
+    hits: 50
+[2026-05-12 20:25:40.627] [FRAME       ] Frame 57 processed
+    frame: 57
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.627] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 57
+    track_id: 1
+    distance: 75.5 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±25.0 px
+    evasion_point: (324, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.642] [DETECTION   ] Drone detected
+    frame: 58
+    bbox: [np.int64(275), np.int64(124), np.int64(390), np.int64(160)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:40.665] [TRACK       ] Track ID:1
+    frame: 58
+    track_id: 1
+    position: (332, 142)
+    velocity: (0.0, -0.8)
+    speed: 0.8 px/f
+    hits: 51
+[2026-05-12 20:25:40.665] [FRAME       ] Frame 58 processed
+    frame: 58
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.665] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 58
+    track_id: 1
+    distance: 78.8 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±25.9 px
+    evasion_point: (287, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.686] [DETECTION   ] Drone detected
+    frame: 59
+    bbox: [np.int64(275), np.int64(124), np.int64(392), np.int64(159)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:40.709] [TRACK       ] Track ID:1
+    frame: 59
+    track_id: 1
+    position: (332, 141)
+    velocity: (0.0, -0.8)
+    speed: 0.8 px/f
+    hits: 52
+[2026-05-12 20:25:40.709] [FRAME       ] Frame 59 processed
+    frame: 59
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.710] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 59
+    track_id: 1
+    distance: 80.7 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±26.3 px
+    evasion_point: (288, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.723] [DETECTION   ] Drone detected
+    frame: 60
+    bbox: [np.int64(272), np.int64(123), np.int64(394), np.int64(159)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:40.747] [TRACK       ] Track ID:1
+    frame: 60
+    track_id: 1
+    position: (332, 140)
+    velocity: (0.0, -0.8)
+    speed: 0.8 px/f
+    hits: 53
+[2026-05-12 20:25:40.747] [FRAME       ] Frame 60 processed
+    frame: 60
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.747] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 60
+    track_id: 1
+    distance: 82.6 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±26.7 px
+    evasion_point: (289, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.750] [STATS       ] Performance stats
+    fps: 25.8
+    processing_time: 1161.1 ms
+[2026-05-12 20:25:40.766] [DETECTION   ] Drone detected
+    frame: 61
+    bbox: [np.int64(271), np.int64(121), np.int64(395), np.int64(159)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:40.791] [TRACK       ] Track ID:1
+    frame: 61
+    track_id: 1
+    position: (332, 139)
+    velocity: (0.2, -0.8)
+    speed: 0.8 px/f
+    hits: 54
+[2026-05-12 20:25:40.791] [FRAME       ] Frame 61 processed
+    frame: 61
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.791] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 61
+    track_id: 1
+    distance: 85.4 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±26.2 px
+    evasion_point: (256, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.804] [DETECTION   ] Drone detected
+    frame: 62
+    bbox: [np.int64(268), np.int64(120), np.int64(397), np.int64(159)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:40.828] [TRACK       ] Track ID:1
+    frame: 62
+    track_id: 1
+    position: (332, 139)
+    velocity: (0.0, -0.8)
+    speed: 0.8 px/f
+    hits: 55
+[2026-05-12 20:25:40.828] [FRAME       ] Frame 62 processed
+    frame: 62
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.828] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 62
+    track_id: 1
+    distance: 84.6 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±27.1 px
+    evasion_point: (289, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN
+[2026-05-12 20:25:40.849] [DETECTION   ] Drone detected
+    frame: 63
+    bbox: [np.int64(267), np.int64(119), np.int64(404), np.int64(159)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:40.875] [TRACK       ] Track ID:1
+    frame: 63
+    track_id: 1
+    position: (334, 138)
+    velocity: (0.5, -0.8)
+    speed: 0.9 px/f
+    hits: 56
+[2026-05-12 20:25:40.876] [FRAME       ] Frame 63 processed
+    frame: 63
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.876] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 63
+    track_id: 1
+    distance: 87.8 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.9 px/f
+    uncertainty: ±24.7 px
+    evasion_point: (226, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:40.891] [DETECTION   ] Drone detected
+    frame: 64
+    bbox: [np.int64(267), np.int64(119), np.int64(404), np.int64(159)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:40.914] [TRACK       ] Track ID:1
+    frame: 64
+    track_id: 1
+    position: (334, 138)
+    velocity: (0.5, -0.5)
+    speed: 0.7 px/f
+    hits: 57
+[2026-05-12 20:25:40.914] [FRAME       ] Frame 64 processed
+    frame: 64
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.915] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 64
+    track_id: 1
+    distance: 86.2 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.7 px/f
+    uncertainty: ±28.8 px
+    evasion_point: (207, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:40.931] [DETECTION   ] Drone detected
+    frame: 65
+    bbox: [np.int64(266), np.int64(119), np.int64(407), np.int64(160)]
+    confidence: 0.77
+    class: 0
+[2026-05-12 20:25:40.956] [TRACK       ] Track ID:1
+    frame: 65
+    track_id: 1
+    position: (335, 138)
+    velocity: (0.8, -0.2)
+    speed: 0.8 px/f
+    hits: 58
+[2026-05-12 20:25:40.957] [FRAME       ] Frame 65 processed
+    frame: 65
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.957] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 65
+    track_id: 1
+    distance: 80.2 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±26.9 px
+    evasion_point: (167, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:40.975] [DETECTION   ] Drone detected
+    frame: 66
+    bbox: [np.int64(264), np.int64(118), np.int64(409), np.int64(160)]
+    confidence: 0.77
+    class: 0
+[2026-05-12 20:25:40.998] [TRACK       ] Track ID:1
+    frame: 66
+    track_id: 1
+    position: (336, 138)
+    velocity: (1.0, -0.2)
+    speed: 1.0 px/f
+    hits: 59
+[2026-05-12 20:25:40.998] [FRAME       ] Frame 66 processed
+    frame: 66
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:40.998] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 66
+    track_id: 1
+    distance: 79.7 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 1.0 px/f
+    uncertainty: ±23.1 px
+    evasion_point: (161, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.011] [DETECTION   ] Drone detected
+    frame: 67
+    bbox: [np.int64(262), np.int64(116), np.int64(410), np.int64(162)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:41.036] [TRACK       ] Track ID:1
+    frame: 67
+    track_id: 1
+    position: (336, 138)
+    velocity: (0.5, 0.0)
+    speed: 0.5 px/f
+    hits: 60
+[2026-05-12 20:25:41.036] [FRAME       ] Frame 67 processed
+    frame: 67
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.036] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 67
+    track_id: 1
+    distance: 74.0 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.5 px/f
+    uncertainty: ±37.0 px
+    evasion_point: (140, 303)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.049] [DETECTION   ] Drone detected
+    frame: 68
+    bbox: [np.int64(259), np.int64(115), np.int64(414), np.int64(162)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:41.073] [TRACK       ] Track ID:1
+    frame: 68
+    track_id: 1
+    position: (336, 138)
+    velocity: (0.5, 0.0)
+    speed: 0.5 px/f
+    hits: 61
+[2026-05-12 20:25:41.073] [FRAME       ] Frame 68 processed
+    frame: 68
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.073] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 68
+    track_id: 1
+    distance: 74.0 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.5 px/f
+    uncertainty: ±37.0 px
+    evasion_point: (140, 303)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.086] [DETECTION   ] Drone detected
+    frame: 69
+    bbox: [np.int64(257), np.int64(114), np.int64(418), np.int64(162)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:41.108] [TRACK       ] Track ID:1
+    frame: 69
+    track_id: 1
+    position: (336, 137)
+    velocity: (0.2, -0.2)
+    speed: 0.4 px/f
+    hits: 62
+[2026-05-12 20:25:41.109] [FRAME       ] Frame 69 processed
+    frame: 69
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.109] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 69
+    track_id: 1
+    distance: 79.4 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.4 px/f
+    uncertainty: ±40.0 px
+    evasion_point: (206, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.125] [DETECTION   ] Drone detected
+    frame: 70
+    bbox: [np.int64(254), np.int64(113), np.int64(420), np.int64(162)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:41.147] [TRACK       ] Track ID:1
+    frame: 70
+    track_id: 1
+    position: (336, 137)
+    velocity: (0.0, -0.2)
+    speed: 0.2 px/f
+    hits: 63
+[2026-05-12 20:25:41.147] [FRAME       ] Frame 70 processed
+    frame: 70
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.147] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 70
+    track_id: 1
+    distance: 69.9 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.2 px/f
+    uncertainty: ±40.0 px
+    evasion_point: (269, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.161] [DETECTION   ] Drone detected
+    frame: 71
+    bbox: [np.int64(253), np.int64(111), np.int64(422), np.int64(162)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:41.184] [TRACK       ] Track ID:1
+    frame: 71
+    track_id: 1
+    position: (337, 136)
+    velocity: (0.2, -0.5)
+    speed: 0.6 px/f
+    hits: 64
+[2026-05-12 20:25:41.184] [FRAME       ] Frame 71 processed
+    frame: 71
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.184] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 71
+    track_id: 1
+    distance: 94.2 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.6 px/f
+    uncertainty: ±35.3 px
+    evasion_point: (232, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.197] [DETECTION   ] Drone detected
+    frame: 72
+    bbox: [np.int64(253), np.int64(108), np.int64(424), np.int64(161)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:41.221] [TRACK       ] Track ID:1
+    frame: 72
+    track_id: 1
+    position: (338, 134)
+    velocity: (0.5, -1.0)
+    speed: 1.1 px/f
+    hits: 65
+[2026-05-12 20:25:41.222] [FRAME       ] Frame 72 processed
+    frame: 72
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.222] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 72
+    track_id: 1
+    distance: 98.7 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 1.1 px/f
+    uncertainty: ±23.3 px
+    evasion_point: (234, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.234] [DETECTION   ] Drone detected
+    frame: 73
+    bbox: [np.int64(250), np.int64(108), np.int64(424), np.int64(161)]
+    confidence: 0.77
+    class: 0
+[2026-05-12 20:25:41.258] [TRACK       ] Track ID:1
+    frame: 73
+    track_id: 1
+    position: (337, 134)
+    velocity: (0.2, -0.8)
+    speed: 0.8 px/f
+    hits: 66
+[2026-05-12 20:25:41.259] [FRAME       ] Frame 73 processed
+    frame: 73
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.259] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 73
+    track_id: 1
+    distance: 98.1 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±28.6 px
+    evasion_point: (248, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.272] [DETECTION   ] Drone detected
+    frame: 74
+    bbox: [np.int64(247), np.int64(106), np.int64(430), np.int64(161)]
+    confidence: 0.76
+    class: 0
+[2026-05-12 20:25:41.295] [TRACK       ] Track ID:1
+    frame: 74
+    track_id: 1
+    position: (338, 133)
+    velocity: (0.5, -1.0)
+    speed: 1.1 px/f
+    hits: 67
+[2026-05-12 20:25:41.295] [FRAME       ] Frame 74 processed
+    frame: 74
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.295] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 74
+    track_id: 1
+    distance: 100.5 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 1.1 px/f
+    uncertainty: ±23.5 px
+    evasion_point: (234, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.314] [DETECTION   ] Drone detected
+    frame: 75
+    bbox: [np.int64(242), np.int64(104), np.int64(435), np.int64(164)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:41.337] [TRACK       ] Track ID:1
+    frame: 75
+    track_id: 1
+    position: (338, 133)
+    velocity: (0.2, -0.8)
+    speed: 0.8 px/f
+    hits: 68
+[2026-05-12 20:25:41.337] [FRAME       ] Frame 75 processed
+    frame: 75
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.338] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 75
+    track_id: 1
+    distance: 100.6 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.8 px/f
+    uncertainty: ±29.1 px
+    evasion_point: (247, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.355] [DETECTION   ] Drone detected
+    frame: 76
+    bbox: [np.int64(239), np.int64(103), np.int64(438), np.int64(165)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:41.378] [TRACK       ] Track ID:1
+    frame: 76
+    track_id: 1
+    position: (338, 133)
+    velocity: (0.0, -0.2)
+    speed: 0.2 px/f
+    hits: 69
+[2026-05-12 20:25:41.378] [FRAME       ] Frame 76 processed
+    frame: 76
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.379] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 76
+    track_id: 1
+    distance: 74.2 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.2 px/f
+    uncertainty: ±40.0 px
+    evasion_point: (266, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.391] [DETECTION   ] Drone detected
+    frame: 77
+    bbox: [np.int64(234), np.int64(103), np.int64(434), np.int64(163)]
+    confidence: 0.79
+    class: 0
+[2026-05-12 20:25:41.416] [TRACK       ] Track ID:1
+    frame: 77
+    track_id: 1
+    position: (335, 132)
+    velocity: (-0.5, -0.5)
+    speed: 0.7 px/f
+    hits: 70
+[2026-05-12 20:25:41.416] [FRAME       ] Frame 77 processed
+    frame: 77
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.416] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 77
+    track_id: 1
+    distance: 86.1 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 0.7 px/f
+    uncertainty: ±31.3 px
+    evasion_point: (371, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.429] [DETECTION   ] Drone detected
+    frame: 78
+    bbox: [np.int64(229), np.int64(102), np.int64(437), np.int64(166)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:41.453] [TRACK       ] Track ID:1
+    frame: 78
+    track_id: 1
+    position: (333, 133)
+    velocity: (-1.2, 0.0)
+    speed: 1.2 px/f
+    hits: 71
+[2026-05-12 20:25:41.453] [FRAME       ] Frame 78 processed
+    frame: 78
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.454] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 78
+    track_id: 1
+    distance: 59.1 px
+    threat_level: CRITICAL
+    pattern: straight
+    speed: 1.2 px/f
+    uncertainty: ±21.7 px
+    evasion_point: (447, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.470] [DETECTION   ] Drone detected
+    frame: 79
+    bbox: [np.int64(226), np.int64(102), np.int64(440), np.int64(166)]
+    confidence: 0.78
+    class: 0
+[2026-05-12 20:25:41.494] [TRACK       ] Track ID:1
+    frame: 79
+    track_id: 1
+    position: (333, 133)
+    velocity: (-1.2, 0.0)
+    speed: 1.2 px/f
+    hits: 72
+[2026-05-12 20:25:41.494] [FRAME       ] Frame 79 processed
+    frame: 79
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.494] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 79
+    track_id: 1
+    distance: 59.1 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 1.2 px/f
+    uncertainty: ±29.5 px
+    evasion_point: (450, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.517] [DETECTION   ] Drone detected
+    frame: 80
+    bbox: [np.int64(223), np.int64(101), np.int64(444), np.int64(166)]
+    confidence: 0.80
+    class: 0
+[2026-05-12 20:25:41.542] [TRACK       ] Track ID:1
+    frame: 80
+    track_id: 1
+    position: (333, 133)
+    velocity: (-1.2, 0.0)
+    speed: 1.2 px/f
+    hits: 73
+[2026-05-12 20:25:41.542] [FRAME       ] Frame 80 processed
+    frame: 80
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.543] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 80
+    track_id: 1
+    distance: 59.1 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 1.2 px/f
+    uncertainty: ±29.5 px
+    evasion_point: (450, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.559] [DETECTION   ] Drone detected
+    frame: 81
+    bbox: [np.int64(221), np.int64(100), np.int64(447), np.int64(168)]
+    confidence: 0.81
+    class: 0
+[2026-05-12 20:25:41.582] [TRACK       ] Track ID:1
+    frame: 81
+    track_id: 1
+    position: (333, 133)
+    velocity: (-0.5, 0.2)
+    speed: 0.6 px/f
+    hits: 74
+[2026-05-12 20:25:41.583] [FRAME       ] Frame 81 processed
+    frame: 81
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.583] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 81
+    track_id: 1
+    distance: 39.6 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 0.6 px/f
+    uncertainty: ±53.6 px
+    evasion_point: (495, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.597] [DETECTION   ] Drone detected
+    frame: 82
+    bbox: [np.int64(213), np.int64(100), np.int64(447), np.int64(170)]
+    confidence: 0.82
+    class: 0
+[2026-05-12 20:25:41.620] [TRACK       ] Track ID:1
+    frame: 82
+    track_id: 1
+    position: (331, 134)
+    velocity: (-0.5, 0.2)
+    speed: 0.6 px/f
+    hits: 75
+[2026-05-12 20:25:41.620] [FRAME       ] Frame 82 processed
+    frame: 82
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.620] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 82
+    track_id: 1
+    distance: 40.0 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 0.6 px/f
+    uncertainty: ±52.3 px
+    evasion_point: (497, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.636] [DETECTION   ] Drone detected
+    frame: 83
+    bbox: [np.int64(210), np.int64(99), np.int64(449), np.int64(171)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:41.659] [TRACK       ] Track ID:1
+    frame: 83
+    track_id: 1
+    position: (329, 134)
+    velocity: (-1.0, 0.2)
+    speed: 1.0 px/f
+    hits: 76
+[2026-05-12 20:25:41.660] [FRAME       ] Frame 83 processed
+    frame: 83
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.660] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 83
+    track_id: 1
+    distance: 50.3 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 1.0 px/f
+    uncertainty: ±32.7 px
+    evasion_point: (476, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.682] [DETECTION   ] Drone detected
+    frame: 84
+    bbox: [np.int64(206), np.int64(98), np.int64(452), np.int64(174)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:41.705] [TRACK       ] Track ID:1
+    frame: 84
+    track_id: 1
+    position: (329, 134)
+    velocity: (-1.0, 0.2)
+    speed: 1.0 px/f
+    hits: 77
+[2026-05-12 20:25:41.705] [FRAME       ] Frame 84 processed
+    frame: 84
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.706] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 84
+    track_id: 1
+    distance: 50.3 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 1.0 px/f
+    uncertainty: ±32.7 px
+    evasion_point: (476, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.718] [DETECTION   ] Drone detected
+    frame: 85
+    bbox: [np.int64(199), np.int64(97), np.int64(455), np.int64(174)]
+    confidence: 0.84
+    class: 0
+[2026-05-12 20:25:41.743] [TRACK       ] Track ID:1
+    frame: 85
+    track_id: 1
+    position: (327, 135)
+    velocity: (-1.5, 0.5)
+    speed: 1.6 px/f
+    hits: 78
+[2026-05-12 20:25:41.744] [FRAME       ] Frame 85 processed
+    frame: 85
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.744] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 85
+    track_id: 1
+    distance: 47.4 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 1.6 px/f
+    uncertainty: ±24.4 px
+    evasion_point: (482, 310)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.757] [DETECTION   ] Drone detected
+    frame: 86
+    bbox: [np.int64(194), np.int64(97), np.int64(458), np.int64(180)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:41.782] [TRACK       ] Track ID:1
+    frame: 86
+    track_id: 1
+    position: (326, 137)
+    velocity: (-1.2, 0.8)
+    speed: 1.5 px/f
+    hits: 79
+[2026-05-12 20:25:41.782] [FRAME       ] Frame 86 processed
+    frame: 86
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.782] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 86
+    track_id: 1
+    distance: 37.4 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 1.5 px/f
+    uncertainty: ±24.9 px
+    evasion_point: (497, 297)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.796] [DETECTION   ] Drone detected
+    frame: 87
+    bbox: [np.int64(189), np.int64(96), np.int64(465), np.int64(184)]
+    confidence: 0.84
+    class: 0
+[2026-05-12 20:25:41.818] [TRACK       ] Track ID:1
+    frame: 87
+    track_id: 1
+    position: (326, 138)
+    velocity: (-0.8, 1.0)
+    speed: 1.2 px/f
+    hits: 80
+[2026-05-12 20:25:41.818] [FRAME       ] Frame 87 processed
+    frame: 87
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.819] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 87
+    track_id: 1
+    distance: 21.1 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 1.2 px/f
+    uncertainty: ±27.0 px
+    evasion_point: (517, 261)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.834] [DETECTION   ] Drone detected
+    frame: 88
+    bbox: [np.int64(179), np.int64(93), np.int64(467), np.int64(189)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:41.857] [TRACK       ] Track ID:1
+    frame: 88
+    track_id: 1
+    position: (323, 139)
+    velocity: (-1.5, 1.2)
+    speed: 2.0 px/f
+    hits: 81
+[2026-05-12 20:25:41.857] [FRAME       ] Frame 88 processed
+    frame: 88
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.858] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 88
+    track_id: 1
+    distance: 32.1 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 2.0 px/f
+    uncertainty: ±20.5 px
+    evasion_point: (507, 276)
+    commands: ⚠️ EVADE NOW!, EVADE LEFT, EVADE DOWN
+[2026-05-12 20:25:41.872] [DETECTION   ] Drone detected
+    frame: 89
+    bbox: [np.int64(172), np.int64(95), np.int64(472), np.int64(191)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:41.895] [TRACK       ] Track ID:1
+    frame: 89
+    track_id: 1
+    position: (322, 142)
+    velocity: (-1.2, 1.8)
+    speed: 2.2 px/f
+    hits: 82
+[2026-05-12 20:25:41.895] [FRAME       ] Frame 89 processed
+    frame: 89
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.895] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 89
+    track_id: 1
+    distance: 21.3 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 2.2 px/f
+    uncertainty: ±18.8 px
+    evasion_point: (517, 249)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:41.908] [DETECTION   ] Drone detected
+    frame: 90
+    bbox: [np.int64(168), np.int64(92), np.int64(470), np.int64(194)]
+    confidence: 0.83
+    class: 0
+[2026-05-12 20:25:41.933] [TRACK       ] Track ID:1
+    frame: 90
+    track_id: 1
+    position: (319, 142)
+    velocity: (-1.8, 1.2)
+    speed: 2.2 px/f
+    hits: 83
+[2026-05-12 20:25:41.933] [FRAME       ] Frame 90 processed
+    frame: 90
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.933] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 90
+    track_id: 1
+    distance: 35.7 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 2.2 px/f
+    uncertainty: ±18.8 px
+    evasion_point: (507, 273)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:41.935] [STATS       ] Performance stats
+    fps: 25.3
+    processing_time: 1185.5 ms
+[2026-05-12 20:25:41.946] [DETECTION   ] Drone detected
+    frame: 91
+    bbox: [np.int64(151), np.int64(95), np.int64(479), np.int64(198)]
+    confidence: 0.85
+    class: 0
+[2026-05-12 20:25:41.971] [TRACK       ] Track ID:1
+    frame: 91
+    track_id: 1
+    position: (316, 144)
+    velocity: (-2.5, 1.5)
+    speed: 2.9 px/f
+    hits: 84
+[2026-05-12 20:25:41.971] [FRAME       ] Frame 91 processed
+    frame: 91
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:41.971] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 91
+    track_id: 1
+    distance: 39.1 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 2.9 px/f
+    uncertainty: ±16.2 px
+    evasion_point: (506, 272)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:41.984] [DETECTION   ] Drone detected
+    frame: 92
+    bbox: [np.int64(141), np.int64(94), np.int64(482), np.int64(201)]
+    confidence: 0.86
+    class: 0
+[2026-05-12 20:25:42.007] [TRACK       ] Track ID:1
+    frame: 92
+    track_id: 1
+    position: (312, 146)
+    velocity: (-2.8, 1.8)
+    speed: 3.3 px/f
+    hits: 85
+[2026-05-12 20:25:42.008] [FRAME       ] Frame 92 processed
+    frame: 92
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.008] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 92
+    track_id: 1
+    distance: 40.5 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 3.3 px/f
+    uncertainty: ±15.4 px
+    evasion_point: (512, 258)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.022] [DETECTION   ] Drone detected
+    frame: 93
+    bbox: [np.int64(131), np.int64(92), np.int64(483), np.int64(203)]
+    confidence: 0.86
+    class: 0
+[2026-05-12 20:25:42.046] [TRACK       ] Track ID:1
+    frame: 93
+    track_id: 1
+    position: (308, 147)
+    velocity: (-3.5, 1.2)
+    speed: 3.7 px/f
+    hits: 86
+[2026-05-12 20:25:42.046] [FRAME       ] Frame 93 processed
+    frame: 93
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.046] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 93
+    track_id: 1
+    distance: 49.8 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 3.7 px/f
+    uncertainty: ±14.7 px
+    evasion_point: (507, 268)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.060] [DETECTION   ] Drone detected
+    frame: 94
+    bbox: [np.int64(125), np.int64(89), np.int64(489), np.int64(204)]
+    confidence: 0.86
+    class: 0
+[2026-05-12 20:25:42.083] [TRACK       ] Track ID:1
+    frame: 94
+    track_id: 1
+    position: (306, 146)
+    velocity: (-3.2, 1.0)
+    speed: 3.4 px/f
+    hits: 87
+[2026-05-12 20:25:42.083] [FRAME       ] Frame 94 processed
+    frame: 94
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.084] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 94
+    track_id: 1
+    distance: 54.3 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 3.4 px/f
+    uncertainty: ±15.4 px
+    evasion_point: (507, 268)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.097] [DETECTION   ] Drone detected
+    frame: 95
+    bbox: [np.int64(107), np.int64(88), np.int64(497), np.int64(205)]
+    confidence: 0.87
+    class: 0
+[2026-05-12 20:25:42.122] [TRACK       ] Track ID:1
+    frame: 95
+    track_id: 1
+    position: (303, 146)
+    velocity: (-3.2, 0.5)
+    speed: 3.3 px/f
+    hits: 88
+[2026-05-12 20:25:42.122] [FRAME       ] Frame 95 processed
+    frame: 95
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.122] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 95
+    track_id: 1
+    distance: 61.4 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 3.3 px/f
+    uncertainty: ±15.8 px
+    evasion_point: (504, 275)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.135] [DETECTION   ] Drone detected
+    frame: 96
+    bbox: [np.int64(106), np.int64(87), np.int64(497), np.int64(210)]
+    confidence: 0.86
+    class: 0
+[2026-05-12 20:25:42.157] [TRACK       ] Track ID:1
+    frame: 96
+    track_id: 1
+    position: (301, 148)
+    velocity: (-2.8, 0.5)
+    speed: 2.8 px/f
+    hits: 89
+[2026-05-12 20:25:42.158] [FRAME       ] Frame 96 processed
+    frame: 96
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.158] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 96
+    track_id: 1
+    distance: 61.1 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 2.8 px/f
+    uncertainty: ±16.7 px
+    evasion_point: (509, 266)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.171] [DETECTION   ] Drone detected
+    frame: 97
+    bbox: [np.int64(93), np.int64(85), np.int64(500), np.int64(211)]
+    confidence: 0.87
+    class: 0
+[2026-05-12 20:25:42.194] [TRACK       ] Track ID:1
+    frame: 97
+    track_id: 1
+    position: (297, 148)
+    velocity: (-2.8, 0.2)
+    speed: 2.8 px/f
+    hits: 90
+[2026-05-12 20:25:42.194] [FRAME       ] Frame 97 processed
+    frame: 97
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.194] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 97
+    track_id: 1
+    distance: 68.4 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 2.8 px/f
+    uncertainty: ±24.3 px
+    evasion_point: (512, 268)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.210] [DETECTION   ] Drone detected
+    frame: 98
+    bbox: [np.int64(88), np.int64(85), np.int64(503), np.int64(215)]
+    confidence: 0.86
+    class: 0
+[2026-05-12 20:25:42.233] [TRACK       ] Track ID:1
+    frame: 98
+    track_id: 1
+    position: (295, 149)
+    velocity: (-2.8, 0.8)
+    speed: 2.9 px/f
+    hits: 91
+[2026-05-12 20:25:42.234] [FRAME       ] Frame 98 processed
+    frame: 98
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.234] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 98
+    track_id: 1
+    distance: 66.7 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 2.9 px/f
+    uncertainty: ±24.0 px
+    evasion_point: (521, 245)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.246] [DETECTION   ] Drone detected
+    frame: 99
+    bbox: [np.int64(70), np.int64(80), np.int64(512), np.int64(218)]
+    confidence: 0.84
+    class: 0
+[2026-05-12 20:25:42.272] [TRACK       ] Track ID:1
+    frame: 99
+    track_id: 1
+    position: (291, 149)
+    velocity: (-3.0, 0.8)
+    speed: 3.1 px/f
+    hits: 92
+[2026-05-12 20:25:42.272] [FRAME       ] Frame 99 processed
+    frame: 99
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.272] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 99
+    track_id: 1
+    distance: 73.2 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 3.1 px/f
+    uncertainty: ±23.7 px
+    evasion_point: (523, 239)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.287] [DETECTION   ] Drone detected
+    frame: 100
+    bbox: [np.int64(66), np.int64(76), np.int64(512), np.int64(225)]
+    confidence: 0.84
+    class: 0
+[2026-05-12 20:25:42.312] [TRACK       ] Track ID:1
+    frame: 100
+    track_id: 1
+    position: (289, 150)
+    velocity: (-3.0, 0.5)
+    speed: 3.0 px/f
+    hits: 93
+[2026-05-12 20:25:42.313] [FRAME       ] Frame 100 processed
+    frame: 100
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.313] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 100
+    track_id: 1
+    distance: 83.1 px
+    threat_level: CRITICAL
+    pattern: accelerating
+    speed: 3.0 px/f
+    uncertainty: ±15.7 px
+    evasion_point: (519, 237)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.327] [DETECTION   ] Drone detected
+    frame: 101
+    bbox: [np.int64(50), np.int64(73), np.int64(537), np.int64(225)]
+    confidence: 0.84
+    class: 0
+[2026-05-12 20:25:42.351] [TRACK       ] Track ID:1
+    frame: 101
+    track_id: 1
+    position: (290, 149)
+    velocity: (-1.8, 0.2)
+    speed: 1.8 px/f
+    hits: 94
+[2026-05-12 20:25:42.352] [FRAME       ] Frame 101 processed
+    frame: 101
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.352] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 101
+    track_id: 1
+    distance: 76.9 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 1.8 px/f
+    uncertainty: ±34.4 px
+    evasion_point: (525, 250)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.365] [DETECTION   ] Drone detected
+    frame: 102
+    bbox: [np.int64(48), np.int64(66), np.int64(544), np.int64(233)]
+    confidence: 0.85
+    class: 0
+[2026-05-12 20:25:42.391] [TRACK       ] Track ID:1
+    frame: 102
+    track_id: 1
+    position: (293, 149)
+    velocity: (-0.5, 0.0)
+    speed: 0.5 px/f
+    hits: 95
+[2026-05-12 20:25:42.391] [FRAME       ] Frame 102 processed
+    frame: 102
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.391] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 102
+    track_id: 1
+    distance: 74.8 px
+    threat_level: CRITICAL
+    pattern: unknown
+    speed: 0.5 px/f
+    uncertainty: ±92.2 px
+    evasion_point: (543, 281)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.413] [DETECTION   ] Drone detected
+    frame: 103
+    bbox: [np.int64(43), np.int64(67), np.int64(545), np.int64(232)]
+    confidence: 0.84
+    class: 0
+[2026-05-12 20:25:42.439] [TRACK       ] Track ID:1
+    frame: 103
+    track_id: 1
+    position: (292, 149)
+    velocity: (0.2, 0.0)
+    speed: 0.2 px/f
+    hits: 96
+[2026-05-12 20:25:42.439] [FRAME       ] Frame 103 processed
+    frame: 103
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.440] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 103
+    track_id: 1
+    distance: 31.1 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 0.2 px/f
+    uncertainty: ±60.0 px
+    evasion_point: (342, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.454] [DETECTION   ] Drone detected
+    frame: 104
+    bbox: [np.int64(37), np.int64(67), np.int64(556), np.int64(235)]
+    confidence: 0.86
+    class: 0
+[2026-05-12 20:25:42.479] [TRACK       ] Track ID:1
+    frame: 104
+    track_id: 1
+    position: (294, 150)
+    velocity: (1.2, 0.0)
+    speed: 1.2 px/f
+    hits: 97
+[2026-05-12 20:25:42.479] [FRAME       ] Frame 104 processed
+    frame: 104
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.479] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 104
+    track_id: 1
+    distance: 33.0 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 1.2 px/f
+    uncertainty: ±25.9 px
+    evasion_point: (231, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.502] [DETECTION   ] Drone detected
+    frame: 105
+    bbox: [np.int64(21), np.int64(66), np.int64(565), np.int64(242)]
+    confidence: 0.87
+    class: 0
+[2026-05-12 20:25:42.527] [TRACK       ] Track ID:1
+    frame: 105
+    track_id: 1
+    position: (293, 152)
+    velocity: (0.8, 0.8)
+    speed: 1.1 px/f
+    hits: 98
+[2026-05-12 20:25:42.527] [FRAME       ] Frame 105 processed
+    frame: 105
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.528] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 105
+    track_id: 1
+    distance: 0.7 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 1.1 px/f
+    uncertainty: ±28.3 px
+    evasion_point: (167, 310)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.550] [DETECTION   ] Drone detected
+    frame: 106
+    bbox: [np.int64(5), np.int64(70), np.int64(589), np.int64(250)]
+    confidence: 0.88
+    class: 0
+[2026-05-12 20:25:42.574] [TRACK       ] Track ID:1
+    frame: 106
+    track_id: 1
+    position: (294, 157)
+    velocity: (0.2, 2.0)
+    speed: 2.0 px/f
+    hits: 99
+[2026-05-12 20:25:42.574] [FRAME       ] Frame 106 processed
+    frame: 106
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.574] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 106
+    track_id: 1
+    distance: 24.5 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 2.0 px/f
+    uncertainty: ±18.6 px
+    evasion_point: (505, 82)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.589] [DETECTION   ] Drone detected
+    frame: 107
+    bbox: [np.int64(2), np.int64(75), np.int64(585), np.int64(260)]
+    confidence: 0.88
+    class: 0
+[2026-05-12 20:25:42.612] [TRACK       ] Track ID:1
+    frame: 107
+    track_id: 1
+    position: (293, 163)
+    velocity: (0.2, 3.5)
+    speed: 3.5 px/f
+    hits: 100
+[2026-05-12 20:25:42.612] [FRAME       ] Frame 107 processed
+    frame: 107
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.612] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 107
+    track_id: 1
+    distance: 28.8 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 3.5 px/f
+    uncertainty: ±14.5 px
+    evasion_point: (497, 73)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.629] [DETECTION   ] Drone detected
+    frame: 108
+    bbox: [np.int64(0), np.int64(78), np.int64(607), np.int64(267)]
+    confidence: 0.89
+    class: 0
+[2026-05-12 20:25:42.651] [TRACK       ] Track ID:1
+    frame: 108
+    track_id: 1
+    position: (299, 169)
+    velocity: (1.2, 4.8)
+    speed: 4.9 px/f
+    hits: 101
+[2026-05-12 20:25:42.651] [FRAME       ] Frame 108 processed
+    frame: 108
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.652] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 108
+    track_id: 1
+    distance: 19.1 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 4.9 px/f
+    uncertainty: ±12.4 px
+    evasion_point: (481, 51)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.666] [DETECTION   ] Drone detected
+    frame: 109
+    bbox: [np.int64(0), np.int64(77), np.int64(624), np.int64(282)]
+    confidence: 0.89
+    class: 0
+[2026-05-12 20:25:42.689] [TRACK       ] Track ID:1
+    frame: 109
+    track_id: 1
+    position: (307, 176)
+    velocity: (3.5, 6.0)
+    speed: 6.9 px/f
+    hits: 102
+[2026-05-12 20:25:42.690] [FRAME       ] Frame 109 processed
+    frame: 109
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.690] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 109
+    track_id: 1
+    distance: 9.9 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 6.9 px/f
+    uncertainty: ±11.0 px
+    evasion_point: (447, 50)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.704] [DETECTION   ] Drone detected
+    frame: 110
+    bbox: [np.int64(0), np.int64(75), np.int64(635), np.int64(287)]
+    confidence: 0.89
+    class: 0
+[2026-05-12 20:25:42.729] [TRACK       ] Track ID:1
+    frame: 110
+    track_id: 1
+    position: (314, 180)
+    velocity: (5.0, 5.8)
+    speed: 7.6 px/f
+    hits: 103
+[2026-05-12 20:25:42.730] [FRAME       ] Frame 110 processed
+    frame: 110
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.730] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 110
+    track_id: 1
+    distance: 5.0 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 7.6 px/f
+    uncertainty: ±10.4 px
+    evasion_point: (405, 50)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.744] [DETECTION   ] Drone detected
+    frame: 111
+    bbox: [np.int64(0), np.int64(77), np.int64(637), np.int64(297)]
+    confidence: 0.90
+    class: 0
+[2026-05-12 20:25:42.770] [TRACK       ] Track ID:1
+    frame: 111
+    track_id: 1
+    position: (317, 185)
+    velocity: (6.0, 5.5)
+    speed: 8.1 px/f
+    hits: 104
+[2026-05-12 20:25:42.770] [FRAME       ] Frame 111 processed
+    frame: 111
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.771] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 111
+    track_id: 1
+    distance: 9.0 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 8.1 px/f
+    uncertainty: ±10.4 px
+    evasion_point: (290, 50)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.785] [DETECTION   ] Drone detected
+    frame: 112
+    bbox: [np.int64(0), np.int64(87), np.int64(638), np.int64(313)]
+    confidence: 0.86
+    class: 0
+[2026-05-12 20:25:42.810] [TRACK       ] Track ID:1
+    frame: 112
+    track_id: 1
+    position: (318, 195)
+    velocity: (4.8, 6.5)
+    speed: 8.1 px/f
+    hits: 105
+[2026-05-12 20:25:42.810] [FRAME       ] Frame 112 processed
+    frame: 112
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.811] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 112
+    track_id: 1
+    distance: 28.1 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 8.1 px/f
+    uncertainty: ±10.9 px
+    evasion_point: (269, 50)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.825] [DETECTION   ] Drone detected
+    frame: 113
+    bbox: [np.int64(0), np.int64(94), np.int64(640), np.int64(327)]
+    confidence: 0.74
+    class: 0
+[2026-05-12 20:25:42.850] [TRACK       ] Track ID:1
+    frame: 113
+    track_id: 1
+    position: (320, 206)
+    velocity: (3.2, 7.5)
+    speed: 8.2 px/f
+    hits: 106
+[2026-05-12 20:25:42.850] [FRAME       ] Frame 113 processed
+    frame: 113
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.851] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 113
+    track_id: 1
+    distance: 50.9 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 8.2 px/f
+    uncertainty: ±11.6 px
+    evasion_point: (278, 50)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.866] [DETECTION   ] Drone detected
+    frame: 114
+    bbox: [np.int64(0), np.int64(88), np.int64(640), np.int64(333)]
+    confidence: 0.54
+    class: 0
+[2026-05-12 20:25:42.889] [TRACK       ] Track ID:1
+    frame: 114
+    track_id: 1
+    position: (320, 210)
+    velocity: (1.5, 7.5)
+    speed: 7.6 px/f
+    hits: 107
+[2026-05-12 20:25:42.889] [FRAME       ] Frame 114 processed
+    frame: 114
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.889] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 114
+    track_id: 1
+    distance: 59.7 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 7.6 px/f
+    uncertainty: ±12.0 px
+    evasion_point: (299, 50)
+    commands: ⚠️ EVADE NOW!, EVADE RIGHT, EVADE DOWN, PERPENDICULAR
+[2026-05-12 20:25:42.904] [DETECTION   ] Drone detected
+    frame: 115
+    bbox: [np.int64(0), np.int64(80), np.int64(640), np.int64(349)]
+    confidence: 0.62
+    class: 0
+[2026-05-12 20:25:42.928] [TRACK       ] Track ID:1
+    frame: 115
+    track_id: 1
+    position: (320, 214)
+    velocity: (0.8, 7.2)
+    speed: 7.3 px/f
+    hits: 108
+[2026-05-12 20:25:42.929] [FRAME       ] Frame 115 processed
+    frame: 115
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.929] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 115
+    track_id: 1
+    distance: 67.9 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 7.3 px/f
+    uncertainty: ±12.3 px
+    evasion_point: (309, 50)
+    commands: ⚠️ EVADE NOW!, EVADE UP, PERPENDICULAR, FULL THROTTLE
+[2026-05-12 20:25:42.943] [DETECTION   ] Drone detected
+    frame: 116
+    bbox: [np.int64(15), np.int64(96), np.int64(640), np.int64(355)]
+    confidence: 0.69
+    class: 0
+[2026-05-12 20:25:42.968] [TRACK       ] Track ID:1
+    frame: 116
+    track_id: 1
+    position: (325, 222)
+    velocity: (1.8, 6.8)
+    speed: 7.0 px/f
+    hits: 109
+[2026-05-12 20:25:42.968] [FRAME       ] Frame 116 processed
+    frame: 116
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:42.968] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 116
+    track_id: 1
+    distance: 84.4 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 7.0 px/f
+    uncertainty: ±13.0 px
+    evasion_point: (281, 50)
+    commands: ⚠️ EVADE NOW!, EVADE UP, PERPENDICULAR, FULL THROTTLE
+[2026-05-12 20:25:42.982] [DETECTION   ] Drone detected
+    frame: 117
+    bbox: [np.int64(5), np.int64(97), np.int64(640), np.int64(360)]
+    confidence: 0.42
+    class: 0
+[2026-05-12 20:25:43.008] [TRACK       ] Track ID:1
+    frame: 117
+    track_id: 1
+    position: (324, 227)
+    velocity: (1.0, 5.2)
+    speed: 5.3 px/f
+    hits: 110
+[2026-05-12 20:25:43.009] [FRAME       ] Frame 117 processed
+    frame: 117
+    detections: 1
+    tracks: 1
+[2026-05-12 20:25:43.009] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 117
+    track_id: 1
+    distance: 94.2 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 5.3 px/f
+    uncertainty: ±14.4 px
+    evasion_point: (291, 50)
+    commands: ⚠️ EVADE NOW!, EVADE UP, PERPENDICULAR, FULL THROTTLE
+[2026-05-12 20:25:43.022] [TRACK       ] Track ID:1
+    frame: 118
+    track_id: 1
+    position: (325, 232)
+    velocity: (1.2, 5.5)
+    speed: 5.6 px/f
+    hits: 111
+[2026-05-12 20:25:43.022] [FRAME       ] Frame 118 processed
+    frame: 118
+    detections: 0
+    tracks: 1
+[2026-05-12 20:25:43.023] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 118
+    track_id: 1
+    distance: 104.3 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 5.6 px/f
+    uncertainty: ±14.6 px
+    evasion_point: (287, 50)
+    commands: ⚠️ EVADE NOW!, EVADE UP, PERPENDICULAR, FULL THROTTLE
+[2026-05-12 20:25:43.036] [TRACK       ] Track ID:1
+    frame: 119
+    track_id: 1
+    position: (326, 236)
+    velocity: (1.5, 5.5)
+    speed: 5.7 px/f
+    hits: 112
+[2026-05-12 20:25:43.036] [FRAME       ] Frame 119 processed
+    frame: 119
+    detections: 0
+    tracks: 1
+[2026-05-12 20:25:43.037] [THREAT      ] Track ID:1 - CRITICAL
+    frame: 119
+    track_id: 1
+    distance: 112.3 px
+    threat_level: CRITICAL
+    pattern: turning
+    speed: 5.7 px/f
+    uncertainty: ±14.9 px
+    evasion_point: (281, 50)
+    commands: ⚠️ EVADE NOW!, EVADE UP, PERPENDICULAR, FULL THROTTLE
+[2026-05-12 20:25:43.051] [TRACK       ] Track ID:1
+    frame: 120
+    track_id: 1
+    position: (327, 240)
+    velocity: (0.5, 4.5)
+    speed: 4.5 px/f
+    hits: 113
+[2026-05-12 20:25:43.052] [FRAME       ] Frame 120 processed
+    frame: 120
+    detections: 0
+    tracks: 1
+[2026-05-12 20:25:43.052] [THREAT      ] Track ID:1 - HIGH
+    frame: 120
+    track_id: 1
+    distance: 120.8 px
+    threat_level: HIGH
+    pattern: turning
+    speed: 4.5 px/f
+    uncertainty: ±16.7 px
+    evasion_point: (296, 50)
+    commands: ⚠️ EVADE NOW!, EVADE UP, PERPENDICULAR, FULL THROTTLE
+[2026-05-12 20:25:43.054] [STATS       ] Performance stats
+    fps: 26.8
+    processing_time: 1118.7 ms
+[2026-05-12 20:25:43.065] [TRACK       ] Track ID:1
+    frame: 121
+    track_id: 1
+    position: (328, 244)
+    velocity: (1.0, 4.2)
+    speed: 4.4 px/f
+    hits: 114
+[2026-05-12 20:25:43.065] [FRAME       ] Frame 121 processed
+    frame: 121
+    detections: 0
+    tracks: 1
+[2026-05-12 20:25:43.066] [THREAT      ] Track ID:1 - HIGH
+    frame: 121
+    track_id: 1
+    distance: 128.8 px
+    threat_level: HIGH
+    pattern: turning
+    speed: 4.4 px/f
+    uncertainty: ±17.4 px
+    evasion_point: (283, 50)
+    commands: ⚠️ EVADE NOW!, EVADE UP, PERPENDICULAR, FULL THROTTLE
