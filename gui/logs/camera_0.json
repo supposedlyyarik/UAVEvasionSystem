@@ -1,0 +1,7688 @@
+{
+  "start_time": "2026-05-12T19:29:03.351317",
+  "events": [
+    {
+      "timestamp": "2026-05-12 19:29:03.351",
+      "type": "SYSTEM",
+      "message": "Logger initialized",
+      "data": {
+        "session": "camera_0",
+        "log_file": "logs\\camera_0.log",
+        "json_file": "logs\\camera_0.json",
+        "csv_file": "logs\\camera_0.csv"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:03.351",
+      "type": "CAMERA",
+      "message": "Camera 0 started",
+      "data": {
+        "camera_id": 0,
+        "resolution": "1280x720",
+        "fps": 30
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:08.713",
+      "type": "FRAME",
+      "message": "Frame 1 processed",
+      "data": {
+        "frame": 1,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:08.738",
+      "type": "FRAME",
+      "message": "Frame 2 processed",
+      "data": {
+        "frame": 2,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:08.762",
+      "type": "FRAME",
+      "message": "Frame 3 processed",
+      "data": {
+        "frame": 3,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:08.817",
+      "type": "FRAME",
+      "message": "Frame 4 processed",
+      "data": {
+        "frame": 4,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:08.840",
+      "type": "FRAME",
+      "message": "Frame 5 processed",
+      "data": {
+        "frame": 5,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:08.898",
+      "type": "FRAME",
+      "message": "Frame 6 processed",
+      "data": {
+        "frame": 6,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:08.927",
+      "type": "FRAME",
+      "message": "Frame 7 processed",
+      "data": {
+        "frame": 7,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:08.959",
+      "type": "FRAME",
+      "message": "Frame 8 processed",
+      "data": {
+        "frame": 8,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:08.979",
+      "type": "FRAME",
+      "message": "Frame 9 processed",
+      "data": {
+        "frame": 9,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.022",
+      "type": "FRAME",
+      "message": "Frame 10 processed",
+      "data": {
+        "frame": 10,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.044",
+      "type": "FRAME",
+      "message": "Frame 11 processed",
+      "data": {
+        "frame": 11,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.102",
+      "type": "FRAME",
+      "message": "Frame 12 processed",
+      "data": {
+        "frame": 12,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.122",
+      "type": "FRAME",
+      "message": "Frame 13 processed",
+      "data": {
+        "frame": 13,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.141",
+      "type": "FRAME",
+      "message": "Frame 14 processed",
+      "data": {
+        "frame": 14,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.166",
+      "type": "FRAME",
+      "message": "Frame 15 processed",
+      "data": {
+        "frame": 15,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.185",
+      "type": "FRAME",
+      "message": "Frame 16 processed",
+      "data": {
+        "frame": 16,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.229",
+      "type": "FRAME",
+      "message": "Frame 17 processed",
+      "data": {
+        "frame": 17,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.311",
+      "type": "FRAME",
+      "message": "Frame 18 processed",
+      "data": {
+        "frame": 18,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.331",
+      "type": "FRAME",
+      "message": "Frame 19 processed",
+      "data": {
+        "frame": 19,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.351",
+      "type": "FRAME",
+      "message": "Frame 20 processed",
+      "data": {
+        "frame": 20,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.374",
+      "type": "FRAME",
+      "message": "Frame 21 processed",
+      "data": {
+        "frame": 21,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.395",
+      "type": "FRAME",
+      "message": "Frame 22 processed",
+      "data": {
+        "frame": 22,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.458",
+      "type": "FRAME",
+      "message": "Frame 23 processed",
+      "data": {
+        "frame": 23,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.479",
+      "type": "FRAME",
+      "message": "Frame 24 processed",
+      "data": {
+        "frame": 24,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.520",
+      "type": "FRAME",
+      "message": "Frame 25 processed",
+      "data": {
+        "frame": 25,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.537",
+      "type": "FRAME",
+      "message": "Frame 26 processed",
+      "data": {
+        "frame": 26,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.581",
+      "type": "FRAME",
+      "message": "Frame 27 processed",
+      "data": {
+        "frame": 27,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.603",
+      "type": "FRAME",
+      "message": "Frame 28 processed",
+      "data": {
+        "frame": 28,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.661",
+      "type": "FRAME",
+      "message": "Frame 29 processed",
+      "data": {
+        "frame": 29,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.680",
+      "type": "FRAME",
+      "message": "Frame 30 processed",
+      "data": {
+        "frame": 30,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.682",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "6.0",
+        "processing_time": "4984.2 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.727",
+      "type": "FRAME",
+      "message": "Frame 31 processed",
+      "data": {
+        "frame": 31,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.747",
+      "type": "FRAME",
+      "message": "Frame 32 processed",
+      "data": {
+        "frame": 32,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.790",
+      "type": "FRAME",
+      "message": "Frame 33 processed",
+      "data": {
+        "frame": 33,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.809",
+      "type": "FRAME",
+      "message": "Frame 34 processed",
+      "data": {
+        "frame": 34,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.869",
+      "type": "FRAME",
+      "message": "Frame 35 processed",
+      "data": {
+        "frame": 35,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.889",
+      "type": "FRAME",
+      "message": "Frame 36 processed",
+      "data": {
+        "frame": 36,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.908",
+      "type": "FRAME",
+      "message": "Frame 37 processed",
+      "data": {
+        "frame": 37,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.932",
+      "type": "FRAME",
+      "message": "Frame 38 processed",
+      "data": {
+        "frame": 38,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:09.951",
+      "type": "FRAME",
+      "message": "Frame 39 processed",
+      "data": {
+        "frame": 39,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.013",
+      "type": "FRAME",
+      "message": "Frame 40 processed",
+      "data": {
+        "frame": 40,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.034",
+      "type": "FRAME",
+      "message": "Frame 41 processed",
+      "data": {
+        "frame": 41,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.078",
+      "type": "FRAME",
+      "message": "Frame 42 processed",
+      "data": {
+        "frame": 42,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.097",
+      "type": "FRAME",
+      "message": "Frame 43 processed",
+      "data": {
+        "frame": 43,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.146",
+      "type": "FRAME",
+      "message": "Frame 44 processed",
+      "data": {
+        "frame": 44,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.165",
+      "type": "FRAME",
+      "message": "Frame 45 processed",
+      "data": {
+        "frame": 45,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.221",
+      "type": "FRAME",
+      "message": "Frame 46 processed",
+      "data": {
+        "frame": 46,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.243",
+      "type": "FRAME",
+      "message": "Frame 47 processed",
+      "data": {
+        "frame": 47,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.287",
+      "type": "FRAME",
+      "message": "Frame 48 processed",
+      "data": {
+        "frame": 48,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.305",
+      "type": "FRAME",
+      "message": "Frame 49 processed",
+      "data": {
+        "frame": 49,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.350",
+      "type": "FRAME",
+      "message": "Frame 50 processed",
+      "data": {
+        "frame": 50,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.371",
+      "type": "FRAME",
+      "message": "Frame 51 processed",
+      "data": {
+        "frame": 51,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.432",
+      "type": "FRAME",
+      "message": "Frame 52 processed",
+      "data": {
+        "frame": 52,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.451",
+      "type": "FRAME",
+      "message": "Frame 53 processed",
+      "data": {
+        "frame": 53,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.493",
+      "type": "FRAME",
+      "message": "Frame 54 processed",
+      "data": {
+        "frame": 54,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.514",
+      "type": "FRAME",
+      "message": "Frame 55 processed",
+      "data": {
+        "frame": 55,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.574",
+      "type": "FRAME",
+      "message": "Frame 56 processed",
+      "data": {
+        "frame": 56,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.594",
+      "type": "FRAME",
+      "message": "Frame 57 processed",
+      "data": {
+        "frame": 57,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.617",
+      "type": "FRAME",
+      "message": "Frame 58 processed",
+      "data": {
+        "frame": 58,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.638",
+      "type": "FRAME",
+      "message": "Frame 59 processed",
+      "data": {
+        "frame": 59,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.657",
+      "type": "FRAME",
+      "message": "Frame 60 processed",
+      "data": {
+        "frame": 60,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.660",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.7",
+        "processing_time": "977.1 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.703",
+      "type": "FRAME",
+      "message": "Frame 61 processed",
+      "data": {
+        "frame": 61,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.725",
+      "type": "FRAME",
+      "message": "Frame 62 processed",
+      "data": {
+        "frame": 62,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.784",
+      "type": "FRAME",
+      "message": "Frame 63 processed",
+      "data": {
+        "frame": 63,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.805",
+      "type": "FRAME",
+      "message": "Frame 64 processed",
+      "data": {
+        "frame": 64,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.846",
+      "type": "FRAME",
+      "message": "Frame 65 processed",
+      "data": {
+        "frame": 65,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.866",
+      "type": "FRAME",
+      "message": "Frame 66 processed",
+      "data": {
+        "frame": 66,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.910",
+      "type": "FRAME",
+      "message": "Frame 67 processed",
+      "data": {
+        "frame": 67,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.930",
+      "type": "FRAME",
+      "message": "Frame 68 processed",
+      "data": {
+        "frame": 68,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:10.992",
+      "type": "FRAME",
+      "message": "Frame 69 processed",
+      "data": {
+        "frame": 69,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.017",
+      "type": "FRAME",
+      "message": "Frame 70 processed",
+      "data": {
+        "frame": 70,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.055",
+      "type": "FRAME",
+      "message": "Frame 71 processed",
+      "data": {
+        "frame": 71,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.077",
+      "type": "FRAME",
+      "message": "Frame 72 processed",
+      "data": {
+        "frame": 72,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.135",
+      "type": "FRAME",
+      "message": "Frame 73 processed",
+      "data": {
+        "frame": 73,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.166",
+      "type": "FRAME",
+      "message": "Frame 74 processed",
+      "data": {
+        "frame": 74,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.188",
+      "type": "FRAME",
+      "message": "Frame 75 processed",
+      "data": {
+        "frame": 75,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.211",
+      "type": "FRAME",
+      "message": "Frame 76 processed",
+      "data": {
+        "frame": 76,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.266",
+      "type": "FRAME",
+      "message": "Frame 77 processed",
+      "data": {
+        "frame": 77,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.287",
+      "type": "FRAME",
+      "message": "Frame 78 processed",
+      "data": {
+        "frame": 78,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.348",
+      "type": "FRAME",
+      "message": "Frame 79 processed",
+      "data": {
+        "frame": 79,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.376",
+      "type": "FRAME",
+      "message": "Frame 80 processed",
+      "data": {
+        "frame": 80,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.398",
+      "type": "FRAME",
+      "message": "Frame 81 processed",
+      "data": {
+        "frame": 81,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.425",
+      "type": "FRAME",
+      "message": "Frame 82 processed",
+      "data": {
+        "frame": 82,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.452",
+      "type": "FRAME",
+      "message": "Frame 83 processed",
+      "data": {
+        "frame": 83,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.475",
+      "type": "FRAME",
+      "message": "Frame 84 processed",
+      "data": {
+        "frame": 84,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.501",
+      "type": "FRAME",
+      "message": "Frame 85 processed",
+      "data": {
+        "frame": 85,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.556",
+      "type": "FRAME",
+      "message": "Frame 86 processed",
+      "data": {
+        "frame": 86,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.582",
+      "type": "FRAME",
+      "message": "Frame 87 processed",
+      "data": {
+        "frame": 87,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.617",
+      "type": "FRAME",
+      "message": "Frame 88 processed",
+      "data": {
+        "frame": 88,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.639",
+      "type": "FRAME",
+      "message": "Frame 89 processed",
+      "data": {
+        "frame": 89,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.695",
+      "type": "FRAME",
+      "message": "Frame 90 processed",
+      "data": {
+        "frame": 90,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.698",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "28.9",
+        "processing_time": "1037.8 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.716",
+      "type": "FRAME",
+      "message": "Frame 91 processed",
+      "data": {
+        "frame": 91,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.759",
+      "type": "FRAME",
+      "message": "Frame 92 processed",
+      "data": {
+        "frame": 92,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.780",
+      "type": "FRAME",
+      "message": "Frame 93 processed",
+      "data": {
+        "frame": 93,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.823",
+      "type": "FRAME",
+      "message": "Frame 94 processed",
+      "data": {
+        "frame": 94,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.846",
+      "type": "FRAME",
+      "message": "Frame 95 processed",
+      "data": {
+        "frame": 95,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.902",
+      "type": "FRAME",
+      "message": "Frame 96 processed",
+      "data": {
+        "frame": 96,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.924",
+      "type": "FRAME",
+      "message": "Frame 97 processed",
+      "data": {
+        "frame": 97,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.945",
+      "type": "FRAME",
+      "message": "Frame 98 processed",
+      "data": {
+        "frame": 98,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.965",
+      "type": "FRAME",
+      "message": "Frame 99 processed",
+      "data": {
+        "frame": 99,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:11.985",
+      "type": "FRAME",
+      "message": "Frame 100 processed",
+      "data": {
+        "frame": 100,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.032",
+      "type": "FRAME",
+      "message": "Frame 101 processed",
+      "data": {
+        "frame": 101,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.112",
+      "type": "FRAME",
+      "message": "Frame 102 processed",
+      "data": {
+        "frame": 102,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.135",
+      "type": "FRAME",
+      "message": "Frame 103 processed",
+      "data": {
+        "frame": 103,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.158",
+      "type": "FRAME",
+      "message": "Frame 104 processed",
+      "data": {
+        "frame": 104,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.179",
+      "type": "FRAME",
+      "message": "Frame 105 processed",
+      "data": {
+        "frame": 105,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.199",
+      "type": "FRAME",
+      "message": "Frame 106 processed",
+      "data": {
+        "frame": 106,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.254",
+      "type": "FRAME",
+      "message": "Frame 107 processed",
+      "data": {
+        "frame": 107,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.276",
+      "type": "FRAME",
+      "message": "Frame 108 processed",
+      "data": {
+        "frame": 108,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.318",
+      "type": "FRAME",
+      "message": "Frame 109 processed",
+      "data": {
+        "frame": 109,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.341",
+      "type": "FRAME",
+      "message": "Frame 110 processed",
+      "data": {
+        "frame": 110,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.383",
+      "type": "FRAME",
+      "message": "Frame 111 processed",
+      "data": {
+        "frame": 111,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.400",
+      "type": "FRAME",
+      "message": "Frame 112 processed",
+      "data": {
+        "frame": 112,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.465",
+      "type": "FRAME",
+      "message": "Frame 113 processed",
+      "data": {
+        "frame": 113,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.487",
+      "type": "FRAME",
+      "message": "Frame 114 processed",
+      "data": {
+        "frame": 114,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.528",
+      "type": "FRAME",
+      "message": "Frame 115 processed",
+      "data": {
+        "frame": 115,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.550",
+      "type": "FRAME",
+      "message": "Frame 116 processed",
+      "data": {
+        "frame": 116,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.590",
+      "type": "FRAME",
+      "message": "Frame 117 processed",
+      "data": {
+        "frame": 117,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.610",
+      "type": "FRAME",
+      "message": "Frame 118 processed",
+      "data": {
+        "frame": 118,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.674",
+      "type": "FRAME",
+      "message": "Frame 119 processed",
+      "data": {
+        "frame": 119,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.695",
+      "type": "FRAME",
+      "message": "Frame 120 processed",
+      "data": {
+        "frame": 120,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.698",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.0",
+        "processing_time": "999.7 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.716",
+      "type": "FRAME",
+      "message": "Frame 121 processed",
+      "data": {
+        "frame": 121,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.736",
+      "type": "FRAME",
+      "message": "Frame 122 processed",
+      "data": {
+        "frame": 122,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.754",
+      "type": "FRAME",
+      "message": "Frame 123 processed",
+      "data": {
+        "frame": 123,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.813",
+      "type": "FRAME",
+      "message": "Frame 124 processed",
+      "data": {
+        "frame": 124,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.834",
+      "type": "FRAME",
+      "message": "Frame 125 processed",
+      "data": {
+        "frame": 125,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.881",
+      "type": "FRAME",
+      "message": "Frame 126 processed",
+      "data": {
+        "frame": 126,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.902",
+      "type": "FRAME",
+      "message": "Frame 127 processed",
+      "data": {
+        "frame": 127,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.943",
+      "type": "FRAME",
+      "message": "Frame 128 processed",
+      "data": {
+        "frame": 128,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:12.961",
+      "type": "FRAME",
+      "message": "Frame 129 processed",
+      "data": {
+        "frame": 129,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.022",
+      "type": "FRAME",
+      "message": "Frame 130 processed",
+      "data": {
+        "frame": 130,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.043",
+      "type": "FRAME",
+      "message": "Frame 131 processed",
+      "data": {
+        "frame": 131,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.087",
+      "type": "FRAME",
+      "message": "Frame 132 processed",
+      "data": {
+        "frame": 132,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.109",
+      "type": "FRAME",
+      "message": "Frame 133 processed",
+      "data": {
+        "frame": 133,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.151",
+      "type": "FRAME",
+      "message": "Frame 134 processed",
+      "data": {
+        "frame": 134,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.170",
+      "type": "FRAME",
+      "message": "Frame 135 processed",
+      "data": {
+        "frame": 135,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.231",
+      "type": "FRAME",
+      "message": "Frame 136 processed",
+      "data": {
+        "frame": 136,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.250",
+      "type": "FRAME",
+      "message": "Frame 137 processed",
+      "data": {
+        "frame": 137,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.297",
+      "type": "FRAME",
+      "message": "Frame 138 processed",
+      "data": {
+        "frame": 138,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.316",
+      "type": "FRAME",
+      "message": "Frame 139 processed",
+      "data": {
+        "frame": 139,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.375",
+      "type": "FRAME",
+      "message": "Frame 140 processed",
+      "data": {
+        "frame": 140,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.397",
+      "type": "FRAME",
+      "message": "Frame 141 processed",
+      "data": {
+        "frame": 141,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.417",
+      "type": "FRAME",
+      "message": "Frame 142 processed",
+      "data": {
+        "frame": 142,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.438",
+      "type": "FRAME",
+      "message": "Frame 143 processed",
+      "data": {
+        "frame": 143,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.457",
+      "type": "FRAME",
+      "message": "Frame 144 processed",
+      "data": {
+        "frame": 144,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.502",
+      "type": "FRAME",
+      "message": "Frame 145 processed",
+      "data": {
+        "frame": 145,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.521",
+      "type": "FRAME",
+      "message": "Frame 146 processed",
+      "data": {
+        "frame": 146,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.583",
+      "type": "FRAME",
+      "message": "Frame 147 processed",
+      "data": {
+        "frame": 147,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.602",
+      "type": "FRAME",
+      "message": "Frame 148 processed",
+      "data": {
+        "frame": 148,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.646",
+      "type": "FRAME",
+      "message": "Frame 149 processed",
+      "data": {
+        "frame": 149,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.667",
+      "type": "FRAME",
+      "message": "Frame 150 processed",
+      "data": {
+        "frame": 150,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.670",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.9",
+        "processing_time": "972.2 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.710",
+      "type": "FRAME",
+      "message": "Frame 151 processed",
+      "data": {
+        "frame": 151,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.730",
+      "type": "FRAME",
+      "message": "Frame 152 processed",
+      "data": {
+        "frame": 152,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.791",
+      "type": "FRAME",
+      "message": "Frame 153 processed",
+      "data": {
+        "frame": 153,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.811",
+      "type": "FRAME",
+      "message": "Frame 154 processed",
+      "data": {
+        "frame": 154,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.862",
+      "type": "FRAME",
+      "message": "Frame 155 processed",
+      "data": {
+        "frame": 155,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.885",
+      "type": "FRAME",
+      "message": "Frame 156 processed",
+      "data": {
+        "frame": 156,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.935",
+      "type": "FRAME",
+      "message": "Frame 157 processed",
+      "data": {
+        "frame": 157,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.955",
+      "type": "FRAME",
+      "message": "Frame 158 processed",
+      "data": {
+        "frame": 158,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:13.975",
+      "type": "FRAME",
+      "message": "Frame 159 processed",
+      "data": {
+        "frame": 159,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.002",
+      "type": "FRAME",
+      "message": "Frame 160 processed",
+      "data": {
+        "frame": 160,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.060",
+      "type": "FRAME",
+      "message": "Frame 161 processed",
+      "data": {
+        "frame": 161,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.081",
+      "type": "FRAME",
+      "message": "Frame 162 processed",
+      "data": {
+        "frame": 162,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.150",
+      "type": "FRAME",
+      "message": "Frame 163 processed",
+      "data": {
+        "frame": 163,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.171",
+      "type": "FRAME",
+      "message": "Frame 164 processed",
+      "data": {
+        "frame": 164,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.193",
+      "type": "FRAME",
+      "message": "Frame 165 processed",
+      "data": {
+        "frame": 165,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.215",
+      "type": "FRAME",
+      "message": "Frame 166 processed",
+      "data": {
+        "frame": 166,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.236",
+      "type": "FRAME",
+      "message": "Frame 167 processed",
+      "data": {
+        "frame": 167,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.271",
+      "type": "FRAME",
+      "message": "Frame 168 processed",
+      "data": {
+        "frame": 168,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.293",
+      "type": "FRAME",
+      "message": "Frame 169 processed",
+      "data": {
+        "frame": 169,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.351",
+      "type": "FRAME",
+      "message": "Frame 170 processed",
+      "data": {
+        "frame": 170,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.376",
+      "type": "FRAME",
+      "message": "Frame 171 processed",
+      "data": {
+        "frame": 171,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.415",
+      "type": "FRAME",
+      "message": "Frame 172 processed",
+      "data": {
+        "frame": 172,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.433",
+      "type": "FRAME",
+      "message": "Frame 173 processed",
+      "data": {
+        "frame": 173,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.495",
+      "type": "FRAME",
+      "message": "Frame 174 processed",
+      "data": {
+        "frame": 174,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.516",
+      "type": "FRAME",
+      "message": "Frame 175 processed",
+      "data": {
+        "frame": 175,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.559",
+      "type": "FRAME",
+      "message": "Frame 176 processed",
+      "data": {
+        "frame": 176,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.579",
+      "type": "FRAME",
+      "message": "Frame 177 processed",
+      "data": {
+        "frame": 177,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.622",
+      "type": "FRAME",
+      "message": "Frame 178 processed",
+      "data": {
+        "frame": 178,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.643",
+      "type": "FRAME",
+      "message": "Frame 179 processed",
+      "data": {
+        "frame": 179,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.704",
+      "type": "FRAME",
+      "message": "Frame 180 processed",
+      "data": {
+        "frame": 180,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.707",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "28.9",
+        "processing_time": "1037.0 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.725",
+      "type": "FRAME",
+      "message": "Frame 181 processed",
+      "data": {
+        "frame": 181,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.747",
+      "type": "FRAME",
+      "message": "Frame 182 processed",
+      "data": {
+        "frame": 182,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.768",
+      "type": "FRAME",
+      "message": "Frame 183 processed",
+      "data": {
+        "frame": 183,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.787",
+      "type": "FRAME",
+      "message": "Frame 184 processed",
+      "data": {
+        "frame": 184,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.829",
+      "type": "FRAME",
+      "message": "Frame 185 processed",
+      "data": {
+        "frame": 185,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.912",
+      "type": "FRAME",
+      "message": "Frame 186 processed",
+      "data": {
+        "frame": 186,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.933",
+      "type": "FRAME",
+      "message": "Frame 187 processed",
+      "data": {
+        "frame": 187,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.955",
+      "type": "FRAME",
+      "message": "Frame 188 processed",
+      "data": {
+        "frame": 188,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:14.977",
+      "type": "FRAME",
+      "message": "Frame 189 processed",
+      "data": {
+        "frame": 189,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.000",
+      "type": "FRAME",
+      "message": "Frame 190 processed",
+      "data": {
+        "frame": 190,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.054",
+      "type": "FRAME",
+      "message": "Frame 191 processed",
+      "data": {
+        "frame": 191,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.074",
+      "type": "FRAME",
+      "message": "Frame 192 processed",
+      "data": {
+        "frame": 192,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.119",
+      "type": "FRAME",
+      "message": "Frame 193 processed",
+      "data": {
+        "frame": 193,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.141",
+      "type": "FRAME",
+      "message": "Frame 194 processed",
+      "data": {
+        "frame": 194,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.188",
+      "type": "FRAME",
+      "message": "Frame 195 processed",
+      "data": {
+        "frame": 195,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.211",
+      "type": "FRAME",
+      "message": "Frame 196 processed",
+      "data": {
+        "frame": 196,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.266",
+      "type": "FRAME",
+      "message": "Frame 197 processed",
+      "data": {
+        "frame": 197,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.285",
+      "type": "FRAME",
+      "message": "Frame 198 processed",
+      "data": {
+        "frame": 198,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.327",
+      "type": "FRAME",
+      "message": "Frame 199 processed",
+      "data": {
+        "frame": 199,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.349",
+      "type": "FRAME",
+      "message": "Frame 200 processed",
+      "data": {
+        "frame": 200,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.391",
+      "type": "FRAME",
+      "message": "Frame 201 processed",
+      "data": {
+        "frame": 201,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.414",
+      "type": "FRAME",
+      "message": "Frame 202 processed",
+      "data": {
+        "frame": 202,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.436",
+      "type": "FRAME",
+      "message": "Frame 203 processed",
+      "data": {
+        "frame": 203,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.470",
+      "type": "FRAME",
+      "message": "Frame 204 processed",
+      "data": {
+        "frame": 204,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.492",
+      "type": "FRAME",
+      "message": "Frame 205 processed",
+      "data": {
+        "frame": 205,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.537",
+      "type": "FRAME",
+      "message": "Frame 206 processed",
+      "data": {
+        "frame": 206,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.558",
+      "type": "FRAME",
+      "message": "Frame 207 processed",
+      "data": {
+        "frame": 207,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.617",
+      "type": "FRAME",
+      "message": "Frame 208 processed",
+      "data": {
+        "frame": 208,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.638",
+      "type": "FRAME",
+      "message": "Frame 209 processed",
+      "data": {
+        "frame": 209,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.679",
+      "type": "FRAME",
+      "message": "Frame 210 processed",
+      "data": {
+        "frame": 210,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.682",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.8",
+        "processing_time": "974.2 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.701",
+      "type": "FRAME",
+      "message": "Frame 211 processed",
+      "data": {
+        "frame": 211,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.744",
+      "type": "FRAME",
+      "message": "Frame 212 processed",
+      "data": {
+        "frame": 212,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.764",
+      "type": "FRAME",
+      "message": "Frame 213 processed",
+      "data": {
+        "frame": 213,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.823",
+      "type": "FRAME",
+      "message": "Frame 214 processed",
+      "data": {
+        "frame": 214,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.844",
+      "type": "FRAME",
+      "message": "Frame 215 processed",
+      "data": {
+        "frame": 215,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.887",
+      "type": "FRAME",
+      "message": "Frame 216 processed",
+      "data": {
+        "frame": 216,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.910",
+      "type": "FRAME",
+      "message": "Frame 217 processed",
+      "data": {
+        "frame": 217,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.951",
+      "type": "FRAME",
+      "message": "Frame 218 processed",
+      "data": {
+        "frame": 218,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.972",
+      "type": "FRAME",
+      "message": "Frame 219 processed",
+      "data": {
+        "frame": 219,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:15.994",
+      "type": "FRAME",
+      "message": "Frame 220 processed",
+      "data": {
+        "frame": 220,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.037",
+      "type": "FRAME",
+      "message": "Frame 221 processed",
+      "data": {
+        "frame": 221,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.096",
+      "type": "FRAME",
+      "message": "Frame 222 processed",
+      "data": {
+        "frame": 222,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.117",
+      "type": "FRAME",
+      "message": "Frame 223 processed",
+      "data": {
+        "frame": 223,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.176",
+      "type": "FRAME",
+      "message": "Frame 224 processed",
+      "data": {
+        "frame": 224,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.203",
+      "type": "FRAME",
+      "message": "Frame 225 processed",
+      "data": {
+        "frame": 225,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.227",
+      "type": "FRAME",
+      "message": "Frame 226 processed",
+      "data": {
+        "frame": 226,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.250",
+      "type": "FRAME",
+      "message": "Frame 227 processed",
+      "data": {
+        "frame": 227,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.274",
+      "type": "FRAME",
+      "message": "Frame 228 processed",
+      "data": {
+        "frame": 228,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.305",
+      "type": "FRAME",
+      "message": "Frame 229 processed",
+      "data": {
+        "frame": 229,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.326",
+      "type": "FRAME",
+      "message": "Frame 230 processed",
+      "data": {
+        "frame": 230,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.385",
+      "type": "FRAME",
+      "message": "Frame 231 processed",
+      "data": {
+        "frame": 231,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.409",
+      "type": "FRAME",
+      "message": "Frame 232 processed",
+      "data": {
+        "frame": 232,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.450",
+      "type": "FRAME",
+      "message": "Frame 233 processed",
+      "data": {
+        "frame": 233,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.473",
+      "type": "FRAME",
+      "message": "Frame 234 processed",
+      "data": {
+        "frame": 234,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.517",
+      "type": "FRAME",
+      "message": "Frame 235 processed",
+      "data": {
+        "frame": 235,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.542",
+      "type": "FRAME",
+      "message": "Frame 236 processed",
+      "data": {
+        "frame": 236,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.592",
+      "type": "FRAME",
+      "message": "Frame 237 processed",
+      "data": {
+        "frame": 237,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.614",
+      "type": "FRAME",
+      "message": "Frame 238 processed",
+      "data": {
+        "frame": 238,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.658",
+      "type": "FRAME",
+      "message": "Frame 239 processed",
+      "data": {
+        "frame": 239,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.682",
+      "type": "FRAME",
+      "message": "Frame 240 processed",
+      "data": {
+        "frame": 240,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.685",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "29.9",
+        "processing_time": "1002.6 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.739",
+      "type": "FRAME",
+      "message": "Frame 241 processed",
+      "data": {
+        "frame": 241,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.763",
+      "type": "FRAME",
+      "message": "Frame 242 processed",
+      "data": {
+        "frame": 242,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.786",
+      "type": "FRAME",
+      "message": "Frame 243 processed",
+      "data": {
+        "frame": 243,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.807",
+      "type": "FRAME",
+      "message": "Frame 244 processed",
+      "data": {
+        "frame": 244,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.864",
+      "type": "FRAME",
+      "message": "Frame 245 processed",
+      "data": {
+        "frame": 245,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.888",
+      "type": "FRAME",
+      "message": "Frame 246 processed",
+      "data": {
+        "frame": 246,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.944",
+      "type": "FRAME",
+      "message": "Frame 247 processed",
+      "data": {
+        "frame": 247,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.966",
+      "type": "FRAME",
+      "message": "Frame 248 processed",
+      "data": {
+        "frame": 248,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:16.990",
+      "type": "FRAME",
+      "message": "Frame 249 processed",
+      "data": {
+        "frame": 249,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.012",
+      "type": "FRAME",
+      "message": "Frame 250 processed",
+      "data": {
+        "frame": 250,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.034",
+      "type": "FRAME",
+      "message": "Frame 251 processed",
+      "data": {
+        "frame": 251,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.072",
+      "type": "FRAME",
+      "message": "Frame 252 processed",
+      "data": {
+        "frame": 252,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.093",
+      "type": "FRAME",
+      "message": "Frame 253 processed",
+      "data": {
+        "frame": 253,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.151",
+      "type": "FRAME",
+      "message": "Frame 254 processed",
+      "data": {
+        "frame": 254,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.173",
+      "type": "FRAME",
+      "message": "Frame 255 processed",
+      "data": {
+        "frame": 255,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.218",
+      "type": "FRAME",
+      "message": "Frame 256 processed",
+      "data": {
+        "frame": 256,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.242",
+      "type": "FRAME",
+      "message": "Frame 257 processed",
+      "data": {
+        "frame": 257,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.298",
+      "type": "FRAME",
+      "message": "Frame 258 processed",
+      "data": {
+        "frame": 258,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.320",
+      "type": "FRAME",
+      "message": "Frame 259 processed",
+      "data": {
+        "frame": 259,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.360",
+      "type": "FRAME",
+      "message": "Frame 260 processed",
+      "data": {
+        "frame": 260,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.384",
+      "type": "FRAME",
+      "message": "Frame 261 processed",
+      "data": {
+        "frame": 261,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.424",
+      "type": "FRAME",
+      "message": "Frame 262 processed",
+      "data": {
+        "frame": 262,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.447",
+      "type": "FRAME",
+      "message": "Frame 263 processed",
+      "data": {
+        "frame": 263,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.504",
+      "type": "FRAME",
+      "message": "Frame 264 processed",
+      "data": {
+        "frame": 264,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.529",
+      "type": "FRAME",
+      "message": "Frame 265 processed",
+      "data": {
+        "frame": 265,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.552",
+      "type": "FRAME",
+      "message": "Frame 266 processed",
+      "data": {
+        "frame": 266,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.576",
+      "type": "FRAME",
+      "message": "Frame 267 processed",
+      "data": {
+        "frame": 267,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.599",
+      "type": "FRAME",
+      "message": "Frame 268 processed",
+      "data": {
+        "frame": 268,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.635",
+      "type": "FRAME",
+      "message": "Frame 269 processed",
+      "data": {
+        "frame": 269,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.658",
+      "type": "FRAME",
+      "message": "Frame 270 processed",
+      "data": {
+        "frame": 270,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.661",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.7",
+        "processing_time": "975.8 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.712",
+      "type": "FRAME",
+      "message": "Frame 271 processed",
+      "data": {
+        "frame": 271,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.736",
+      "type": "FRAME",
+      "message": "Frame 272 processed",
+      "data": {
+        "frame": 272,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.777",
+      "type": "FRAME",
+      "message": "Frame 273 processed",
+      "data": {
+        "frame": 273,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.799",
+      "type": "FRAME",
+      "message": "Frame 274 processed",
+      "data": {
+        "frame": 274,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.858",
+      "type": "FRAME",
+      "message": "Frame 275 processed",
+      "data": {
+        "frame": 275,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.881",
+      "type": "FRAME",
+      "message": "Frame 276 processed",
+      "data": {
+        "frame": 276,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.919",
+      "type": "FRAME",
+      "message": "Frame 277 processed",
+      "data": {
+        "frame": 277,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.941",
+      "type": "FRAME",
+      "message": "Frame 278 processed",
+      "data": {
+        "frame": 278,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:17.987",
+      "type": "FRAME",
+      "message": "Frame 279 processed",
+      "data": {
+        "frame": 279,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.015",
+      "type": "FRAME",
+      "message": "Frame 280 processed",
+      "data": {
+        "frame": 280,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.065",
+      "type": "FRAME",
+      "message": "Frame 281 processed",
+      "data": {
+        "frame": 281,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.088",
+      "type": "FRAME",
+      "message": "Frame 282 processed",
+      "data": {
+        "frame": 282,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.128",
+      "type": "FRAME",
+      "message": "Frame 283 processed",
+      "data": {
+        "frame": 283,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.152",
+      "type": "FRAME",
+      "message": "Frame 284 processed",
+      "data": {
+        "frame": 284,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.194",
+      "type": "FRAME",
+      "message": "Frame 285 processed",
+      "data": {
+        "frame": 285,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.216",
+      "type": "FRAME",
+      "message": "Frame 286 processed",
+      "data": {
+        "frame": 286,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.239",
+      "type": "FRAME",
+      "message": "Frame 287 processed",
+      "data": {
+        "frame": 287,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.275",
+      "type": "FRAME",
+      "message": "Frame 288 processed",
+      "data": {
+        "frame": 288,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.298",
+      "type": "FRAME",
+      "message": "Frame 289 processed",
+      "data": {
+        "frame": 289,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.338",
+      "type": "FRAME",
+      "message": "Frame 290 processed",
+      "data": {
+        "frame": 290,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.361",
+      "type": "FRAME",
+      "message": "Frame 291 processed",
+      "data": {
+        "frame": 291,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.416",
+      "type": "FRAME",
+      "message": "Frame 292 processed",
+      "data": {
+        "frame": 292,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.439",
+      "type": "FRAME",
+      "message": "Frame 293 processed",
+      "data": {
+        "frame": 293,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.481",
+      "type": "FRAME",
+      "message": "Frame 294 processed",
+      "data": {
+        "frame": 294,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.505",
+      "type": "FRAME",
+      "message": "Frame 295 processed",
+      "data": {
+        "frame": 295,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.545",
+      "type": "FRAME",
+      "message": "Frame 296 processed",
+      "data": {
+        "frame": 296,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.569",
+      "type": "FRAME",
+      "message": "Frame 297 processed",
+      "data": {
+        "frame": 297,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.626",
+      "type": "FRAME",
+      "message": "Frame 298 processed",
+      "data": {
+        "frame": 298,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.650",
+      "type": "FRAME",
+      "message": "Frame 299 processed",
+      "data": {
+        "frame": 299,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.689",
+      "type": "FRAME",
+      "message": "Frame 300 processed",
+      "data": {
+        "frame": 300,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.692",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "29.1",
+        "processing_time": "1030.3 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.710",
+      "type": "FRAME",
+      "message": "Frame 301 processed",
+      "data": {
+        "frame": 301,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.757",
+      "type": "FRAME",
+      "message": "Frame 302 processed",
+      "data": {
+        "frame": 302,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.782",
+      "type": "FRAME",
+      "message": "Frame 303 processed",
+      "data": {
+        "frame": 303,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.804",
+      "type": "FRAME",
+      "message": "Frame 304 processed",
+      "data": {
+        "frame": 304,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.833",
+      "type": "FRAME",
+      "message": "Frame 305 processed",
+      "data": {
+        "frame": 305,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.897",
+      "type": "FRAME",
+      "message": "Frame 306 processed",
+      "data": {
+        "frame": 306,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.919",
+      "type": "FRAME",
+      "message": "Frame 307 processed",
+      "data": {
+        "frame": 307,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:18.978",
+      "type": "FRAME",
+      "message": "Frame 308 processed",
+      "data": {
+        "frame": 308,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.005",
+      "type": "FRAME",
+      "message": "Frame 309 processed",
+      "data": {
+        "frame": 309,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.035",
+      "type": "FRAME",
+      "message": "Frame 310 processed",
+      "data": {
+        "frame": 310,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.059",
+      "type": "FRAME",
+      "message": "Frame 311 processed",
+      "data": {
+        "frame": 311,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.084",
+      "type": "FRAME",
+      "message": "Frame 312 processed",
+      "data": {
+        "frame": 312,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.110",
+      "type": "FRAME",
+      "message": "Frame 313 processed",
+      "data": {
+        "frame": 313,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.133",
+      "type": "FRAME",
+      "message": "Frame 314 processed",
+      "data": {
+        "frame": 314,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.186",
+      "type": "FRAME",
+      "message": "Frame 315 processed",
+      "data": {
+        "frame": 315,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.208",
+      "type": "FRAME",
+      "message": "Frame 316 processed",
+      "data": {
+        "frame": 316,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.248",
+      "type": "FRAME",
+      "message": "Frame 317 processed",
+      "data": {
+        "frame": 317,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.271",
+      "type": "FRAME",
+      "message": "Frame 318 processed",
+      "data": {
+        "frame": 318,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.311",
+      "type": "FRAME",
+      "message": "Frame 319 processed",
+      "data": {
+        "frame": 319,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.336",
+      "type": "FRAME",
+      "message": "Frame 320 processed",
+      "data": {
+        "frame": 320,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.393",
+      "type": "FRAME",
+      "message": "Frame 321 processed",
+      "data": {
+        "frame": 321,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.417",
+      "type": "FRAME",
+      "message": "Frame 322 processed",
+      "data": {
+        "frame": 322,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.459",
+      "type": "FRAME",
+      "message": "Frame 323 processed",
+      "data": {
+        "frame": 323,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.481",
+      "type": "FRAME",
+      "message": "Frame 324 processed",
+      "data": {
+        "frame": 324,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.541",
+      "type": "FRAME",
+      "message": "Frame 325 processed",
+      "data": {
+        "frame": 325,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.565",
+      "type": "FRAME",
+      "message": "Frame 326 processed",
+      "data": {
+        "frame": 326,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.589",
+      "type": "FRAME",
+      "message": "Frame 327 processed",
+      "data": {
+        "frame": 327,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.612",
+      "type": "FRAME",
+      "message": "Frame 328 processed",
+      "data": {
+        "frame": 328,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.663",
+      "type": "FRAME",
+      "message": "Frame 329 processed",
+      "data": {
+        "frame": 329,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.685",
+      "type": "FRAME",
+      "message": "Frame 330 processed",
+      "data": {
+        "frame": 330,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.688",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.1",
+        "processing_time": "996.6 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.746",
+      "type": "FRAME",
+      "message": "Frame 331 processed",
+      "data": {
+        "frame": 331,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.770",
+      "type": "FRAME",
+      "message": "Frame 332 processed",
+      "data": {
+        "frame": 332,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.793",
+      "type": "FRAME",
+      "message": "Frame 333 processed",
+      "data": {
+        "frame": 333,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.815",
+      "type": "FRAME",
+      "message": "Frame 334 processed",
+      "data": {
+        "frame": 334,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.840",
+      "type": "FRAME",
+      "message": "Frame 335 processed",
+      "data": {
+        "frame": 335,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.873",
+      "type": "FRAME",
+      "message": "Frame 336 processed",
+      "data": {
+        "frame": 336,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.897",
+      "type": "FRAME",
+      "message": "Frame 337 processed",
+      "data": {
+        "frame": 337,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.953",
+      "type": "FRAME",
+      "message": "Frame 338 processed",
+      "data": {
+        "frame": 338,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:19.975",
+      "type": "FRAME",
+      "message": "Frame 339 processed",
+      "data": {
+        "frame": 339,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.022",
+      "type": "FRAME",
+      "message": "Frame 340 processed",
+      "data": {
+        "frame": 340,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.045",
+      "type": "FRAME",
+      "message": "Frame 341 processed",
+      "data": {
+        "frame": 341,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.097",
+      "type": "FRAME",
+      "message": "Frame 342 processed",
+      "data": {
+        "frame": 342,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.120",
+      "type": "FRAME",
+      "message": "Frame 343 processed",
+      "data": {
+        "frame": 343,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.162",
+      "type": "FRAME",
+      "message": "Frame 344 processed",
+      "data": {
+        "frame": 344,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.186",
+      "type": "FRAME",
+      "message": "Frame 345 processed",
+      "data": {
+        "frame": 345,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.226",
+      "type": "FRAME",
+      "message": "Frame 346 processed",
+      "data": {
+        "frame": 346,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.250",
+      "type": "FRAME",
+      "message": "Frame 347 processed",
+      "data": {
+        "frame": 347,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.304",
+      "type": "FRAME",
+      "message": "Frame 348 processed",
+      "data": {
+        "frame": 348,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.329",
+      "type": "FRAME",
+      "message": "Frame 349 processed",
+      "data": {
+        "frame": 349,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.353",
+      "type": "FRAME",
+      "message": "Frame 350 processed",
+      "data": {
+        "frame": 350,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.376",
+      "type": "FRAME",
+      "message": "Frame 351 processed",
+      "data": {
+        "frame": 351,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.399",
+      "type": "FRAME",
+      "message": "Frame 352 processed",
+      "data": {
+        "frame": 352,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.433",
+      "type": "FRAME",
+      "message": "Frame 353 processed",
+      "data": {
+        "frame": 353,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.456",
+      "type": "FRAME",
+      "message": "Frame 354 processed",
+      "data": {
+        "frame": 354,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.514",
+      "type": "FRAME",
+      "message": "Frame 355 processed",
+      "data": {
+        "frame": 355,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.538",
+      "type": "FRAME",
+      "message": "Frame 356 processed",
+      "data": {
+        "frame": 356,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.578",
+      "type": "FRAME",
+      "message": "Frame 357 processed",
+      "data": {
+        "frame": 357,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.604",
+      "type": "FRAME",
+      "message": "Frame 358 processed",
+      "data": {
+        "frame": 358,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.658",
+      "type": "FRAME",
+      "message": "Frame 359 processed",
+      "data": {
+        "frame": 359,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.681",
+      "type": "FRAME",
+      "message": "Frame 360 processed",
+      "data": {
+        "frame": 360,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.684",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.1",
+        "processing_time": "995.1 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.719",
+      "type": "FRAME",
+      "message": "Frame 361 processed",
+      "data": {
+        "frame": 361,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.742",
+      "type": "FRAME",
+      "message": "Frame 362 processed",
+      "data": {
+        "frame": 362,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.784",
+      "type": "FRAME",
+      "message": "Frame 363 processed",
+      "data": {
+        "frame": 363,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.808",
+      "type": "FRAME",
+      "message": "Frame 364 processed",
+      "data": {
+        "frame": 364,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.864",
+      "type": "FRAME",
+      "message": "Frame 365 processed",
+      "data": {
+        "frame": 365,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.887",
+      "type": "FRAME",
+      "message": "Frame 366 processed",
+      "data": {
+        "frame": 366,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.928",
+      "type": "FRAME",
+      "message": "Frame 367 processed",
+      "data": {
+        "frame": 367,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.952",
+      "type": "FRAME",
+      "message": "Frame 368 processed",
+      "data": {
+        "frame": 368,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:20.993",
+      "type": "FRAME",
+      "message": "Frame 369 processed",
+      "data": {
+        "frame": 369,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.016",
+      "type": "FRAME",
+      "message": "Frame 370 processed",
+      "data": {
+        "frame": 370,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.042",
+      "type": "FRAME",
+      "message": "Frame 371 processed",
+      "data": {
+        "frame": 371,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.072",
+      "type": "FRAME",
+      "message": "Frame 372 processed",
+      "data": {
+        "frame": 372,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.094",
+      "type": "FRAME",
+      "message": "Frame 373 processed",
+      "data": {
+        "frame": 373,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.135",
+      "type": "FRAME",
+      "message": "Frame 374 processed",
+      "data": {
+        "frame": 374,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.157",
+      "type": "FRAME",
+      "message": "Frame 375 processed",
+      "data": {
+        "frame": 375,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.218",
+      "type": "FRAME",
+      "message": "Frame 376 processed",
+      "data": {
+        "frame": 376,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.241",
+      "type": "FRAME",
+      "message": "Frame 377 processed",
+      "data": {
+        "frame": 377,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.286",
+      "type": "FRAME",
+      "message": "Frame 378 processed",
+      "data": {
+        "frame": 378,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.310",
+      "type": "FRAME",
+      "message": "Frame 379 processed",
+      "data": {
+        "frame": 379,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.345",
+      "type": "FRAME",
+      "message": "Frame 380 processed",
+      "data": {
+        "frame": 380,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.368",
+      "type": "FRAME",
+      "message": "Frame 381 processed",
+      "data": {
+        "frame": 381,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.424",
+      "type": "FRAME",
+      "message": "Frame 382 processed",
+      "data": {
+        "frame": 382,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.448",
+      "type": "FRAME",
+      "message": "Frame 383 processed",
+      "data": {
+        "frame": 383,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.487",
+      "type": "FRAME",
+      "message": "Frame 384 processed",
+      "data": {
+        "frame": 384,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.509",
+      "type": "FRAME",
+      "message": "Frame 385 processed",
+      "data": {
+        "frame": 385,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.552",
+      "type": "FRAME",
+      "message": "Frame 386 processed",
+      "data": {
+        "frame": 386,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.576",
+      "type": "FRAME",
+      "message": "Frame 387 processed",
+      "data": {
+        "frame": 387,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.597",
+      "type": "FRAME",
+      "message": "Frame 388 processed",
+      "data": {
+        "frame": 388,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.633",
+      "type": "FRAME",
+      "message": "Frame 389 processed",
+      "data": {
+        "frame": 389,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.698",
+      "type": "FRAME",
+      "message": "Frame 390 processed",
+      "data": {
+        "frame": 390,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.701",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "29.5",
+        "processing_time": "1017.1 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.721",
+      "type": "FRAME",
+      "message": "Frame 391 processed",
+      "data": {
+        "frame": 391,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.776",
+      "type": "FRAME",
+      "message": "Frame 392 processed",
+      "data": {
+        "frame": 392,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.799",
+      "type": "FRAME",
+      "message": "Frame 393 processed",
+      "data": {
+        "frame": 393,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.822",
+      "type": "FRAME",
+      "message": "Frame 394 processed",
+      "data": {
+        "frame": 394,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.846",
+      "type": "FRAME",
+      "message": "Frame 395 processed",
+      "data": {
+        "frame": 395,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.871",
+      "type": "FRAME",
+      "message": "Frame 396 processed",
+      "data": {
+        "frame": 396,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.905",
+      "type": "FRAME",
+      "message": "Frame 397 processed",
+      "data": {
+        "frame": 397,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.929",
+      "type": "FRAME",
+      "message": "Frame 398 processed",
+      "data": {
+        "frame": 398,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:21.988",
+      "type": "FRAME",
+      "message": "Frame 399 processed",
+      "data": {
+        "frame": 399,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.013",
+      "type": "FRAME",
+      "message": "Frame 400 processed",
+      "data": {
+        "frame": 400,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.048",
+      "type": "FRAME",
+      "message": "Frame 401 processed",
+      "data": {
+        "frame": 401,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.073",
+      "type": "FRAME",
+      "message": "Frame 402 processed",
+      "data": {
+        "frame": 402,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.118",
+      "type": "FRAME",
+      "message": "Frame 403 processed",
+      "data": {
+        "frame": 403,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.142",
+      "type": "FRAME",
+      "message": "Frame 404 processed",
+      "data": {
+        "frame": 404,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.194",
+      "type": "FRAME",
+      "message": "Frame 405 processed",
+      "data": {
+        "frame": 405,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.218",
+      "type": "FRAME",
+      "message": "Frame 406 processed",
+      "data": {
+        "frame": 406,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.260",
+      "type": "FRAME",
+      "message": "Frame 407 processed",
+      "data": {
+        "frame": 407,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.284",
+      "type": "FRAME",
+      "message": "Frame 408 processed",
+      "data": {
+        "frame": 408,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.340",
+      "type": "FRAME",
+      "message": "Frame 409 processed",
+      "data": {
+        "frame": 409,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.361",
+      "type": "FRAME",
+      "message": "Frame 410 processed",
+      "data": {
+        "frame": 410,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.384",
+      "type": "FRAME",
+      "message": "Frame 411 processed",
+      "data": {
+        "frame": 411,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.406",
+      "type": "FRAME",
+      "message": "Frame 412 processed",
+      "data": {
+        "frame": 412,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.468",
+      "type": "FRAME",
+      "message": "Frame 413 processed",
+      "data": {
+        "frame": 413,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.490",
+      "type": "FRAME",
+      "message": "Frame 414 processed",
+      "data": {
+        "frame": 414,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.545",
+      "type": "FRAME",
+      "message": "Frame 415 processed",
+      "data": {
+        "frame": 415,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.569",
+      "type": "FRAME",
+      "message": "Frame 416 processed",
+      "data": {
+        "frame": 416,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.591",
+      "type": "FRAME",
+      "message": "Frame 417 processed",
+      "data": {
+        "frame": 417,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.614",
+      "type": "FRAME",
+      "message": "Frame 418 processed",
+      "data": {
+        "frame": 418,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.637",
+      "type": "FRAME",
+      "message": "Frame 419 processed",
+      "data": {
+        "frame": 419,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.672",
+      "type": "FRAME",
+      "message": "Frame 420 processed",
+      "data": {
+        "frame": 420,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.675",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.8",
+        "processing_time": "974.0 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.694",
+      "type": "FRAME",
+      "message": "Frame 421 processed",
+      "data": {
+        "frame": 421,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.754",
+      "type": "FRAME",
+      "message": "Frame 422 processed",
+      "data": {
+        "frame": 422,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.782",
+      "type": "FRAME",
+      "message": "Frame 423 processed",
+      "data": {
+        "frame": 423,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.822",
+      "type": "FRAME",
+      "message": "Frame 424 processed",
+      "data": {
+        "frame": 424,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.851",
+      "type": "FRAME",
+      "message": "Frame 425 processed",
+      "data": {
+        "frame": 425,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.902",
+      "type": "FRAME",
+      "message": "Frame 426 processed",
+      "data": {
+        "frame": 426,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.931",
+      "type": "FRAME",
+      "message": "Frame 427 processed",
+      "data": {
+        "frame": 427,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.960",
+      "type": "FRAME",
+      "message": "Frame 428 processed",
+      "data": {
+        "frame": 428,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:22.983",
+      "type": "FRAME",
+      "message": "Frame 429 processed",
+      "data": {
+        "frame": 429,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.023",
+      "type": "FRAME",
+      "message": "Frame 430 processed",
+      "data": {
+        "frame": 430,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.052",
+      "type": "FRAME",
+      "message": "Frame 431 processed",
+      "data": {
+        "frame": 431,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.104",
+      "type": "FRAME",
+      "message": "Frame 432 processed",
+      "data": {
+        "frame": 432,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.126",
+      "type": "FRAME",
+      "message": "Frame 433 processed",
+      "data": {
+        "frame": 433,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.149",
+      "type": "FRAME",
+      "message": "Frame 434 processed",
+      "data": {
+        "frame": 434,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.173",
+      "type": "FRAME",
+      "message": "Frame 435 processed",
+      "data": {
+        "frame": 435,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.195",
+      "type": "FRAME",
+      "message": "Frame 436 processed",
+      "data": {
+        "frame": 436,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.233",
+      "type": "FRAME",
+      "message": "Frame 437 processed",
+      "data": {
+        "frame": 437,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.255",
+      "type": "FRAME",
+      "message": "Frame 438 processed",
+      "data": {
+        "frame": 438,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.313",
+      "type": "FRAME",
+      "message": "Frame 439 processed",
+      "data": {
+        "frame": 439,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.336",
+      "type": "FRAME",
+      "message": "Frame 440 processed",
+      "data": {
+        "frame": 440,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.377",
+      "type": "FRAME",
+      "message": "Frame 441 processed",
+      "data": {
+        "frame": 441,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.404",
+      "type": "FRAME",
+      "message": "Frame 442 processed",
+      "data": {
+        "frame": 442,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.456",
+      "type": "FRAME",
+      "message": "Frame 443 processed",
+      "data": {
+        "frame": 443,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.478",
+      "type": "FRAME",
+      "message": "Frame 444 processed",
+      "data": {
+        "frame": 444,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.520",
+      "type": "FRAME",
+      "message": "Frame 445 processed",
+      "data": {
+        "frame": 445,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.543",
+      "type": "FRAME",
+      "message": "Frame 446 processed",
+      "data": {
+        "frame": 446,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.585",
+      "type": "FRAME",
+      "message": "Frame 447 processed",
+      "data": {
+        "frame": 447,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.607",
+      "type": "FRAME",
+      "message": "Frame 448 processed",
+      "data": {
+        "frame": 448,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.665",
+      "type": "FRAME",
+      "message": "Frame 449 processed",
+      "data": {
+        "frame": 449,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.687",
+      "type": "FRAME",
+      "message": "Frame 450 processed",
+      "data": {
+        "frame": 450,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.690",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "29.6",
+        "processing_time": "1014.5 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.729",
+      "type": "FRAME",
+      "message": "Frame 451 processed",
+      "data": {
+        "frame": 451,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.752",
+      "type": "FRAME",
+      "message": "Frame 452 processed",
+      "data": {
+        "frame": 452,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.810",
+      "type": "FRAME",
+      "message": "Frame 453 processed",
+      "data": {
+        "frame": 453,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.835",
+      "type": "FRAME",
+      "message": "Frame 454 processed",
+      "data": {
+        "frame": 454,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.860",
+      "type": "FRAME",
+      "message": "Frame 455 processed",
+      "data": {
+        "frame": 455,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.883",
+      "type": "FRAME",
+      "message": "Frame 456 processed",
+      "data": {
+        "frame": 456,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.908",
+      "type": "FRAME",
+      "message": "Frame 457 processed",
+      "data": {
+        "frame": 457,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.937",
+      "type": "FRAME",
+      "message": "Frame 458 processed",
+      "data": {
+        "frame": 458,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:23.961",
+      "type": "FRAME",
+      "message": "Frame 459 processed",
+      "data": {
+        "frame": 459,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.014",
+      "type": "FRAME",
+      "message": "Frame 460 processed",
+      "data": {
+        "frame": 460,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.038",
+      "type": "FRAME",
+      "message": "Frame 461 processed",
+      "data": {
+        "frame": 461,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.084",
+      "type": "FRAME",
+      "message": "Frame 462 processed",
+      "data": {
+        "frame": 462,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.110",
+      "type": "FRAME",
+      "message": "Frame 463 processed",
+      "data": {
+        "frame": 463,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.143",
+      "type": "FRAME",
+      "message": "Frame 464 processed",
+      "data": {
+        "frame": 464,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.166",
+      "type": "FRAME",
+      "message": "Frame 465 processed",
+      "data": {
+        "frame": 465,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.224",
+      "type": "FRAME",
+      "message": "Frame 466 processed",
+      "data": {
+        "frame": 466,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.247",
+      "type": "FRAME",
+      "message": "Frame 467 processed",
+      "data": {
+        "frame": 467,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.290",
+      "type": "FRAME",
+      "message": "Frame 468 processed",
+      "data": {
+        "frame": 468,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.313",
+      "type": "FRAME",
+      "message": "Frame 469 processed",
+      "data": {
+        "frame": 469,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.368",
+      "type": "FRAME",
+      "message": "Frame 470 processed",
+      "data": {
+        "frame": 470,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.392",
+      "type": "FRAME",
+      "message": "Frame 471 processed",
+      "data": {
+        "frame": 471,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.416",
+      "type": "FRAME",
+      "message": "Frame 472 processed",
+      "data": {
+        "frame": 472,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.440",
+      "type": "FRAME",
+      "message": "Frame 473 processed",
+      "data": {
+        "frame": 473,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.497",
+      "type": "FRAME",
+      "message": "Frame 474 processed",
+      "data": {
+        "frame": 474,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.521",
+      "type": "FRAME",
+      "message": "Frame 475 processed",
+      "data": {
+        "frame": 475,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.578",
+      "type": "FRAME",
+      "message": "Frame 476 processed",
+      "data": {
+        "frame": 476,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.601",
+      "type": "FRAME",
+      "message": "Frame 477 processed",
+      "data": {
+        "frame": 477,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.625",
+      "type": "FRAME",
+      "message": "Frame 478 processed",
+      "data": {
+        "frame": 478,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.650",
+      "type": "FRAME",
+      "message": "Frame 479 processed",
+      "data": {
+        "frame": 479,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.673",
+      "type": "FRAME",
+      "message": "Frame 480 processed",
+      "data": {
+        "frame": 480,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.676",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.4",
+        "processing_time": "985.8 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.707",
+      "type": "FRAME",
+      "message": "Frame 481 processed",
+      "data": {
+        "frame": 481,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.729",
+      "type": "FRAME",
+      "message": "Frame 482 processed",
+      "data": {
+        "frame": 482,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.785",
+      "type": "FRAME",
+      "message": "Frame 483 processed",
+      "data": {
+        "frame": 483,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.807",
+      "type": "FRAME",
+      "message": "Frame 484 processed",
+      "data": {
+        "frame": 484,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.848",
+      "type": "FRAME",
+      "message": "Frame 485 processed",
+      "data": {
+        "frame": 485,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.869",
+      "type": "FRAME",
+      "message": "Frame 486 processed",
+      "data": {
+        "frame": 486,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.927",
+      "type": "FRAME",
+      "message": "Frame 487 processed",
+      "data": {
+        "frame": 487,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.950",
+      "type": "FRAME",
+      "message": "Frame 488 processed",
+      "data": {
+        "frame": 488,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:24.992",
+      "type": "FRAME",
+      "message": "Frame 489 processed",
+      "data": {
+        "frame": 489,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.014",
+      "type": "FRAME",
+      "message": "Frame 490 processed",
+      "data": {
+        "frame": 490,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.055",
+      "type": "FRAME",
+      "message": "Frame 491 processed",
+      "data": {
+        "frame": 491,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.080",
+      "type": "FRAME",
+      "message": "Frame 492 processed",
+      "data": {
+        "frame": 492,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.136",
+      "type": "FRAME",
+      "message": "Frame 493 processed",
+      "data": {
+        "frame": 493,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.158",
+      "type": "FRAME",
+      "message": "Frame 494 processed",
+      "data": {
+        "frame": 494,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.182",
+      "type": "FRAME",
+      "message": "Frame 495 processed",
+      "data": {
+        "frame": 495,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.206",
+      "type": "FRAME",
+      "message": "Frame 496 processed",
+      "data": {
+        "frame": 496,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.266",
+      "type": "FRAME",
+      "message": "Frame 497 processed",
+      "data": {
+        "frame": 497,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.291",
+      "type": "FRAME",
+      "message": "Frame 498 processed",
+      "data": {
+        "frame": 498,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.345",
+      "type": "FRAME",
+      "message": "Frame 499 processed",
+      "data": {
+        "frame": 499,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.370",
+      "type": "FRAME",
+      "message": "Frame 500 processed",
+      "data": {
+        "frame": 500,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.392",
+      "type": "FRAME",
+      "message": "Frame 501 processed",
+      "data": {
+        "frame": 501,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.416",
+      "type": "FRAME",
+      "message": "Frame 502 processed",
+      "data": {
+        "frame": 502,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.437",
+      "type": "FRAME",
+      "message": "Frame 503 processed",
+      "data": {
+        "frame": 503,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.488",
+      "type": "FRAME",
+      "message": "Frame 504 processed",
+      "data": {
+        "frame": 504,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.511",
+      "type": "FRAME",
+      "message": "Frame 505 processed",
+      "data": {
+        "frame": 505,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.553",
+      "type": "FRAME",
+      "message": "Frame 506 processed",
+      "data": {
+        "frame": 506,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.574",
+      "type": "FRAME",
+      "message": "Frame 507 processed",
+      "data": {
+        "frame": 507,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.616",
+      "type": "FRAME",
+      "message": "Frame 508 processed",
+      "data": {
+        "frame": 508,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.638",
+      "type": "FRAME",
+      "message": "Frame 509 processed",
+      "data": {
+        "frame": 509,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.696",
+      "type": "FRAME",
+      "message": "Frame 510 processed",
+      "data": {
+        "frame": 510,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.699",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "29.3",
+        "processing_time": "1022.9 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.720",
+      "type": "FRAME",
+      "message": "Frame 511 processed",
+      "data": {
+        "frame": 511,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.761",
+      "type": "FRAME",
+      "message": "Frame 512 processed",
+      "data": {
+        "frame": 512,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.782",
+      "type": "FRAME",
+      "message": "Frame 513 processed",
+      "data": {
+        "frame": 513,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.826",
+      "type": "FRAME",
+      "message": "Frame 514 processed",
+      "data": {
+        "frame": 514,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.850",
+      "type": "FRAME",
+      "message": "Frame 515 processed",
+      "data": {
+        "frame": 515,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.906",
+      "type": "FRAME",
+      "message": "Frame 516 processed",
+      "data": {
+        "frame": 516,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.932",
+      "type": "FRAME",
+      "message": "Frame 517 processed",
+      "data": {
+        "frame": 517,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.957",
+      "type": "FRAME",
+      "message": "Frame 518 processed",
+      "data": {
+        "frame": 518,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:25.980",
+      "type": "FRAME",
+      "message": "Frame 519 processed",
+      "data": {
+        "frame": 519,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.001",
+      "type": "FRAME",
+      "message": "Frame 520 processed",
+      "data": {
+        "frame": 520,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.048",
+      "type": "FRAME",
+      "message": "Frame 521 processed",
+      "data": {
+        "frame": 521,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.071",
+      "type": "FRAME",
+      "message": "Frame 522 processed",
+      "data": {
+        "frame": 522,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.112",
+      "type": "FRAME",
+      "message": "Frame 523 processed",
+      "data": {
+        "frame": 523,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.132",
+      "type": "FRAME",
+      "message": "Frame 524 processed",
+      "data": {
+        "frame": 524,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.176",
+      "type": "FRAME",
+      "message": "Frame 525 processed",
+      "data": {
+        "frame": 525,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.199",
+      "type": "FRAME",
+      "message": "Frame 526 processed",
+      "data": {
+        "frame": 526,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.255",
+      "type": "FRAME",
+      "message": "Frame 527 processed",
+      "data": {
+        "frame": 527,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.279",
+      "type": "FRAME",
+      "message": "Frame 528 processed",
+      "data": {
+        "frame": 528,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.321",
+      "type": "FRAME",
+      "message": "Frame 529 processed",
+      "data": {
+        "frame": 529,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.347",
+      "type": "FRAME",
+      "message": "Frame 530 processed",
+      "data": {
+        "frame": 530,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.386",
+      "type": "FRAME",
+      "message": "Frame 531 processed",
+      "data": {
+        "frame": 531,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.421",
+      "type": "FRAME",
+      "message": "Frame 532 processed",
+      "data": {
+        "frame": 532,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.467",
+      "type": "FRAME",
+      "message": "Frame 533 processed",
+      "data": {
+        "frame": 533,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.493",
+      "type": "FRAME",
+      "message": "Frame 534 processed",
+      "data": {
+        "frame": 534,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.529",
+      "type": "FRAME",
+      "message": "Frame 535 processed",
+      "data": {
+        "frame": 535,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.554",
+      "type": "FRAME",
+      "message": "Frame 536 processed",
+      "data": {
+        "frame": 536,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.610",
+      "type": "FRAME",
+      "message": "Frame 537 processed",
+      "data": {
+        "frame": 537,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.634",
+      "type": "FRAME",
+      "message": "Frame 538 processed",
+      "data": {
+        "frame": 538,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.661",
+      "type": "FRAME",
+      "message": "Frame 539 processed",
+      "data": {
+        "frame": 539,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.684",
+      "type": "FRAME",
+      "message": "Frame 540 processed",
+      "data": {
+        "frame": 540,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.688",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.4",
+        "processing_time": "987.8 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.710",
+      "type": "FRAME",
+      "message": "Frame 541 processed",
+      "data": {
+        "frame": 541,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.737",
+      "type": "FRAME",
+      "message": "Frame 542 processed",
+      "data": {
+        "frame": 542,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.759",
+      "type": "FRAME",
+      "message": "Frame 543 processed",
+      "data": {
+        "frame": 543,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.820",
+      "type": "FRAME",
+      "message": "Frame 544 processed",
+      "data": {
+        "frame": 544,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.845",
+      "type": "FRAME",
+      "message": "Frame 545 processed",
+      "data": {
+        "frame": 545,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.881",
+      "type": "FRAME",
+      "message": "Frame 546 processed",
+      "data": {
+        "frame": 546,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.905",
+      "type": "FRAME",
+      "message": "Frame 547 processed",
+      "data": {
+        "frame": 547,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.944",
+      "type": "FRAME",
+      "message": "Frame 548 processed",
+      "data": {
+        "frame": 548,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:26.968",
+      "type": "FRAME",
+      "message": "Frame 549 processed",
+      "data": {
+        "frame": 549,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.026",
+      "type": "FRAME",
+      "message": "Frame 550 processed",
+      "data": {
+        "frame": 550,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.049",
+      "type": "FRAME",
+      "message": "Frame 551 processed",
+      "data": {
+        "frame": 551,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.089",
+      "type": "FRAME",
+      "message": "Frame 552 processed",
+      "data": {
+        "frame": 552,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.111",
+      "type": "FRAME",
+      "message": "Frame 553 processed",
+      "data": {
+        "frame": 553,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.169",
+      "type": "FRAME",
+      "message": "Frame 554 processed",
+      "data": {
+        "frame": 554,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.192",
+      "type": "FRAME",
+      "message": "Frame 555 processed",
+      "data": {
+        "frame": 555,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.215",
+      "type": "FRAME",
+      "message": "Frame 556 processed",
+      "data": {
+        "frame": 556,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.237",
+      "type": "FRAME",
+      "message": "Frame 557 processed",
+      "data": {
+        "frame": 557,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.296",
+      "type": "FRAME",
+      "message": "Frame 558 processed",
+      "data": {
+        "frame": 558,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.320",
+      "type": "FRAME",
+      "message": "Frame 559 processed",
+      "data": {
+        "frame": 559,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.377",
+      "type": "FRAME",
+      "message": "Frame 560 processed",
+      "data": {
+        "frame": 560,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.402",
+      "type": "FRAME",
+      "message": "Frame 561 processed",
+      "data": {
+        "frame": 561,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.427",
+      "type": "FRAME",
+      "message": "Frame 562 processed",
+      "data": {
+        "frame": 562,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.450",
+      "type": "FRAME",
+      "message": "Frame 563 processed",
+      "data": {
+        "frame": 563,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.471",
+      "type": "FRAME",
+      "message": "Frame 564 processed",
+      "data": {
+        "frame": 564,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.503",
+      "type": "FRAME",
+      "message": "Frame 565 processed",
+      "data": {
+        "frame": 565,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.528",
+      "type": "FRAME",
+      "message": "Frame 566 processed",
+      "data": {
+        "frame": 566,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.585",
+      "type": "FRAME",
+      "message": "Frame 567 processed",
+      "data": {
+        "frame": 567,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.607",
+      "type": "FRAME",
+      "message": "Frame 568 processed",
+      "data": {
+        "frame": 568,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.652",
+      "type": "FRAME",
+      "message": "Frame 569 processed",
+      "data": {
+        "frame": 569,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.676",
+      "type": "FRAME",
+      "message": "Frame 570 processed",
+      "data": {
+        "frame": 570,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.680",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.3",
+        "processing_time": "991.7 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.729",
+      "type": "FRAME",
+      "message": "Frame 571 processed",
+      "data": {
+        "frame": 571,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.753",
+      "type": "FRAME",
+      "message": "Frame 572 processed",
+      "data": {
+        "frame": 572,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.797",
+      "type": "FRAME",
+      "message": "Frame 573 processed",
+      "data": {
+        "frame": 573,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.819",
+      "type": "FRAME",
+      "message": "Frame 574 processed",
+      "data": {
+        "frame": 574,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.857",
+      "type": "FRAME",
+      "message": "Frame 575 processed",
+      "data": {
+        "frame": 575,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.879",
+      "type": "FRAME",
+      "message": "Frame 576 processed",
+      "data": {
+        "frame": 576,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.939",
+      "type": "FRAME",
+      "message": "Frame 577 processed",
+      "data": {
+        "frame": 577,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.964",
+      "type": "FRAME",
+      "message": "Frame 578 processed",
+      "data": {
+        "frame": 578,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:27.987",
+      "type": "FRAME",
+      "message": "Frame 579 processed",
+      "data": {
+        "frame": 579,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.011",
+      "type": "FRAME",
+      "message": "Frame 580 processed",
+      "data": {
+        "frame": 580,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.069",
+      "type": "FRAME",
+      "message": "Frame 581 processed",
+      "data": {
+        "frame": 581,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.093",
+      "type": "FRAME",
+      "message": "Frame 582 processed",
+      "data": {
+        "frame": 582,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.146",
+      "type": "FRAME",
+      "message": "Frame 583 processed",
+      "data": {
+        "frame": 583,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.168",
+      "type": "FRAME",
+      "message": "Frame 584 processed",
+      "data": {
+        "frame": 584,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.192",
+      "type": "FRAME",
+      "message": "Frame 585 processed",
+      "data": {
+        "frame": 585,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.215",
+      "type": "FRAME",
+      "message": "Frame 586 processed",
+      "data": {
+        "frame": 586,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.238",
+      "type": "FRAME",
+      "message": "Frame 587 processed",
+      "data": {
+        "frame": 587,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.289",
+      "type": "FRAME",
+      "message": "Frame 588 processed",
+      "data": {
+        "frame": 588,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.312",
+      "type": "FRAME",
+      "message": "Frame 589 processed",
+      "data": {
+        "frame": 589,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.352",
+      "type": "FRAME",
+      "message": "Frame 590 processed",
+      "data": {
+        "frame": 590,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.375",
+      "type": "FRAME",
+      "message": "Frame 591 processed",
+      "data": {
+        "frame": 591,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.419",
+      "type": "FRAME",
+      "message": "Frame 592 processed",
+      "data": {
+        "frame": 592,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.441",
+      "type": "FRAME",
+      "message": "Frame 593 processed",
+      "data": {
+        "frame": 593,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.497",
+      "type": "FRAME",
+      "message": "Frame 594 processed",
+      "data": {
+        "frame": 594,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.520",
+      "type": "FRAME",
+      "message": "Frame 595 processed",
+      "data": {
+        "frame": 595,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.562",
+      "type": "FRAME",
+      "message": "Frame 596 processed",
+      "data": {
+        "frame": 596,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.585",
+      "type": "FRAME",
+      "message": "Frame 597 processed",
+      "data": {
+        "frame": 597,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.623",
+      "type": "FRAME",
+      "message": "Frame 598 processed",
+      "data": {
+        "frame": 598,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.648",
+      "type": "FRAME",
+      "message": "Frame 599 processed",
+      "data": {
+        "frame": 599,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.703",
+      "type": "FRAME",
+      "message": "Frame 600 processed",
+      "data": {
+        "frame": 600,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.706",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "29.2",
+        "processing_time": "1026.5 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.727",
+      "type": "FRAME",
+      "message": "Frame 601 processed",
+      "data": {
+        "frame": 601,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.752",
+      "type": "FRAME",
+      "message": "Frame 602 processed",
+      "data": {
+        "frame": 602,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.774",
+      "type": "FRAME",
+      "message": "Frame 603 processed",
+      "data": {
+        "frame": 603,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.796",
+      "type": "FRAME",
+      "message": "Frame 604 processed",
+      "data": {
+        "frame": 604,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.849",
+      "type": "FRAME",
+      "message": "Frame 605 processed",
+      "data": {
+        "frame": 605,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.873",
+      "type": "FRAME",
+      "message": "Frame 606 processed",
+      "data": {
+        "frame": 606,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.913",
+      "type": "FRAME",
+      "message": "Frame 607 processed",
+      "data": {
+        "frame": 607,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.938",
+      "type": "FRAME",
+      "message": "Frame 608 processed",
+      "data": {
+        "frame": 608,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:28.977",
+      "type": "FRAME",
+      "message": "Frame 609 processed",
+      "data": {
+        "frame": 609,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.004",
+      "type": "FRAME",
+      "message": "Frame 610 processed",
+      "data": {
+        "frame": 610,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.056",
+      "type": "FRAME",
+      "message": "Frame 611 processed",
+      "data": {
+        "frame": 611,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.079",
+      "type": "FRAME",
+      "message": "Frame 612 processed",
+      "data": {
+        "frame": 612,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.120",
+      "type": "FRAME",
+      "message": "Frame 613 processed",
+      "data": {
+        "frame": 613,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.142",
+      "type": "FRAME",
+      "message": "Frame 614 processed",
+      "data": {
+        "frame": 614,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.184",
+      "type": "FRAME",
+      "message": "Frame 615 processed",
+      "data": {
+        "frame": 615,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.209",
+      "type": "FRAME",
+      "message": "Frame 616 processed",
+      "data": {
+        "frame": 616,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.264",
+      "type": "FRAME",
+      "message": "Frame 617 processed",
+      "data": {
+        "frame": 617,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.290",
+      "type": "FRAME",
+      "message": "Frame 618 processed",
+      "data": {
+        "frame": 618,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.329",
+      "type": "FRAME",
+      "message": "Frame 619 processed",
+      "data": {
+        "frame": 619,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.354",
+      "type": "FRAME",
+      "message": "Frame 620 processed",
+      "data": {
+        "frame": 620,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.409",
+      "type": "FRAME",
+      "message": "Frame 621 processed",
+      "data": {
+        "frame": 621,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.433",
+      "type": "FRAME",
+      "message": "Frame 622 processed",
+      "data": {
+        "frame": 622,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.459",
+      "type": "FRAME",
+      "message": "Frame 623 processed",
+      "data": {
+        "frame": 623,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.484",
+      "type": "FRAME",
+      "message": "Frame 624 processed",
+      "data": {
+        "frame": 624,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.506",
+      "type": "FRAME",
+      "message": "Frame 625 processed",
+      "data": {
+        "frame": 625,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.536",
+      "type": "FRAME",
+      "message": "Frame 626 processed",
+      "data": {
+        "frame": 626,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.558",
+      "type": "FRAME",
+      "message": "Frame 627 processed",
+      "data": {
+        "frame": 627,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.615",
+      "type": "FRAME",
+      "message": "Frame 628 processed",
+      "data": {
+        "frame": 628,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.638",
+      "type": "FRAME",
+      "message": "Frame 629 processed",
+      "data": {
+        "frame": 629,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.680",
+      "type": "FRAME",
+      "message": "Frame 630 processed",
+      "data": {
+        "frame": 630,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.683",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.7",
+        "processing_time": "976.3 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.702",
+      "type": "FRAME",
+      "message": "Frame 631 processed",
+      "data": {
+        "frame": 631,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.746",
+      "type": "FRAME",
+      "message": "Frame 632 processed",
+      "data": {
+        "frame": 632,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.775",
+      "type": "FRAME",
+      "message": "Frame 633 processed",
+      "data": {
+        "frame": 633,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.825",
+      "type": "FRAME",
+      "message": "Frame 634 processed",
+      "data": {
+        "frame": 634,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.848",
+      "type": "FRAME",
+      "message": "Frame 635 processed",
+      "data": {
+        "frame": 635,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.889",
+      "type": "FRAME",
+      "message": "Frame 636 processed",
+      "data": {
+        "frame": 636,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.911",
+      "type": "FRAME",
+      "message": "Frame 637 processed",
+      "data": {
+        "frame": 637,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.969",
+      "type": "FRAME",
+      "message": "Frame 638 processed",
+      "data": {
+        "frame": 638,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:29.993",
+      "type": "FRAME",
+      "message": "Frame 639 processed",
+      "data": {
+        "frame": 639,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.016",
+      "type": "FRAME",
+      "message": "Frame 640 processed",
+      "data": {
+        "frame": 640,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.040",
+      "type": "FRAME",
+      "message": "Frame 641 processed",
+      "data": {
+        "frame": 641,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.098",
+      "type": "FRAME",
+      "message": "Frame 642 processed",
+      "data": {
+        "frame": 642,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.122",
+      "type": "FRAME",
+      "message": "Frame 643 processed",
+      "data": {
+        "frame": 643,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.179",
+      "type": "FRAME",
+      "message": "Frame 644 processed",
+      "data": {
+        "frame": 644,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.203",
+      "type": "FRAME",
+      "message": "Frame 645 processed",
+      "data": {
+        "frame": 645,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.226",
+      "type": "FRAME",
+      "message": "Frame 646 processed",
+      "data": {
+        "frame": 646,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.249",
+      "type": "FRAME",
+      "message": "Frame 647 processed",
+      "data": {
+        "frame": 647,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.271",
+      "type": "FRAME",
+      "message": "Frame 648 processed",
+      "data": {
+        "frame": 648,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.303",
+      "type": "FRAME",
+      "message": "Frame 649 processed",
+      "data": {
+        "frame": 649,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.325",
+      "type": "FRAME",
+      "message": "Frame 650 processed",
+      "data": {
+        "frame": 650,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.385",
+      "type": "FRAME",
+      "message": "Frame 651 processed",
+      "data": {
+        "frame": 651,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.408",
+      "type": "FRAME",
+      "message": "Frame 652 processed",
+      "data": {
+        "frame": 652,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.449",
+      "type": "FRAME",
+      "message": "Frame 653 processed",
+      "data": {
+        "frame": 653,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.472",
+      "type": "FRAME",
+      "message": "Frame 654 processed",
+      "data": {
+        "frame": 654,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.529",
+      "type": "FRAME",
+      "message": "Frame 655 processed",
+      "data": {
+        "frame": 655,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.553",
+      "type": "FRAME",
+      "message": "Frame 656 processed",
+      "data": {
+        "frame": 656,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.591",
+      "type": "FRAME",
+      "message": "Frame 657 processed",
+      "data": {
+        "frame": 657,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.614",
+      "type": "FRAME",
+      "message": "Frame 658 processed",
+      "data": {
+        "frame": 658,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.656",
+      "type": "FRAME",
+      "message": "Frame 659 processed",
+      "data": {
+        "frame": 659,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.680",
+      "type": "FRAME",
+      "message": "Frame 660 processed",
+      "data": {
+        "frame": 660,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.684",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.0",
+        "processing_time": "1000.3 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.736",
+      "type": "FRAME",
+      "message": "Frame 661 processed",
+      "data": {
+        "frame": 661,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.759",
+      "type": "FRAME",
+      "message": "Frame 662 processed",
+      "data": {
+        "frame": 662,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.783",
+      "type": "FRAME",
+      "message": "Frame 663 processed",
+      "data": {
+        "frame": 663,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.807",
+      "type": "FRAME",
+      "message": "Frame 664 processed",
+      "data": {
+        "frame": 664,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.865",
+      "type": "FRAME",
+      "message": "Frame 665 processed",
+      "data": {
+        "frame": 665,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.889",
+      "type": "FRAME",
+      "message": "Frame 666 processed",
+      "data": {
+        "frame": 666,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.944",
+      "type": "FRAME",
+      "message": "Frame 667 processed",
+      "data": {
+        "frame": 667,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.966",
+      "type": "FRAME",
+      "message": "Frame 668 processed",
+      "data": {
+        "frame": 668,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:30.990",
+      "type": "FRAME",
+      "message": "Frame 669 processed",
+      "data": {
+        "frame": 669,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.014",
+      "type": "FRAME",
+      "message": "Frame 670 processed",
+      "data": {
+        "frame": 670,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.035",
+      "type": "FRAME",
+      "message": "Frame 671 processed",
+      "data": {
+        "frame": 671,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.090",
+      "type": "FRAME",
+      "message": "Frame 672 processed",
+      "data": {
+        "frame": 672,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.113",
+      "type": "FRAME",
+      "message": "Frame 673 processed",
+      "data": {
+        "frame": 673,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.152",
+      "type": "FRAME",
+      "message": "Frame 674 processed",
+      "data": {
+        "frame": 674,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.175",
+      "type": "FRAME",
+      "message": "Frame 675 processed",
+      "data": {
+        "frame": 675,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.217",
+      "type": "FRAME",
+      "message": "Frame 676 processed",
+      "data": {
+        "frame": 676,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.240",
+      "type": "FRAME",
+      "message": "Frame 677 processed",
+      "data": {
+        "frame": 677,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.296",
+      "type": "FRAME",
+      "message": "Frame 678 processed",
+      "data": {
+        "frame": 678,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.320",
+      "type": "FRAME",
+      "message": "Frame 679 processed",
+      "data": {
+        "frame": 679,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.359",
+      "type": "FRAME",
+      "message": "Frame 680 processed",
+      "data": {
+        "frame": 680,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.383",
+      "type": "FRAME",
+      "message": "Frame 681 processed",
+      "data": {
+        "frame": 681,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.424",
+      "type": "FRAME",
+      "message": "Frame 682 processed",
+      "data": {
+        "frame": 682,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.446",
+      "type": "FRAME",
+      "message": "Frame 683 processed",
+      "data": {
+        "frame": 683,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.506",
+      "type": "FRAME",
+      "message": "Frame 684 processed",
+      "data": {
+        "frame": 684,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.531",
+      "type": "FRAME",
+      "message": "Frame 685 processed",
+      "data": {
+        "frame": 685,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.554",
+      "type": "FRAME",
+      "message": "Frame 686 processed",
+      "data": {
+        "frame": 686,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.578",
+      "type": "FRAME",
+      "message": "Frame 687 processed",
+      "data": {
+        "frame": 687,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.599",
+      "type": "FRAME",
+      "message": "Frame 688 processed",
+      "data": {
+        "frame": 688,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.650",
+      "type": "FRAME",
+      "message": "Frame 689 processed",
+      "data": {
+        "frame": 689,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.673",
+      "type": "FRAME",
+      "message": "Frame 690 processed",
+      "data": {
+        "frame": 690,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.676",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "30.2",
+        "processing_time": "991.8 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.713",
+      "type": "FRAME",
+      "message": "Frame 691 processed",
+      "data": {
+        "frame": 691,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.735",
+      "type": "FRAME",
+      "message": "Frame 692 processed",
+      "data": {
+        "frame": 692,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.776",
+      "type": "FRAME",
+      "message": "Frame 693 processed",
+      "data": {
+        "frame": 693,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.800",
+      "type": "FRAME",
+      "message": "Frame 694 processed",
+      "data": {
+        "frame": 694,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.855",
+      "type": "FRAME",
+      "message": "Frame 695 processed",
+      "data": {
+        "frame": 695,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.878",
+      "type": "FRAME",
+      "message": "Frame 696 processed",
+      "data": {
+        "frame": 696,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.921",
+      "type": "FRAME",
+      "message": "Frame 697 processed",
+      "data": {
+        "frame": 697,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.945",
+      "type": "FRAME",
+      "message": "Frame 698 processed",
+      "data": {
+        "frame": 698,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:31.985",
+      "type": "FRAME",
+      "message": "Frame 699 processed",
+      "data": {
+        "frame": 699,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.009",
+      "type": "FRAME",
+      "message": "Frame 700 processed",
+      "data": {
+        "frame": 700,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.064",
+      "type": "FRAME",
+      "message": "Frame 701 processed",
+      "data": {
+        "frame": 701,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.089",
+      "type": "FRAME",
+      "message": "Frame 702 processed",
+      "data": {
+        "frame": 702,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.132",
+      "type": "FRAME",
+      "message": "Frame 703 processed",
+      "data": {
+        "frame": 703,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.155",
+      "type": "FRAME",
+      "message": "Frame 704 processed",
+      "data": {
+        "frame": 704,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.208",
+      "type": "FRAME",
+      "message": "Frame 705 processed",
+      "data": {
+        "frame": 705,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.233",
+      "type": "FRAME",
+      "message": "Frame 706 processed",
+      "data": {
+        "frame": 706,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.256",
+      "type": "FRAME",
+      "message": "Frame 707 processed",
+      "data": {
+        "frame": 707,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.278",
+      "type": "FRAME",
+      "message": "Frame 708 processed",
+      "data": {
+        "frame": 708,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.300",
+      "type": "FRAME",
+      "message": "Frame 709 processed",
+      "data": {
+        "frame": 709,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.337",
+      "type": "FRAME",
+      "message": "Frame 710 processed",
+      "data": {
+        "frame": 710,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.358",
+      "type": "FRAME",
+      "message": "Frame 711 processed",
+      "data": {
+        "frame": 711,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.416",
+      "type": "FRAME",
+      "message": "Frame 712 processed",
+      "data": {
+        "frame": 712,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.441",
+      "type": "FRAME",
+      "message": "Frame 713 processed",
+      "data": {
+        "frame": 713,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.480",
+      "type": "FRAME",
+      "message": "Frame 714 processed",
+      "data": {
+        "frame": 714,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.503",
+      "type": "FRAME",
+      "message": "Frame 715 processed",
+      "data": {
+        "frame": 715,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.549",
+      "type": "FRAME",
+      "message": "Frame 716 processed",
+      "data": {
+        "frame": 716,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.579",
+      "type": "FRAME",
+      "message": "Frame 717 processed",
+      "data": {
+        "frame": 717,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.625",
+      "type": "FRAME",
+      "message": "Frame 718 processed",
+      "data": {
+        "frame": 718,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.647",
+      "type": "FRAME",
+      "message": "Frame 719 processed",
+      "data": {
+        "frame": 719,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.687",
+      "type": "FRAME",
+      "message": "Frame 720 processed",
+      "data": {
+        "frame": 720,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.690",
+      "type": "STATS",
+      "message": "Performance stats",
+      "data": {
+        "fps": "29.6",
+        "processing_time": "1014.5 ms"
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.711",
+      "type": "FRAME",
+      "message": "Frame 721 processed",
+      "data": {
+        "frame": 721,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.768",
+      "type": "FRAME",
+      "message": "Frame 722 processed",
+      "data": {
+        "frame": 722,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.792",
+      "type": "FRAME",
+      "message": "Frame 723 processed",
+      "data": {
+        "frame": 723,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.814",
+      "type": "FRAME",
+      "message": "Frame 724 processed",
+      "data": {
+        "frame": 724,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.837",
+      "type": "FRAME",
+      "message": "Frame 725 processed",
+      "data": {
+        "frame": 725,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.902",
+      "type": "FRAME",
+      "message": "Frame 726 processed",
+      "data": {
+        "frame": 726,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.926",
+      "type": "FRAME",
+      "message": "Frame 727 processed",
+      "data": {
+        "frame": 727,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:32.979",
+      "type": "FRAME",
+      "message": "Frame 728 processed",
+      "data": {
+        "frame": 728,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.001",
+      "type": "FRAME",
+      "message": "Frame 729 processed",
+      "data": {
+        "frame": 729,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.025",
+      "type": "FRAME",
+      "message": "Frame 730 processed",
+      "data": {
+        "frame": 730,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.047",
+      "type": "FRAME",
+      "message": "Frame 731 processed",
+      "data": {
+        "frame": 731,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.071",
+      "type": "FRAME",
+      "message": "Frame 732 processed",
+      "data": {
+        "frame": 732,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.107",
+      "type": "FRAME",
+      "message": "Frame 733 processed",
+      "data": {
+        "frame": 733,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.130",
+      "type": "FRAME",
+      "message": "Frame 734 processed",
+      "data": {
+        "frame": 734,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.184",
+      "type": "FRAME",
+      "message": "Frame 735 processed",
+      "data": {
+        "frame": 735,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.207",
+      "type": "FRAME",
+      "message": "Frame 736 processed",
+      "data": {
+        "frame": 736,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.247",
+      "type": "FRAME",
+      "message": "Frame 737 processed",
+      "data": {
+        "frame": 737,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.273",
+      "type": "FRAME",
+      "message": "Frame 738 processed",
+      "data": {
+        "frame": 738,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.328",
+      "type": "FRAME",
+      "message": "Frame 739 processed",
+      "data": {
+        "frame": 739,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.353",
+      "type": "FRAME",
+      "message": "Frame 740 processed",
+      "data": {
+        "frame": 740,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.392",
+      "type": "FRAME",
+      "message": "Frame 741 processed",
+      "data": {
+        "frame": 741,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.416",
+      "type": "FRAME",
+      "message": "Frame 742 processed",
+      "data": {
+        "frame": 742,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.457",
+      "type": "FRAME",
+      "message": "Frame 743 processed",
+      "data": {
+        "frame": 743,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.480",
+      "type": "FRAME",
+      "message": "Frame 744 processed",
+      "data": {
+        "frame": 744,
+        "detections": 0,
+        "tracks": 0
+      }
+    },
+    {
+      "timestamp": "2026-05-12 19:29:33.539",
+      "type": "DETECTION",
+      "message": "Drone detected",
+      "data": {
+        "frame": 745,
+        "bbox": [
+          
